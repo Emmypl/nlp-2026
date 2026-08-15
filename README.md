@@ -209,10 +209,6 @@ Each project folder contains its own README with specific instructions. Generall
 
 This repository is for educational and portfolio purposes.
 
-## Contact
-
-Emmy - [Your contact information]
-
 ---
 
 **Note**: Model checkpoints and cached embeddings are included for reproducibility. The repository has been optimized for storage (58% reduction from original 26 GB) while preserving all essential models (≥8B parameters) and portfolio-worthy content.
