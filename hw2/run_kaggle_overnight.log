@@ -1,0 +1,7 @@
+nohup: ignoring input
+🚀 Starting GLM-Thinking CoT + PD...
+Input Notebook:  kaggle_submission.ipynb
+Output Notebook: submissions/glm_cot_pd.ipynb
+Executing:   0%|          | 0/12 [00:00<?, ?cell/s]Executing notebook with kernel: mlbio_gpu
+Executing:   8%|▊         | 1/12 [00:00<00:08,  1.28cell/s]Executing:  33%|███▎      | 4/12 [00:02<00:05,  1.45cell/s]Executing:  67%|██████▋   | 8/12 [00:06<00:03,  1.14cell/s]Executing:  92%|█████████▏| 11/12 [14:51:00<1:57:01, 7021.92s/cell]Executing: 100%|██████████| 12/12 [14:51:02<00:00, 5912.71s/cell]  Executing: 100%|██████████| 12/12 [14:51:03<00:00, 4455.32s/cell]
+✅ All runs finished! Check submissions/ directory for .csv and .ipynb outputs.

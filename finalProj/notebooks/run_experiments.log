@@ -1,0 +1,204 @@
+nohup: ignoring input
+[+] All 5 feature engineering configurations are cached and ready.
+[+] Starting orchestration pipeline with 5 parallel workers for 50 tasks...
+[+] Started: Features=tfidf_max5000_ng1-1, Model=lightgbm, Routing=classification
+[+] Started: Features=tfidf_max5000_ng1-1, Model=lightgbm, Routing=regression
+[+] Started: Features=tfidf_max5000_ng1-1, Model=lightgbm, Routing=cost_sensitive
+[+] Started: Features=tfidf_max5000_ng1-1, Model=xgboost, Routing=regression
+[+] Started: Features=tfidf_max5000_ng1-1, Model=xgboost, Routing=classification
+[+] Finished & Logged: Features=tfidf_max5000_ng1-1, Model=lightgbm, Routing=cost_sensitive
+[+] Started: Features=tfidf_max5000_ng1-1, Model=xgboost, Routing=cost_sensitive
+[+] Finished & Logged: Features=tfidf_max5000_ng1-1, Model=lightgbm, Routing=classification
+[+] Started: Features=tfidf_max5000_ng1-1, Model=random_forest, Routing=classification
+[+] Finished & Logged: Features=tfidf_max5000_ng1-1, Model=lightgbm, Routing=regression
+[+] Started: Features=tfidf_max5000_ng1-1, Model=random_forest, Routing=regression
+[+] Finished & Logged: Features=tfidf_max5000_ng1-1, Model=random_forest, Routing=classification
+[+] Started: Features=tfidf_max5000_ng1-1, Model=random_forest, Routing=cost_sensitive
+[+] Finished & Logged: Features=tfidf_max5000_ng1-1, Model=random_forest, Routing=cost_sensitive
+[+] Started: Features=tfidf_max5000_ng1-1, Model=ridge, Routing=regression
+[+] Finished & Logged: Features=tfidf_max5000_ng1-1, Model=ridge, Routing=regression
+[+] Started: Features=svd_comp500_tfidf5000_ng1-1, Model=lightgbm, Routing=classification
+[+] Finished & Logged: Features=svd_comp500_tfidf5000_ng1-1, Model=lightgbm, Routing=classification
+[+] Started: Features=svd_comp500_tfidf5000_ng1-1, Model=lightgbm, Routing=regression
+[+] Finished & Logged: Features=tfidf_max5000_ng1-1, Model=xgboost, Routing=classification
+[+] Started: Features=svd_comp500_tfidf5000_ng1-1, Model=lightgbm, Routing=cost_sensitive
+[+] Finished & Logged: Features=svd_comp500_tfidf5000_ng1-1, Model=lightgbm, Routing=regression
+[+] Started: Features=svd_comp500_tfidf5000_ng1-1, Model=xgboost, Routing=classification
+[+] Finished & Logged: Features=tfidf_max5000_ng1-1, Model=xgboost, Routing=cost_sensitive
+[+] Started: Features=svd_comp500_tfidf5000_ng1-1, Model=xgboost, Routing=regression
+[+] Finished & Logged: Features=svd_comp500_tfidf5000_ng1-1, Model=lightgbm, Routing=cost_sensitive
+[+] Started: Features=svd_comp500_tfidf5000_ng1-1, Model=xgboost, Routing=cost_sensitive
+[+] Finished & Logged: Features=tfidf_max5000_ng1-1, Model=xgboost, Routing=regression
+[+] Started: Features=svd_comp500_tfidf5000_ng1-1, Model=random_forest, Routing=classification
+[+] Finished & Logged: Features=svd_comp500_tfidf5000_ng1-1, Model=random_forest, Routing=classification
+[+] Started: Features=svd_comp500_tfidf5000_ng1-1, Model=random_forest, Routing=regression
+[+] Finished & Logged: Features=svd_comp500_tfidf5000_ng1-1, Model=xgboost, Routing=cost_sensitive
+[+] Started: Features=svd_comp500_tfidf5000_ng1-1, Model=random_forest, Routing=cost_sensitive
+[+] Finished & Logged: Features=svd_comp500_tfidf5000_ng1-1, Model=random_forest, Routing=cost_sensitive
+[+] Started: Features=svd_comp500_tfidf5000_ng1-1, Model=ridge, Routing=regression
+[+] Finished & Logged: Features=svd_comp500_tfidf5000_ng1-1, Model=xgboost, Routing=classification
+[+] Started: Features=dense_all-MiniLM-L6-v2, Model=lightgbm, Routing=classification
+[+] Finished & Logged: Features=svd_comp500_tfidf5000_ng1-1, Model=ridge, Routing=regression
+[+] Started: Features=dense_all-MiniLM-L6-v2, Model=lightgbm, Routing=regression
+[+] Finished & Logged: Features=dense_all-MiniLM-L6-v2, Model=lightgbm, Routing=classification
+[+] Started: Features=dense_all-MiniLM-L6-v2, Model=lightgbm, Routing=cost_sensitive
+[+] Finished & Logged: Features=dense_all-MiniLM-L6-v2, Model=lightgbm, Routing=regression
+[+] Started: Features=dense_all-MiniLM-L6-v2, Model=xgboost, Routing=classification
+[+] Finished & Logged: Features=svd_comp500_tfidf5000_ng1-1, Model=xgboost, Routing=regression
+[+] Started: Features=dense_all-MiniLM-L6-v2, Model=xgboost, Routing=regression
+[+] Finished & Logged: Features=dense_all-MiniLM-L6-v2, Model=lightgbm, Routing=cost_sensitive
+[+] Started: Features=dense_all-MiniLM-L6-v2, Model=xgboost, Routing=cost_sensitive
+[+] Finished & Logged: Features=dense_all-MiniLM-L6-v2, Model=xgboost, Routing=classification
+[+] Started: Features=dense_all-MiniLM-L6-v2, Model=random_forest, Routing=classification
+[+] Finished & Logged: Features=dense_all-MiniLM-L6-v2, Model=xgboost, Routing=cost_sensitive
+[+] Started: Features=dense_all-MiniLM-L6-v2, Model=random_forest, Routing=regression
+[+] Finished & Logged: Features=dense_all-MiniLM-L6-v2, Model=random_forest, Routing=classification
+[+] Started: Features=dense_all-MiniLM-L6-v2, Model=random_forest, Routing=cost_sensitive
+[+] Finished & Logged: Features=dense_all-MiniLM-L6-v2, Model=random_forest, Routing=cost_sensitive
+[+] Started: Features=dense_all-MiniLM-L6-v2, Model=ridge, Routing=regression
+[+] Finished & Logged: Features=dense_all-MiniLM-L6-v2, Model=ridge, Routing=regression
+[+] Started: Features=meta_len1_code1_math1, Model=lightgbm, Routing=classification
+[+] Finished & Logged: Features=meta_len1_code1_math1, Model=lightgbm, Routing=classification
+[+] Started: Features=meta_len1_code1_math1, Model=lightgbm, Routing=regression
+[+] Finished & Logged: Features=meta_len1_code1_math1, Model=lightgbm, Routing=regression
+[+] Started: Features=meta_len1_code1_math1, Model=lightgbm, Routing=cost_sensitive
+[+] Finished & Logged: Features=dense_all-MiniLM-L6-v2, Model=xgboost, Routing=regression
+[+] Started: Features=meta_len1_code1_math1, Model=xgboost, Routing=classification
+[+] Finished & Logged: Features=meta_len1_code1_math1, Model=xgboost, Routing=classification
+[+] Started: Features=meta_len1_code1_math1, Model=xgboost, Routing=regression
+[+] Finished & Logged: Features=meta_len1_code1_math1, Model=lightgbm, Routing=cost_sensitive
+[+] Started: Features=meta_len1_code1_math1, Model=xgboost, Routing=cost_sensitive
+[+] Finished & Logged: Features=meta_len1_code1_math1, Model=xgboost, Routing=regression
+[+] Started: Features=meta_len1_code1_math1, Model=random_forest, Routing=classification
+[+] Finished & Logged: Features=meta_len1_code1_math1, Model=xgboost, Routing=cost_sensitive
+[+] Started: Features=meta_len1_code1_math1, Model=random_forest, Routing=regression
+[+] Finished & Logged: Features=meta_len1_code1_math1, Model=random_forest, Routing=classification
+[+] Started: Features=meta_len1_code1_math1, Model=random_forest, Routing=cost_sensitive
+[+] Finished & Logged: Features=meta_len1_code1_math1, Model=random_forest, Routing=cost_sensitive
+[+] Started: Features=meta_len1_code1_math1, Model=ridge, Routing=regression
+[+] Finished & Logged: Features=meta_len1_code1_math1, Model=ridge, Routing=regression
+[+] Started: Features=w2v_size100_win5, Model=lightgbm, Routing=classification
+[-] Failed: Features=w2v_size100_win5, Model=lightgbm, Routing=classification (Error code: 1)
+[+] Started: Features=w2v_size100_win5, Model=lightgbm, Routing=regression
+[+] Finished & Logged: Features=meta_len1_code1_math1, Model=random_forest, Routing=regression
+[+] Started: Features=w2v_size100_win5, Model=lightgbm, Routing=cost_sensitive
+[-] Failed: Features=w2v_size100_win5, Model=lightgbm, Routing=regression (Error code: 1)
+[+] Started: Features=w2v_size100_win5, Model=xgboost, Routing=classification
+[-] Failed: Features=w2v_size100_win5, Model=lightgbm, Routing=cost_sensitive (Error code: 1)
+[+] Started: Features=w2v_size100_win5, Model=xgboost, Routing=regression
+[-] Failed: Features=w2v_size100_win5, Model=xgboost, Routing=classification (Error code: 1)
+[+] Started: Features=w2v_size100_win5, Model=xgboost, Routing=cost_sensitive
+[-] Failed: Features=w2v_size100_win5, Model=xgboost, Routing=cost_sensitive (Error code: 1)
+[+] Started: Features=w2v_size100_win5, Model=random_forest, Routing=classification
+[-] Failed: Features=w2v_size100_win5, Model=xgboost, Routing=regression (Error code: 1)
+[+] Started: Features=w2v_size100_win5, Model=random_forest, Routing=regression
+[-] Failed: Features=w2v_size100_win5, Model=random_forest, Routing=classification (Error code: 1)
+[+] Started: Features=w2v_size100_win5, Model=random_forest, Routing=cost_sensitive
+[-] Failed: Features=w2v_size100_win5, Model=random_forest, Routing=regression (Error code: 1)
+[+] Started: Features=w2v_size100_win5, Model=ridge, Routing=regression
+[-] Failed: Features=w2v_size100_win5, Model=random_forest, Routing=cost_sensitive (Error code: 1)
+[-] Failed: Features=w2v_size100_win5, Model=ridge, Routing=regression (Error code: 1)
+[+] Finished & Logged: Features=svd_comp500_tfidf5000_ng1-1, Model=random_forest, Routing=regression
+[+] Finished & Logged: Features=dense_all-MiniLM-L6-v2, Model=random_forest, Routing=regression
+[+] Finished & Logged: Features=tfidf_max5000_ng1-1, Model=random_forest, Routing=regression
+[+] All experiments are completed.
+
+nohup: ignoring input
+[+] All feature engineering configurations are cached and ready.
+[+] Starting orchestration pipeline with 5 parallel workers for 4 tasks...
+[+] Started: Features=dense_Qwen-Qwen3-Embedding-8B, Model=lightgbm, Routing=regression
+[+] Started: Features=dense_Qwen-Qwen3-Embedding-8B, Model=xgboost, Routing=regression
+[+] Started: Features=dense_Qwen-Qwen3-Embedding-8B, Model=random_forest, Routing=regression
+[+] Started: Features=dense_Qwen-Qwen3-Embedding-8B, Model=ridge, Routing=regression
+[+] Finished & Logged: Features=dense_Qwen-Qwen3-Embedding-8B, Model=ridge, Routing=regression
+[+] Finished & Logged: Features=dense_Qwen-Qwen3-Embedding-8B, Model=lightgbm, Routing=regression
+[+] Finished & Logged: Features=dense_Qwen-Qwen3-Embedding-8B, Model=xgboost, Routing=regression
+
+nohup: ignoring input
+[+] All feature engineering configurations are cached and ready.
+[+] Starting orchestration pipeline with 5 parallel workers for 40 tasks...
+[+] Started: Features=dense_Qwen-Qwen3-Embedding-8B, Model=lightgbm, Routing=classification
+[+] Started: Features=dense_Qwen-Qwen3-Embedding-8B, Model=lightgbm, Routing=regression
+[+] Started: Features=dense_Qwen-Qwen3-Embedding-8B, Model=lightgbm, Routing=cost_sensitive
+[+] Started: Features=dense_Qwen-Qwen3-Embedding-8B, Model=xgboost, Routing=classification
+[+] Started: Features=dense_Qwen-Qwen3-Embedding-8B, Model=xgboost, Routing=regression
+[+] Finished & Logged: Features=dense_Qwen-Qwen3-Embedding-8B, Model=lightgbm, Routing=cost_sensitive
+[+] Started: Features=dense_Qwen-Qwen3-Embedding-8B, Model=xgboost, Routing=cost_sensitive
+[+] Finished & Logged: Features=dense_Qwen-Qwen3-Embedding-8B, Model=lightgbm, Routing=classification
+[+] Started: Features=dense_Qwen-Qwen3-Embedding-8B, Model=random_forest, Routing=classification
+[+] Finished & Logged: Features=dense_Qwen-Qwen3-Embedding-8B, Model=random_forest, Routing=classification
+[+] Started: Features=dense_Qwen-Qwen3-Embedding-8B, Model=random_forest, Routing=regression
+[+] Finished & Logged: Features=dense_Qwen-Qwen3-Embedding-8B, Model=lightgbm, Routing=regression
+[+] Started: Features=dense_Qwen-Qwen3-Embedding-8B, Model=random_forest, Routing=cost_sensitive
+[+] Finished & Logged: Features=dense_Qwen-Qwen3-Embedding-8B, Model=random_forest, Routing=cost_sensitive
+[+] Started: Features=dense_Qwen-Qwen3-Embedding-8B, Model=ridge, Routing=regression
+[+] Finished & Logged: Features=dense_Qwen-Qwen3-Embedding-8B, Model=ridge, Routing=regression
+[+] Started: Features=w2v_size300_win10, Model=lightgbm, Routing=classification
+[-] Failed: Features=w2v_size300_win10, Model=lightgbm, Routing=classification (Error code: 1)
+[+] Started: Features=w2v_size300_win10, Model=lightgbm, Routing=regression
+[-] Failed: Features=w2v_size300_win10, Model=lightgbm, Routing=regression (Error code: 1)
+[+] Started: Features=w2v_size300_win10, Model=lightgbm, Routing=cost_sensitive
+[-] Failed: Features=w2v_size300_win10, Model=lightgbm, Routing=cost_sensitive (Error code: 1)
+[+] Started: Features=w2v_size300_win10, Model=xgboost, Routing=classification
+[-] Failed: Features=w2v_size300_win10, Model=xgboost, Routing=classification (Error code: 1)
+[+] Started: Features=w2v_size300_win10, Model=xgboost, Routing=regression
+[-] Failed: Features=w2v_size300_win10, Model=xgboost, Routing=regression (Error code: 1)
+[+] Started: Features=w2v_size300_win10, Model=xgboost, Routing=cost_sensitive
+[-] Failed: Features=w2v_size300_win10, Model=xgboost, Routing=cost_sensitive (Error code: 1)
+[+] Started: Features=w2v_size300_win10, Model=random_forest, Routing=classification
+[-] Failed: Features=w2v_size300_win10, Model=random_forest, Routing=classification (Error code: 1)
+[+] Started: Features=w2v_size300_win10, Model=random_forest, Routing=regression
+[-] Failed: Features=w2v_size300_win10, Model=random_forest, Routing=regression (Error code: 1)
+[+] Started: Features=w2v_size300_win10, Model=random_forest, Routing=cost_sensitive
+[-] Failed: Features=w2v_size300_win10, Model=random_forest, Routing=cost_sensitive (Error code: 1)
+[+] Started: Features=w2v_size300_win10, Model=ridge, Routing=regression
+[-] Failed: Features=w2v_size300_win10, Model=ridge, Routing=regression (Error code: 1)
+[+] Started: Features=svd_comp1000_tfidf30000_ng1-3, Model=lightgbm, Routing=classification
+[+] Finished & Logged: Features=svd_comp1000_tfidf30000_ng1-3, Model=lightgbm, Routing=classification
+[+] Started: Features=svd_comp1000_tfidf30000_ng1-3, Model=lightgbm, Routing=regression
+[+] Finished & Logged: Features=dense_Qwen-Qwen3-Embedding-8B, Model=xgboost, Routing=classification
+[+] Started: Features=svd_comp1000_tfidf30000_ng1-3, Model=lightgbm, Routing=cost_sensitive
+[+] Finished & Logged: Features=svd_comp1000_tfidf30000_ng1-3, Model=lightgbm, Routing=regression
+[+] Started: Features=svd_comp1000_tfidf30000_ng1-3, Model=xgboost, Routing=classification
+[+] Finished & Logged: Features=svd_comp1000_tfidf30000_ng1-3, Model=lightgbm, Routing=cost_sensitive
+[+] Started: Features=svd_comp1000_tfidf30000_ng1-3, Model=xgboost, Routing=regression
+[+] Finished & Logged: Features=dense_Qwen-Qwen3-Embedding-8B, Model=xgboost, Routing=regression
+[+] Started: Features=svd_comp1000_tfidf30000_ng1-3, Model=xgboost, Routing=cost_sensitive
+[+] Finished & Logged: Features=svd_comp1000_tfidf30000_ng1-3, Model=xgboost, Routing=classification
+[+] Started: Features=svd_comp1000_tfidf30000_ng1-3, Model=random_forest, Routing=classification
+[+] Finished & Logged: Features=svd_comp1000_tfidf30000_ng1-3, Model=random_forest, Routing=classification
+[+] Started: Features=svd_comp1000_tfidf30000_ng1-3, Model=random_forest, Routing=regression
+[+] Finished & Logged: Features=svd_comp1000_tfidf30000_ng1-3, Model=xgboost, Routing=cost_sensitive
+[+] Started: Features=svd_comp1000_tfidf30000_ng1-3, Model=random_forest, Routing=cost_sensitive
+[+] Finished & Logged: Features=svd_comp1000_tfidf30000_ng1-3, Model=random_forest, Routing=cost_sensitive
+[+] Started: Features=svd_comp1000_tfidf30000_ng1-3, Model=ridge, Routing=regression
+[+] Finished & Logged: Features=svd_comp1000_tfidf30000_ng1-3, Model=ridge, Routing=regression
+[+] Started: Features=tfidf_max30000_ng1-3, Model=lightgbm, Routing=classification
+[+] Finished & Logged: Features=svd_comp1000_tfidf30000_ng1-3, Model=xgboost, Routing=regression
+[+] Started: Features=tfidf_max30000_ng1-3, Model=lightgbm, Routing=regression
+[+] Finished & Logged: Features=dense_Qwen-Qwen3-Embedding-8B, Model=xgboost, Routing=cost_sensitive
+[+] Started: Features=tfidf_max30000_ng1-3, Model=lightgbm, Routing=cost_sensitive
+[+] Finished & Logged: Features=tfidf_max30000_ng1-3, Model=lightgbm, Routing=classification
+[+] Started: Features=tfidf_max30000_ng1-3, Model=xgboost, Routing=classification
+[+] Finished & Logged: Features=tfidf_max30000_ng1-3, Model=lightgbm, Routing=cost_sensitive
+[+] Started: Features=tfidf_max30000_ng1-3, Model=xgboost, Routing=regression
+[+] Finished & Logged: Features=tfidf_max30000_ng1-3, Model=lightgbm, Routing=regression
+[+] Started: Features=tfidf_max30000_ng1-3, Model=xgboost, Routing=cost_sensitive
+[+] Finished & Logged: Features=tfidf_max30000_ng1-3, Model=xgboost, Routing=classification
+[+] Started: Features=tfidf_max30000_ng1-3, Model=random_forest, Routing=classification
+[+] Finished & Logged: Features=tfidf_max30000_ng1-3, Model=xgboost, Routing=cost_sensitive
+[+] Started: Features=tfidf_max30000_ng1-3, Model=random_forest, Routing=regression
+[+] Finished & Logged: Features=tfidf_max30000_ng1-3, Model=random_forest, Routing=classification
+[+] Started: Features=tfidf_max30000_ng1-3, Model=random_forest, Routing=cost_sensitive
+[+] Finished & Logged: Features=tfidf_max30000_ng1-3, Model=random_forest, Routing=cost_sensitive
+[+] Started: Features=tfidf_max30000_ng1-3, Model=ridge, Routing=regression
+[+] Finished & Logged: Features=tfidf_max30000_ng1-3, Model=xgboost, Routing=regression
+[+] Finished & Logged: Features=tfidf_max30000_ng1-3, Model=ridge, Routing=regression
+[+] Finished & Logged: Features=svd_comp1000_tfidf30000_ng1-3, Model=random_forest, Routing=regression
+/data220_2/emmy/mlbio/finalProj/notebooks/run_experiments.py:157: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame([results])], ignore_index=True)
+[+] Finished & Logged: Features=dense_Qwen-Qwen3-Embedding-8B, Model=random_forest, Routing=regression
+/data220_2/emmy/mlbio/finalProj/notebooks/run_experiments.py:157: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame([results])], ignore_index=True)
+[+] Finished & Logged: Features=tfidf_max30000_ng1-3, Model=random_forest, Routing=regression
+[+] All experiments are completed.

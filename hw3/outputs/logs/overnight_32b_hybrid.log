@@ -1,0 +1,7 @@
+nohup: ignoring input
+Input Notebook:  03_reranker_ablation.ipynb
+Output Notebook: ../outputs/papermill_notebooks/val_32b_run.ipynb
+/home/emmy/miniconda3/envs/mlbio_gpu/lib/python3.10/site-packages/nbformat/__init__.py:96: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.
+  validate(nb)
+Executing:   0%|          | 0/10 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:  10%|█         | 1/10 [00:00<00:05,  1.58cell/s]Executing:  20%|██        | 2/10 [00:00<00:02,  2.87cell/s]Executing:  40%|████      | 4/10 [00:02<00:04,  1.26cell/s]Executing:  50%|█████     | 5/10 [00:02<00:02,  1.73cell/s]Executing:  70%|███████   | 7/10 [00:13<00:08,  2.77s/cell][IPKernelApp] WARNING | Parent appears to have exited, shutting down.

@@ -1,0 +1,277 @@
+nohup: ignoring input
+Input Notebook:  notebooks/03_inference_eval.ipynb
+Output Notebook: output/papermill_notebooks/03_inference_eval_granite-4.1-8b_both.ipynb
+Working directory: notebooks
+Executing notebook with kernel: python3
+Executing Cell 1---------------------------------------
+💻 Local Lab Server Environment Loaded.
+
+Ending Cell 1------------------------------------------
+Executing Cell 2---------------------------------------
+Ending Cell 2------------------------------------------
+Executing Cell 3---------------------------------------
+Loaded 2039 full-info validation samples and 2039 structural validation samples.
+
+Ending Cell 3------------------------------------------
+Executing Cell 4---------------------------------------
+Ending Cell 4------------------------------------------
+Executing Cell 5---------------------------------------
+Loading weights:   0%|          | 0/363 [00:00<?, ?it/s]
+/home/emmy/miniconda3/envs/mlbio_gpu/lib/python3.10/site-packages/bitsandbytes/backends/cuda/ops.py:213: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+
+Base model loaded successfully!
+
+Ending Cell 5------------------------------------------
+Executing Cell 6---------------------------------------
+Ending Cell 6------------------------------------------
+Executing Cell 7---------------------------------------
+Loading adapter from ..//output/models/granite-4.1-8b_fullInfo_DoRA...
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]
+Evaluating DoRA - fullInfo:   0%|          | 0/2039 [00:00<?, ?it/s]
+/home/emmy/miniconda3/envs/mlbio_gpu/lib/python3.10/site-packages/bitsandbytes/backends/cuda/ops.py:468: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+
+Evaluating DoRA - fullInfo:   1%|          | 20/2039 [02:41<4:32:08,  8.09s/it]
+Evaluating DoRA - fullInfo:   2%|▏         | 40/2039 [05:30<4:36:29,  8.30s/it]
+Evaluating DoRA - fullInfo:   3%|▎         | 60/2039 [08:45<4:55:04,  8.95s/it]
+Evaluating DoRA - fullInfo:   4%|▍         | 80/2039 [11:33<4:45:04,  8.73s/it]
+Evaluating DoRA - fullInfo:   5%|▍         | 100/2039 [14:39<4:48:49,  8.94s/it]
+Evaluating DoRA - fullInfo:   6%|▌         | 120/2039 [17:11<4:31:41,  8.49s/it]
+Evaluating DoRA - fullInfo:   7%|▋         | 140/2039 [19:43<4:19:29,  8.20s/it]
+Evaluating DoRA - fullInfo:   8%|▊         | 160/2039 [22:49<4:27:46,  8.55s/it]
+Evaluating DoRA - fullInfo:   9%|▉         | 180/2039 [26:13<4:40:45,  9.06s/it]
+Evaluating DoRA - fullInfo:  10%|▉         | 200/2039 [29:28<4:44:09,  9.27s/it]
+Evaluating DoRA - fullInfo:  11%|█         | 220/2039 [32:25<4:37:17,  9.15s/it]
+Evaluating DoRA - fullInfo:  12%|█▏        | 240/2039 [35:50<4:44:09,  9.48s/it]
+Evaluating DoRA - fullInfo:  13%|█▎        | 260/2039 [38:21<4:24:03,  8.91s/it]
+Evaluating DoRA - fullInfo:  14%|█▎        | 280/2039 [40:55<4:10:00,  8.53s/it]
+Evaluating DoRA - fullInfo:  15%|█▍        | 300/2039 [43:51<4:09:46,  8.62s/it]
+Evaluating DoRA - fullInfo:  16%|█▌        | 320/2039 [46:41<4:05:49,  8.58s/it]
+Evaluating DoRA - fullInfo:  17%|█▋        | 340/2039 [49:38<4:05:11,  8.66s/it]
+Evaluating DoRA - fullInfo:  18%|█▊        | 360/2039 [52:37<4:04:49,  8.75s/it]
+Evaluating DoRA - fullInfo:  19%|█▊        | 380/2039 [55:25<3:59:11,  8.65s/it]
+Evaluating DoRA - fullInfo:  20%|█▉        | 400/2039 [58:06<3:51:20,  8.47s/it]
+Evaluating DoRA - fullInfo:  21%|██        | 420/2039 [1:01:30<4:02:22,  8.98s/it]
+Evaluating DoRA - fullInfo:  22%|██▏       | 440/2039 [1:04:35<4:01:41,  9.07s/it]
+Evaluating DoRA - fullInfo:  23%|██▎       | 460/2039 [1:08:01<4:08:25,  9.44s/it]
+Evaluating DoRA - fullInfo:  24%|██▎       | 480/2039 [1:11:53<4:22:04, 10.09s/it]
+Evaluating DoRA - fullInfo:  25%|██▍       | 500/2039 [1:14:50<4:09:10,  9.71s/it]
+Evaluating DoRA - fullInfo:  26%|██▌       | 520/2039 [1:17:41<3:56:52,  9.36s/it]
+Evaluating DoRA - fullInfo:  26%|██▋       | 540/2039 [1:20:29<3:46:47,  9.08s/it]
+Evaluating DoRA - fullInfo:  27%|██▋       | 560/2039 [1:23:18<3:39:06,  8.89s/it]
+Evaluating DoRA - fullInfo:  28%|██▊       | 580/2039 [1:26:27<3:40:09,  9.05s/it]
+Evaluating DoRA - fullInfo:  29%|██▉       | 600/2039 [1:29:41<3:41:51,  9.25s/it]
+Evaluating DoRA - fullInfo:  30%|███       | 620/2039 [1:32:29<3:32:48,  9.00s/it]
+Evaluating DoRA - fullInfo:  31%|███▏      | 640/2039 [1:36:01<3:40:49,  9.47s/it]
+Evaluating DoRA - fullInfo:  32%|███▏      | 660/2039 [1:38:58<3:33:28,  9.29s/it]
+Evaluating DoRA - fullInfo:  33%|███▎      | 680/2039 [1:41:46<3:24:18,  9.02s/it]
+Evaluating DoRA - fullInfo:  34%|███▍      | 700/2039 [1:45:09<3:28:50,  9.36s/it]
+Evaluating DoRA - fullInfo:  35%|███▌      | 720/2039 [1:48:33<3:31:12,  9.61s/it]
+Evaluating DoRA - fullInfo:  36%|███▋      | 740/2039 [1:51:55<3:31:19,  9.76s/it]
+Evaluating DoRA - fullInfo:  37%|███▋      | 760/2039 [1:54:53<3:22:25,  9.50s/it]
+Evaluating DoRA - fullInfo:  38%|███▊      | 780/2039 [1:57:49<3:15:09,  9.30s/it]
+Evaluating DoRA - fullInfo:  39%|███▉      | 800/2039 [1:59:46<2:50:39,  8.26s/it]
+Evaluating DoRA - fullInfo:  40%|████      | 820/2039 [2:01:05<2:21:29,  6.96s/it]
+Evaluating DoRA - fullInfo:  41%|████      | 840/2039 [2:02:31<2:03:10,  6.16s/it]
+Evaluating DoRA - fullInfo:  42%|████▏     | 860/2039 [2:04:05<1:52:27,  5.72s/it]
+Evaluating DoRA - fullInfo:  43%|████▎     | 880/2039 [2:05:23<1:40:03,  5.18s/it]
+Evaluating DoRA - fullInfo:  44%|████▍     | 900/2039 [2:06:44<1:32:00,  4.85s/it]
+Evaluating DoRA - fullInfo:  45%|████▌     | 920/2039 [2:07:55<1:22:59,  4.45s/it]
+Evaluating DoRA - fullInfo:  46%|████▌     | 940/2039 [2:09:17<1:19:37,  4.35s/it]
+Evaluating DoRA - fullInfo:  47%|████▋     | 960/2039 [2:10:43<1:17:48,  4.33s/it]
+Evaluating DoRA - fullInfo:  48%|████▊     | 980/2039 [2:12:09<1:16:25,  4.33s/it]
+Evaluating DoRA - fullInfo:  49%|████▉     | 1000/2039 [2:13:39<1:15:41,  4.37s/it]
+Evaluating DoRA - fullInfo:  50%|█████     | 1020/2039 [2:15:01<1:12:51,  4.29s/it]
+Evaluating DoRA - fullInfo:  51%|█████     | 1040/2039 [2:16:19<1:09:36,  4.18s/it]
+Evaluating DoRA - fullInfo:  52%|█████▏    | 1060/2039 [2:17:42<1:07:57,  4.16s/it]
+Evaluating DoRA - fullInfo:  53%|█████▎    | 1080/2039 [2:19:00<1:05:19,  4.09s/it]
+Evaluating DoRA - fullInfo:  54%|█████▍    | 1100/2039 [2:20:35<1:07:01,  4.28s/it]
+Evaluating DoRA - fullInfo:  55%|█████▍    | 1120/2039 [2:21:49<1:03:00,  4.11s/it]
+Evaluating DoRA - fullInfo:  56%|█████▌    | 1140/2039 [2:23:11<1:01:33,  4.11s/it]
+Evaluating DoRA - fullInfo:  57%|█████▋    | 1160/2039 [2:24:49<1:03:40,  4.35s/it]
+Evaluating DoRA - fullInfo:  58%|█████▊    | 1180/2039 [2:26:23<1:03:38,  4.45s/it]
+Evaluating DoRA - fullInfo:  59%|█████▉    | 1200/2039 [2:27:41<59:54,  4.28s/it]  
+Evaluating DoRA - fullInfo:  60%|█████▉    | 1220/2039 [2:28:55<56:05,  4.11s/it]
+Evaluating DoRA - fullInfo:  61%|██████    | 1240/2039 [2:30:29<57:07,  4.29s/it]
+Evaluating DoRA - fullInfo:  62%|██████▏   | 1260/2039 [2:31:43<53:26,  4.12s/it]
+Evaluating DoRA - fullInfo:  63%|██████▎   | 1280/2039 [2:33:14<53:44,  4.25s/it]
+Evaluating DoRA - fullInfo:  64%|██████▍   | 1300/2039 [2:34:49<54:06,  4.39s/it]
+Evaluating DoRA - fullInfo:  65%|██████▍   | 1320/2039 [2:36:20<53:08,  4.43s/it]
+Evaluating DoRA - fullInfo:  66%|██████▌   | 1340/2039 [2:37:57<53:13,  4.57s/it]
+Evaluating DoRA - fullInfo:  67%|██████▋   | 1360/2039 [2:39:28<51:31,  4.55s/it]
+Evaluating DoRA - fullInfo:  68%|██████▊   | 1380/2039 [2:40:54<49:16,  4.49s/it]
+Evaluating DoRA - fullInfo:  69%|██████▊   | 1400/2039 [2:42:17<46:44,  4.39s/it]
+Evaluating DoRA - fullInfo:  70%|██████▉   | 1420/2039 [2:43:48<45:41,  4.43s/it]
+Evaluating DoRA - fullInfo:  71%|███████   | 1440/2039 [2:45:20<44:45,  4.48s/it]
+Evaluating DoRA - fullInfo:  72%|███████▏  | 1460/2039 [2:46:50<43:18,  4.49s/it]
+Evaluating DoRA - fullInfo:  73%|███████▎  | 1480/2039 [2:48:24<42:22,  4.55s/it]
+Evaluating DoRA - fullInfo:  74%|███████▎  | 1500/2039 [2:49:54<40:43,  4.53s/it]
+Evaluating DoRA - fullInfo:  75%|███████▍  | 1520/2039 [2:51:27<39:34,  4.58s/it]
+Evaluating DoRA - fullInfo:  76%|███████▌  | 1540/2039 [2:53:06<38:58,  4.69s/it]
+Evaluating DoRA - fullInfo:  77%|███████▋  | 1560/2039 [2:54:40<37:27,  4.69s/it]
+Evaluating DoRA - fullInfo:  77%|███████▋  | 1580/2039 [2:56:15<36:01,  4.71s/it]
+Evaluating DoRA - fullInfo:  78%|███████▊  | 1600/2039 [2:57:42<33:37,  4.60s/it]
+Evaluating DoRA - fullInfo:  79%|███████▉  | 1620/2039 [2:59:16<32:17,  4.62s/it]
+Evaluating DoRA - fullInfo:  80%|████████  | 1640/2039 [3:00:42<30:08,  4.53s/it]
+Evaluating DoRA - fullInfo:  81%|████████▏ | 1660/2039 [3:02:20<29:21,  4.65s/it]
+Evaluating DoRA - fullInfo:  82%|████████▏ | 1680/2039 [3:03:55<27:54,  4.67s/it]
+Evaluating DoRA - fullInfo:  83%|████████▎ | 1700/2039 [3:05:05<24:25,  4.32s/it]
+Evaluating DoRA - fullInfo:  84%|████████▍ | 1720/2039 [3:06:32<22:59,  4.32s/it]
+Evaluating DoRA - fullInfo:  85%|████████▌ | 1740/2039 [3:07:58<21:31,  4.32s/it]
+Evaluating DoRA - fullInfo:  86%|████████▋ | 1760/2039 [3:09:20<19:48,  4.26s/it]
+Evaluating DoRA - fullInfo:  87%|████████▋ | 1780/2039 [3:10:48<18:33,  4.30s/it]
+Evaluating DoRA - fullInfo:  88%|████████▊ | 1800/2039 [3:12:23<17:38,  4.43s/it]
+Evaluating DoRA - fullInfo:  89%|████████▉ | 1820/2039 [3:13:45<15:49,  4.34s/it]
+Evaluating DoRA - fullInfo:  90%|█████████ | 1840/2039 [3:15:07<14:09,  4.27s/it]
+Evaluating DoRA - fullInfo:  91%|█████████ | 1860/2039 [3:16:50<13:30,  4.53s/it]
+Evaluating DoRA - fullInfo:  92%|█████████▏| 1880/2039 [3:18:12<11:40,  4.40s/it]
+Evaluating DoRA - fullInfo:  93%|█████████▎| 1900/2039 [3:19:39<10:09,  4.39s/it]
+Evaluating DoRA - fullInfo:  94%|█████████▍| 1920/2039 [3:21:25<09:14,  4.66s/it]
+Evaluating DoRA - fullInfo:  95%|█████████▌| 1940/2039 [3:23:00<07:44,  4.69s/it]
+Evaluating DoRA - fullInfo:  96%|█████████▌| 1960/2039 [3:24:19<05:52,  4.46s/it]
+Evaluating DoRA - fullInfo:  97%|█████████▋| 1980/2039 [3:25:37<04:13,  4.30s/it]
+Evaluating DoRA - fullInfo:  98%|█████████▊| 2000/2039 [3:27:07<02:49,  4.36s/it]
+Evaluating DoRA - fullInfo:  99%|█████████▉| 2020/2039 [3:28:29<01:21,  4.29s/it]
+Evaluating DoRA - fullInfo: 100%|██████████| 2039/2039 [3:29:55<00:00,  6.18s/it]
+\n--- Evaluation Results ---
+Training Strategy: DoRA
+Prompt Format: fullInfo
+Model: ibm-granite/granite-4.1-8b
+Accuracy: 0.1412
+Format Error Rate: 0.9985
+Semantic Confusion: 0.2165
+Option Bias (A): 1.0000
+Latency: 12595.11 seconds
+Detailed predictions saved to: /data220_2/emmy/mlbio/hw4/output/validation/validation_granite-4.1-8b_fullInfo_DoRA.csv
+
+
+
+Ending Cell 7------------------------------------------
+Executing Cell 8---------------------------------------
+Ending Cell 8------------------------------------------
+Executing Cell 9---------------------------------------
+Loading adapter from ..//output/models/granite-4.1-8b_structOnly_DoRA...
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]
+Evaluating DoRA - structOnly:   0%|          | 0/2039 [00:00<?, ?it/s]
+/home/emmy/miniconda3/envs/mlbio_gpu/lib/python3.10/site-packages/bitsandbytes/backends/cuda/ops.py:468: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+
+Evaluating DoRA - structOnly:   1%|          | 20/2039 [00:52<1:27:41,  2.61s/it]
+Evaluating DoRA - structOnly:   2%|▏         | 40/2039 [01:44<1:26:39,  2.60s/it]
+Evaluating DoRA - structOnly:   3%|▎         | 60/2039 [02:39<1:28:21,  2.68s/it]
+Evaluating DoRA - structOnly:   4%|▍         | 80/2039 [03:27<1:23:59,  2.57s/it]
+Evaluating DoRA - structOnly:   5%|▍         | 100/2039 [04:16<1:21:27,  2.52s/it]
+Evaluating DoRA - structOnly:   6%|▌         | 120/2039 [04:57<1:15:53,  2.37s/it]
+Evaluating DoRA - structOnly:   7%|▋         | 140/2039 [05:42<1:13:39,  2.33s/it]
+Evaluating DoRA - structOnly:   8%|▊         | 160/2039 [06:27<1:12:13,  2.31s/it]
+Evaluating DoRA - structOnly:   9%|▉         | 180/2039 [07:20<1:14:24,  2.40s/it]
+Evaluating DoRA - structOnly:  10%|▉         | 200/2039 [08:03<1:11:27,  2.33s/it]
+Evaluating DoRA - structOnly:  11%|█         | 220/2039 [08:57<1:13:52,  2.44s/it]
+Evaluating DoRA - structOnly:  12%|█▏        | 240/2039 [09:54<1:17:04,  2.57s/it]
+Evaluating DoRA - structOnly:  13%|█▎        | 260/2039 [10:44<1:15:36,  2.55s/it]
+Evaluating DoRA - structOnly:  14%|█▎        | 280/2039 [11:27<1:11:18,  2.43s/it]
+Evaluating DoRA - structOnly:  15%|█▍        | 300/2039 [12:14<1:09:41,  2.40s/it]
+Evaluating DoRA - structOnly:  16%|█▌        | 320/2039 [13:15<1:14:12,  2.59s/it]
+Evaluating DoRA - structOnly:  17%|█▋        | 340/2039 [14:05<1:12:56,  2.58s/it]
+Evaluating DoRA - structOnly:  18%|█▊        | 360/2039 [14:59<1:13:07,  2.61s/it]
+Evaluating DoRA - structOnly:  19%|█▊        | 380/2039 [15:46<1:10:01,  2.53s/it]
+Evaluating DoRA - structOnly:  20%|█▉        | 400/2039 [16:37<1:09:17,  2.54s/it]
+Evaluating DoRA - structOnly:  21%|██        | 420/2039 [17:33<1:10:19,  2.61s/it]
+Evaluating DoRA - structOnly:  22%|██▏       | 440/2039 [18:19<1:07:18,  2.53s/it]
+Evaluating DoRA - structOnly:  23%|██▎       | 460/2039 [19:10<1:06:23,  2.52s/it]
+Evaluating DoRA - structOnly:  24%|██▎       | 480/2039 [19:57<1:04:08,  2.47s/it]
+Evaluating DoRA - structOnly:  25%|██▍       | 500/2039 [20:53<1:06:10,  2.58s/it]
+Evaluating DoRA - structOnly:  26%|██▌       | 520/2039 [21:41<1:03:51,  2.52s/it]
+Evaluating DoRA - structOnly:  26%|██▋       | 540/2039 [22:35<1:04:13,  2.57s/it]
+Evaluating DoRA - structOnly:  27%|██▋       | 560/2039 [23:26<1:03:23,  2.57s/it]
+Evaluating DoRA - structOnly:  28%|██▊       | 580/2039 [24:29<1:06:28,  2.73s/it]
+Evaluating DoRA - structOnly:  29%|██▉       | 600/2039 [25:20<1:04:19,  2.68s/it]
+Evaluating DoRA - structOnly:  30%|███       | 620/2039 [26:03<59:40,  2.52s/it]  
+Evaluating DoRA - structOnly:  31%|███▏      | 640/2039 [27:02<1:02:01,  2.66s/it]
+Evaluating DoRA - structOnly:  32%|███▏      | 660/2039 [27:47<58:18,  2.54s/it]  
+Evaluating DoRA - structOnly:  33%|███▎      | 680/2039 [28:25<53:06,  2.34s/it]
+Evaluating DoRA - structOnly:  34%|███▍      | 700/2039 [29:17<54:05,  2.42s/it]
+Evaluating DoRA - structOnly:  35%|███▌      | 720/2039 [30:27<1:00:08,  2.74s/it]
+Evaluating DoRA - structOnly:  36%|███▋      | 740/2039 [31:29<1:01:36,  2.85s/it]
+Evaluating DoRA - structOnly:  37%|███▋      | 760/2039 [32:14<56:54,  2.67s/it]  
+Evaluating DoRA - structOnly:  38%|███▊      | 780/2039 [32:52<51:11,  2.44s/it]
+Evaluating DoRA - structOnly:  39%|███▉      | 800/2039 [33:41<50:19,  2.44s/it]
+Evaluating DoRA - structOnly:  40%|████      | 820/2039 [34:26<48:28,  2.39s/it]
+Evaluating DoRA - structOnly:  41%|████      | 840/2039 [35:11<46:53,  2.35s/it]
+Evaluating DoRA - structOnly:  42%|████▏     | 860/2039 [36:03<47:35,  2.42s/it]
+Evaluating DoRA - structOnly:  43%|████▎     | 880/2039 [36:52<46:54,  2.43s/it]
+Evaluating DoRA - structOnly:  44%|████▍     | 900/2039 [37:40<45:57,  2.42s/it]
+Evaluating DoRA - structOnly:  45%|████▌     | 920/2039 [38:36<47:10,  2.53s/it]
+Evaluating DoRA - structOnly:  46%|████▌     | 940/2039 [39:21<44:48,  2.45s/it]
+Evaluating DoRA - structOnly:  47%|████▋     | 960/2039 [40:06<42:55,  2.39s/it]
+Evaluating DoRA - structOnly:  48%|████▊     | 980/2039 [41:05<45:10,  2.56s/it]
+Evaluating DoRA - structOnly:  49%|████▉     | 1000/2039 [41:50<42:41,  2.47s/it]
+Evaluating DoRA - structOnly:  50%|█████     | 1020/2039 [42:38<41:36,  2.45s/it]
+Evaluating DoRA - structOnly:  51%|█████     | 1040/2039 [43:24<39:55,  2.40s/it]
+Evaluating DoRA - structOnly:  52%|█████▏    | 1060/2039 [44:09<38:29,  2.36s/it]
+Evaluating DoRA - structOnly:  53%|█████▎    | 1080/2039 [44:54<37:14,  2.33s/it]
+Evaluating DoRA - structOnly:  54%|█████▍    | 1100/2039 [45:57<40:15,  2.57s/it]
+Evaluating DoRA - structOnly:  55%|█████▍    | 1120/2039 [46:49<39:31,  2.58s/it]
+Evaluating DoRA - structOnly:  56%|█████▌    | 1140/2039 [47:31<36:24,  2.43s/it]
+Evaluating DoRA - structOnly:  57%|█████▋    | 1160/2039 [48:26<37:08,  2.54s/it]
+Evaluating DoRA - structOnly:  58%|█████▊    | 1180/2039 [49:08<34:21,  2.40s/it]
+Evaluating DoRA - structOnly:  59%|█████▉    | 1200/2039 [49:53<32:58,  2.36s/it]
+Evaluating DoRA - structOnly:  60%|█████▉    | 1220/2039 [50:31<30:21,  2.22s/it]
+Evaluating DoRA - structOnly:  61%|██████    | 1240/2039 [51:27<31:49,  2.39s/it]
+Evaluating DoRA - structOnly:  62%|██████▏   | 1260/2039 [52:08<29:49,  2.30s/it]
+Evaluating DoRA - structOnly:  63%|██████▎   | 1280/2039 [53:00<30:11,  2.39s/it]
+Evaluating DoRA - structOnly:  64%|██████▍   | 1300/2039 [53:56<30:54,  2.51s/it]
+Evaluating DoRA - structOnly:  65%|██████▍   | 1320/2039 [54:56<31:42,  2.65s/it]
+Evaluating DoRA - structOnly:  66%|██████▌   | 1340/2039 [55:41<29:27,  2.53s/it]
+Evaluating DoRA - structOnly:  67%|██████▋   | 1360/2039 [56:30<28:20,  2.50s/it]
+Evaluating DoRA - structOnly:  68%|██████▊   | 1380/2039 [57:22<27:52,  2.54s/it]
+Evaluating DoRA - structOnly:  69%|██████▊   | 1400/2039 [58:15<27:20,  2.57s/it]
+Evaluating DoRA - structOnly:  70%|██████▉   | 1420/2039 [59:10<27:09,  2.63s/it]
+Evaluating DoRA - structOnly:  71%|███████   | 1440/2039 [1:00:16<28:17,  2.83s/it]
+Evaluating DoRA - structOnly:  72%|███████▏  | 1460/2039 [1:01:09<26:43,  2.77s/it]
+Evaluating DoRA - structOnly:  73%|███████▎  | 1480/2039 [1:02:07<26:15,  2.82s/it]
+Evaluating DoRA - structOnly:  74%|███████▎  | 1500/2039 [1:03:03<25:11,  2.80s/it]
+Evaluating DoRA - structOnly:  75%|███████▍  | 1520/2039 [1:03:44<22:22,  2.59s/it]
+Evaluating DoRA - structOnly:  76%|███████▌  | 1540/2039 [1:04:40<22:00,  2.65s/it]
+Evaluating DoRA - structOnly:  77%|███████▋  | 1560/2039 [1:05:29<20:34,  2.58s/it]
+Evaluating DoRA - structOnly:  77%|███████▋  | 1580/2039 [1:06:21<19:48,  2.59s/it]
+Evaluating DoRA - structOnly:  78%|███████▊  | 1600/2039 [1:07:09<18:34,  2.54s/it]
+Evaluating DoRA - structOnly:  79%|███████▉  | 1620/2039 [1:08:05<18:12,  2.61s/it]
+Evaluating DoRA - structOnly:  80%|████████  | 1640/2039 [1:09:00<17:41,  2.66s/it]
+Evaluating DoRA - structOnly:  81%|████████▏ | 1660/2039 [1:09:53<16:43,  2.65s/it]
+Evaluating DoRA - structOnly:  82%|████████▏ | 1680/2039 [1:10:55<16:41,  2.79s/it]
+Evaluating DoRA - structOnly:  83%|████████▎ | 1700/2039 [1:11:47<15:26,  2.73s/it]
+Evaluating DoRA - structOnly:  84%|████████▍ | 1720/2039 [1:12:39<14:20,  2.70s/it]
+Evaluating DoRA - structOnly:  85%|████████▌ | 1740/2039 [1:13:28<13:02,  2.62s/it]
+Evaluating DoRA - structOnly:  86%|████████▋ | 1760/2039 [1:14:16<11:52,  2.55s/it]
+Evaluating DoRA - structOnly:  87%|████████▋ | 1780/2039 [1:15:15<11:32,  2.67s/it]
+Evaluating DoRA - structOnly:  88%|████████▊ | 1800/2039 [1:16:07<10:32,  2.65s/it]
+Evaluating DoRA - structOnly:  89%|████████▉ | 1820/2039 [1:16:48<09:02,  2.48s/it]
+Evaluating DoRA - structOnly:  90%|█████████ | 1840/2039 [1:17:30<07:48,  2.35s/it]
+Evaluating DoRA - structOnly:  91%|█████████ | 1860/2039 [1:18:25<07:23,  2.48s/it]
+Evaluating DoRA - structOnly:  92%|█████████▏| 1880/2039 [1:19:17<06:38,  2.51s/it]
+Evaluating DoRA - structOnly:  93%|█████████▎| 1900/2039 [1:20:08<05:51,  2.53s/it]
+Evaluating DoRA - structOnly:  94%|█████████▍| 1920/2039 [1:20:53<04:50,  2.44s/it]
+Evaluating DoRA - structOnly:  95%|█████████▌| 1940/2039 [1:21:35<03:51,  2.33s/it]
+Evaluating DoRA - structOnly:  96%|█████████▌| 1960/2039 [1:22:29<03:13,  2.45s/it]
+Evaluating DoRA - structOnly:  97%|█████████▋| 1980/2039 [1:23:18<02:24,  2.44s/it]
+Evaluating DoRA - structOnly:  98%|█████████▊| 2000/2039 [1:24:09<01:36,  2.48s/it]
+Evaluating DoRA - structOnly:  99%|█████████▉| 2020/2039 [1:24:58<00:46,  2.46s/it]
+Evaluating DoRA - structOnly: 100%|██████████| 2039/2039 [1:25:44<00:00,  2.52s/it]
+\n--- Evaluation Results ---
+Training Strategy: DoRA
+Prompt Format: structOnly
+Model: ibm-granite/granite-4.1-8b
+Accuracy: 0.7798
+Format Error Rate: 0.2217
+Semantic Confusion: 0.3185
+Option Bias (A): 0.3296
+Latency: 5144.50 seconds
+Detailed predictions saved to: /data220_2/emmy/mlbio/hw4/output/validation/validation_granite-4.1-8b_structOnly_DoRA.csv
+
+
+
+Ending Cell 9------------------------------------------

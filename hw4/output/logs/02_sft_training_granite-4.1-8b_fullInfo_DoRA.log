@@ -1,0 +1,52 @@
+nohup: ignoring input
+Input Notebook:  notebooks/02_sft_training.ipynb
+Output Notebook: output/papermill_notebooks/02_sft_training_granite-4.1-8b_both_DoRA.ipynb
+Working directory: notebooks
+Executing notebook with kernel: python3
+Executing Cell 1---------------------------------------
+Ending Cell 1------------------------------------------
+Executing Cell 2---------------------------------------
+✅ Codebase mounted at: /home/emmy/emmy/mlbio/hw4
+
+Ending Cell 2------------------------------------------
+Executing Cell 3---------------------------------------
+Successfully logged into Hugging Face Hub!
+
+Ending Cell 3------------------------------------------
+Executing Cell 4---------------------------------------
+Ending Cell 4------------------------------------------
+Executing Cell 5---------------------------------------
+⚠️ Unsloth NOT available! Falling back to standard Transformers + PEFT.
+
+Ending Cell 5------------------------------------------
+Executing Cell 6---------------------------------------
+Compute dtype: torch.bfloat16
+
+Ending Cell 6------------------------------------------
+Executing Cell 7---------------------------------------
+Ending Cell 7------------------------------------------
+Executing Cell 8---------------------------------------
+
+================ STARTING TRAINING FOR fullInfo ==================
+Loading dataset from /home/emmy/emmy/mlbio/hw4/output/cache/train_full_info.jsonl...
+
+Loading ibm-granite/granite-4.1-8b with Transformers/PEFT 4-bit...
+
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+
+Loading weights:   0%|          | 0/363 [00:00<?, ?it/s]
+/home/emmy/miniconda3/envs/mlbio_gpu/lib/python3.10/site-packages/bitsandbytes/backends/cuda/ops.py:213: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+
+[transformers] warmup_ratio is deprecated and will be removed in v5.2. Use `warmup_steps` instead.
+
+[transformers] `logging_dir` is deprecated and will be removed in v5.2. Please set `TENSORBOARD_LOGGING_DIR` instead.
+
+trainable params: 26,337,280 || all params: 8,406,888,448 || trainable%: 0.3133
+
+<IPython.core.display.HTML object>
+🧹 Cleared GPU cache after fullInfo.
+=================================================================
+
+
+Ending Cell 8------------------------------------------

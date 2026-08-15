@@ -1,0 +1,2100 @@
+nohup: ignoring input
+Input Notebook:  notebooks/03_inference_eval.ipynb
+Output Notebook: output/papermill_notebooks/03_inference_eval_Qwen2.5-32B-Instruct_fullInfo.ipynb
+Working directory: notebooks
+Executing notebook with kernel: python3
+Executing Cell 1---------------------------------------
+💻 Local Lab Server Environment Loaded.
+
+Ending Cell 1------------------------------------------
+Executing Cell 2---------------------------------------
+Ending Cell 2------------------------------------------
+Executing Cell 3---------------------------------------
+Skipping import of cpp extensions due to incompatible torch version. Please upgrade to torch >= 2.11.0 (found 2.10.0+cu128).
+
+Loaded 2039 full-info validation samples and 2039 structural validation samples.
+
+Ending Cell 3------------------------------------------
+Executing Cell 4---------------------------------------
+Ending Cell 4------------------------------------------
+Executing Cell 5---------------------------------------
+`torch_dtype` is deprecated! Use `dtype` instead!
+
+Loading weights:   0%|          | 0/771 [00:00<?, ?it/s]
+Base model loaded successfully!
+
+Ending Cell 5------------------------------------------
+Executing Cell 6---------------------------------------
+Ending Cell 6------------------------------------------
+Executing Cell 7---------------------------------------
+Loading adapter from ..//output/models/sft_fullInfo_Qwen2.5-32B-Instruct...
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+
+Evaluating SFT_LoRA - FullInfo:   0%|          | 0/2039 [00:00<?, ?it/s]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+
+Evaluating SFT_LoRA - FullInfo:   0%|          | 1/2039 [00:01<39:43,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:   0%|          | 2/2039 [00:02<41:37,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:   0%|          | 3/2039 [00:04<48:23,  1.43s/it]
+Evaluating SFT_LoRA - FullInfo:   0%|          | 4/2039 [00:05<44:29,  1.31s/it]
+Evaluating SFT_LoRA - FullInfo:   0%|          | 5/2039 [00:06<42:47,  1.26s/it]
+Evaluating SFT_LoRA - FullInfo:   0%|          | 6/2039 [00:07<41:59,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:   0%|          | 7/2039 [00:08<37:50,  1.12s/it]
+Evaluating SFT_LoRA - FullInfo:   0%|          | 8/2039 [00:09<36:07,  1.07s/it]
+Evaluating SFT_LoRA - FullInfo:   0%|          | 9/2039 [00:11<45:56,  1.36s/it]
+Evaluating SFT_LoRA - FullInfo:   0%|          | 10/2039 [00:12<41:05,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:   1%|          | 11/2039 [00:13<41:41,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:   1%|          | 12/2039 [00:14<39:33,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:   1%|          | 13/2039 [00:16<43:48,  1.30s/it]
+Evaluating SFT_LoRA - FullInfo:   1%|          | 14/2039 [00:18<50:12,  1.49s/it]
+Evaluating SFT_LoRA - FullInfo:   1%|          | 15/2039 [00:19<44:02,  1.31s/it]
+Evaluating SFT_LoRA - FullInfo:   1%|          | 16/2039 [00:20<41:20,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:   1%|          | 17/2039 [00:21<42:34,  1.26s/it]
+Evaluating SFT_LoRA - FullInfo:   1%|          | 18/2039 [00:22<41:44,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:   1%|          | 19/2039 [00:23<38:21,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:   1%|          | 20/2039 [00:24<38:20,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:   1%|          | 21/2039 [00:25<38:04,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:   1%|          | 22/2039 [00:26<38:10,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:   1%|          | 23/2039 [00:27<36:36,  1.09s/it]
+Evaluating SFT_LoRA - FullInfo:   1%|          | 24/2039 [00:29<37:34,  1.12s/it]
+Evaluating SFT_LoRA - FullInfo:   1%|          | 25/2039 [00:29<35:23,  1.05s/it]
+Evaluating SFT_LoRA - FullInfo:   1%|▏         | 26/2039 [00:31<35:18,  1.05s/it]
+Evaluating SFT_LoRA - FullInfo:   1%|▏         | 27/2039 [00:32<35:03,  1.05s/it]
+Evaluating SFT_LoRA - FullInfo:   1%|▏         | 28/2039 [00:33<34:06,  1.02s/it]
+Evaluating SFT_LoRA - FullInfo:   1%|▏         | 29/2039 [00:34<35:00,  1.04s/it]
+Evaluating SFT_LoRA - FullInfo:   1%|▏         | 30/2039 [00:35<34:11,  1.02s/it]
+Evaluating SFT_LoRA - FullInfo:   2%|▏         | 31/2039 [00:36<36:42,  1.10s/it]
+Evaluating SFT_LoRA - FullInfo:   2%|▏         | 32/2039 [00:38<42:27,  1.27s/it]
+Evaluating SFT_LoRA - FullInfo:   2%|▏         | 33/2039 [00:39<41:10,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:   2%|▏         | 34/2039 [00:40<40:11,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:   2%|▏         | 35/2039 [00:41<40:15,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:   2%|▏         | 36/2039 [00:43<43:12,  1.29s/it]
+Evaluating SFT_LoRA - FullInfo:   2%|▏         | 37/2039 [00:44<49:27,  1.48s/it]
+Evaluating SFT_LoRA - FullInfo:   2%|▏         | 38/2039 [00:45<42:56,  1.29s/it]
+Evaluating SFT_LoRA - FullInfo:   2%|▏         | 39/2039 [00:46<40:23,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:   2%|▏         | 40/2039 [00:48<44:11,  1.33s/it]
+Evaluating SFT_LoRA - FullInfo:   2%|▏         | 41/2039 [00:49<42:01,  1.26s/it]
+Evaluating SFT_LoRA - FullInfo:   2%|▏         | 42/2039 [00:50<40:34,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:   2%|▏         | 43/2039 [00:51<37:11,  1.12s/it]
+Evaluating SFT_LoRA - FullInfo:   2%|▏         | 44/2039 [00:52<40:34,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:   2%|▏         | 45/2039 [00:54<40:26,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:   2%|▏         | 46/2039 [00:55<37:53,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:   2%|▏         | 47/2039 [00:56<41:05,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:   2%|▏         | 48/2039 [00:57<40:10,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:   2%|▏         | 49/2039 [00:58<37:36,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:   2%|▏         | 50/2039 [00:59<36:36,  1.10s/it]
+Evaluating SFT_LoRA - FullInfo:   3%|▎         | 51/2039 [01:01<38:54,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:   3%|▎         | 52/2039 [01:02<39:52,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:   3%|▎         | 53/2039 [01:03<42:45,  1.29s/it]
+Evaluating SFT_LoRA - FullInfo:   3%|▎         | 54/2039 [01:05<45:56,  1.39s/it]
+Evaluating SFT_LoRA - FullInfo:   3%|▎         | 55/2039 [01:06<43:16,  1.31s/it]
+Evaluating SFT_LoRA - FullInfo:   3%|▎         | 56/2039 [01:07<39:11,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:   3%|▎         | 57/2039 [01:08<38:33,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:   3%|▎         | 58/2039 [01:10<41:53,  1.27s/it]
+Evaluating SFT_LoRA - FullInfo:   3%|▎         | 59/2039 [01:11<40:38,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:   3%|▎         | 60/2039 [01:12<38:11,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:   3%|▎         | 61/2039 [01:13<36:27,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:   3%|▎         | 62/2039 [01:14<38:45,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:   3%|▎         | 63/2039 [01:16<41:18,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:   3%|▎         | 64/2039 [01:16<36:07,  1.10s/it]
+Evaluating SFT_LoRA - FullInfo:   3%|▎         | 65/2039 [01:17<34:52,  1.06s/it]
+Evaluating SFT_LoRA - FullInfo:   3%|▎         | 66/2039 [01:19<37:05,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:   3%|▎         | 67/2039 [01:20<39:14,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:   3%|▎         | 68/2039 [01:21<37:50,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:   3%|▎         | 69/2039 [01:22<36:38,  1.12s/it]
+Evaluating SFT_LoRA - FullInfo:   3%|▎         | 70/2039 [01:23<36:54,  1.12s/it]
+Evaluating SFT_LoRA - FullInfo:   3%|▎         | 71/2039 [01:24<35:15,  1.07s/it]
+Evaluating SFT_LoRA - FullInfo:   4%|▎         | 72/2039 [01:25<34:12,  1.04s/it]
+Evaluating SFT_LoRA - FullInfo:   4%|▎         | 73/2039 [01:26<32:36,  1.00it/s]
+Evaluating SFT_LoRA - FullInfo:   4%|▎         | 74/2039 [01:27<34:02,  1.04s/it]
+Evaluating SFT_LoRA - FullInfo:   4%|▎         | 75/2039 [01:29<38:46,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:   4%|▎         | 76/2039 [01:30<38:37,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:   4%|▍         | 77/2039 [01:31<38:18,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:   4%|▍         | 78/2039 [01:32<38:37,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:   4%|▍         | 79/2039 [01:33<37:17,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:   4%|▍         | 80/2039 [01:34<36:12,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:   4%|▍         | 81/2039 [01:36<38:40,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:   4%|▍         | 82/2039 [01:37<36:35,  1.12s/it]
+Evaluating SFT_LoRA - FullInfo:   4%|▍         | 83/2039 [01:38<40:31,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:   4%|▍         | 84/2039 [01:39<40:09,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:   4%|▍         | 85/2039 [01:41<40:30,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:   4%|▍         | 86/2039 [01:42<38:41,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:   4%|▍         | 87/2039 [01:43<41:50,  1.29s/it]
+Evaluating SFT_LoRA - FullInfo:   4%|▍         | 88/2039 [01:45<44:08,  1.36s/it]
+Evaluating SFT_LoRA - FullInfo:   4%|▍         | 89/2039 [01:46<41:51,  1.29s/it]
+Evaluating SFT_LoRA - FullInfo:   4%|▍         | 90/2039 [01:47<40:13,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:   4%|▍         | 91/2039 [01:48<42:26,  1.31s/it]
+Evaluating SFT_LoRA - FullInfo:   5%|▍         | 92/2039 [01:49<39:16,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:   5%|▍         | 93/2039 [01:50<37:01,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:   5%|▍         | 94/2039 [01:51<36:04,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:   5%|▍         | 95/2039 [01:53<37:40,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:   5%|▍         | 96/2039 [01:54<36:21,  1.12s/it]
+Evaluating SFT_LoRA - FullInfo:   5%|▍         | 97/2039 [01:55<34:54,  1.08s/it]
+Evaluating SFT_LoRA - FullInfo:   5%|▍         | 98/2039 [01:56<35:14,  1.09s/it]
+Evaluating SFT_LoRA - FullInfo:   5%|▍         | 99/2039 [01:57<34:56,  1.08s/it]
+Evaluating SFT_LoRA - FullInfo:   5%|▍         | 100/2039 [01:58<37:44,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:   5%|▍         | 101/2039 [01:59<36:25,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:   5%|▌         | 102/2039 [02:01<38:26,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:   5%|▌         | 103/2039 [02:02<39:14,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:   5%|▌         | 104/2039 [02:03<37:38,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:   5%|▌         | 105/2039 [02:04<40:23,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:   5%|▌         | 106/2039 [02:06<43:07,  1.34s/it]
+Evaluating SFT_LoRA - FullInfo:   5%|▌         | 107/2039 [02:07<40:20,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:   5%|▌         | 108/2039 [02:08<40:41,  1.26s/it]
+Evaluating SFT_LoRA - FullInfo:   5%|▌         | 109/2039 [02:09<38:39,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:   5%|▌         | 110/2039 [02:10<36:56,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:   5%|▌         | 111/2039 [02:12<41:18,  1.29s/it]
+Evaluating SFT_LoRA - FullInfo:   5%|▌         | 112/2039 [02:13<39:02,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:   6%|▌         | 113/2039 [02:14<38:49,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:   6%|▌         | 114/2039 [02:15<37:18,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:   6%|▌         | 115/2039 [02:16<37:08,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:   6%|▌         | 116/2039 [02:18<38:11,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:   6%|▌         | 117/2039 [02:19<36:52,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:   6%|▌         | 118/2039 [02:20<39:50,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:   6%|▌         | 119/2039 [02:21<39:34,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:   6%|▌         | 120/2039 [02:23<39:16,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:   6%|▌         | 121/2039 [02:24<38:15,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:   6%|▌         | 122/2039 [02:25<36:08,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:   6%|▌         | 123/2039 [02:26<36:57,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:   6%|▌         | 124/2039 [02:27<35:50,  1.12s/it]
+Evaluating SFT_LoRA - FullInfo:   6%|▌         | 125/2039 [02:28<34:18,  1.08s/it]
+Evaluating SFT_LoRA - FullInfo:   6%|▌         | 126/2039 [02:29<36:58,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:   6%|▌         | 127/2039 [02:30<37:09,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:   6%|▋         | 128/2039 [02:32<38:19,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:   6%|▋         | 129/2039 [02:33<34:43,  1.09s/it]
+Evaluating SFT_LoRA - FullInfo:   6%|▋         | 130/2039 [02:34<34:09,  1.07s/it]
+Evaluating SFT_LoRA - FullInfo:   6%|▋         | 131/2039 [02:35<34:46,  1.09s/it]
+Evaluating SFT_LoRA - FullInfo:   6%|▋         | 132/2039 [02:36<34:12,  1.08s/it]
+Evaluating SFT_LoRA - FullInfo:   7%|▋         | 133/2039 [02:37<33:52,  1.07s/it]
+Evaluating SFT_LoRA - FullInfo:   7%|▋         | 134/2039 [02:38<35:11,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:   7%|▋         | 135/2039 [02:39<36:49,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:   7%|▋         | 136/2039 [02:41<38:00,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:   7%|▋         | 137/2039 [02:41<35:14,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:   7%|▋         | 138/2039 [02:43<35:28,  1.12s/it]
+Evaluating SFT_LoRA - FullInfo:   7%|▋         | 139/2039 [02:43<32:32,  1.03s/it]
+Evaluating SFT_LoRA - FullInfo:   7%|▋         | 140/2039 [02:44<32:36,  1.03s/it]
+Evaluating SFT_LoRA - FullInfo:   7%|▋         | 141/2039 [02:45<31:24,  1.01it/s]
+Evaluating SFT_LoRA - FullInfo:   7%|▋         | 142/2039 [02:46<31:21,  1.01it/s]
+Evaluating SFT_LoRA - FullInfo:   7%|▋         | 143/2039 [02:47<32:37,  1.03s/it]
+Evaluating SFT_LoRA - FullInfo:   7%|▋         | 144/2039 [02:49<32:45,  1.04s/it]
+Evaluating SFT_LoRA - FullInfo:   7%|▋         | 145/2039 [02:50<34:09,  1.08s/it]
+Evaluating SFT_LoRA - FullInfo:   7%|▋         | 146/2039 [02:51<35:16,  1.12s/it]
+Evaluating SFT_LoRA - FullInfo:   7%|▋         | 147/2039 [02:52<34:31,  1.09s/it]
+Evaluating SFT_LoRA - FullInfo:   7%|▋         | 148/2039 [02:53<35:24,  1.12s/it]
+Evaluating SFT_LoRA - FullInfo:   7%|▋         | 149/2039 [02:55<39:00,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:   7%|▋         | 150/2039 [02:56<37:13,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:   7%|▋         | 151/2039 [02:57<37:16,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:   7%|▋         | 152/2039 [02:58<38:18,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:   8%|▊         | 153/2039 [02:59<37:23,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:   8%|▊         | 154/2039 [03:01<45:58,  1.46s/it]
+Evaluating SFT_LoRA - FullInfo:   8%|▊         | 155/2039 [03:03<43:39,  1.39s/it]
+Evaluating SFT_LoRA - FullInfo:   8%|▊         | 156/2039 [03:04<40:29,  1.29s/it]
+Evaluating SFT_LoRA - FullInfo:   8%|▊         | 157/2039 [03:05<41:09,  1.31s/it]
+Evaluating SFT_LoRA - FullInfo:   8%|▊         | 158/2039 [03:06<39:18,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:   8%|▊         | 159/2039 [03:07<38:53,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:   8%|▊         | 160/2039 [03:08<37:03,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:   8%|▊         | 161/2039 [03:10<40:05,  1.28s/it]
+Evaluating SFT_LoRA - FullInfo:   8%|▊         | 162/2039 [03:11<41:34,  1.33s/it]
+Evaluating SFT_LoRA - FullInfo:   8%|▊         | 163/2039 [03:12<38:22,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:   8%|▊         | 164/2039 [03:14<38:11,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:   8%|▊         | 165/2039 [03:16<45:26,  1.45s/it]
+Evaluating SFT_LoRA - FullInfo:   8%|▊         | 166/2039 [03:17<44:21,  1.42s/it]
+Evaluating SFT_LoRA - FullInfo:   8%|▊         | 167/2039 [03:18<40:42,  1.30s/it]
+Evaluating SFT_LoRA - FullInfo:   8%|▊         | 168/2039 [03:19<39:07,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:   8%|▊         | 169/2039 [03:20<35:12,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:   8%|▊         | 170/2039 [03:21<36:37,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:   8%|▊         | 171/2039 [03:22<35:29,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:   8%|▊         | 172/2039 [03:23<34:27,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:   8%|▊         | 173/2039 [03:25<36:05,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:   9%|▊         | 174/2039 [03:26<37:45,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:   9%|▊         | 175/2039 [03:27<37:30,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:   9%|▊         | 176/2039 [03:28<37:12,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:   9%|▊         | 177/2039 [03:29<35:40,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:   9%|▊         | 178/2039 [03:31<37:24,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:   9%|▉         | 179/2039 [03:32<36:44,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:   9%|▉         | 180/2039 [03:33<39:44,  1.28s/it]
+Evaluating SFT_LoRA - FullInfo:   9%|▉         | 181/2039 [03:35<41:11,  1.33s/it]
+Evaluating SFT_LoRA - FullInfo:   9%|▉         | 182/2039 [03:36<40:48,  1.32s/it]
+Evaluating SFT_LoRA - FullInfo:   9%|▉         | 183/2039 [03:37<38:15,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:   9%|▉         | 184/2039 [03:38<37:22,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:   9%|▉         | 185/2039 [03:40<39:28,  1.28s/it]
+Evaluating SFT_LoRA - FullInfo:   9%|▉         | 186/2039 [03:41<39:31,  1.28s/it]
+Evaluating SFT_LoRA - FullInfo:   9%|▉         | 187/2039 [03:42<38:19,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:   9%|▉         | 188/2039 [03:43<36:35,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:   9%|▉         | 189/2039 [03:44<36:49,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:   9%|▉         | 190/2039 [03:45<35:25,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:   9%|▉         | 191/2039 [03:47<35:20,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:   9%|▉         | 192/2039 [03:48<34:13,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:   9%|▉         | 193/2039 [03:49<34:13,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  10%|▉         | 194/2039 [03:51<41:07,  1.34s/it]
+Evaluating SFT_LoRA - FullInfo:  10%|▉         | 195/2039 [03:52<38:15,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  10%|▉         | 196/2039 [03:53<37:22,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  10%|▉         | 197/2039 [03:54<36:40,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  10%|▉         | 198/2039 [03:55<38:06,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  10%|▉         | 199/2039 [03:57<39:00,  1.27s/it]
+Evaluating SFT_LoRA - FullInfo:  10%|▉         | 200/2039 [03:57<35:25,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  10%|▉         | 201/2039 [03:59<35:03,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  10%|▉         | 202/2039 [04:00<33:32,  1.10s/it]
+Evaluating SFT_LoRA - FullInfo:  10%|▉         | 203/2039 [04:01<33:00,  1.08s/it]
+Evaluating SFT_LoRA - FullInfo:  10%|█         | 204/2039 [04:02<37:53,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  10%|█         | 205/2039 [04:04<38:59,  1.28s/it]
+Evaluating SFT_LoRA - FullInfo:  10%|█         | 206/2039 [04:05<36:45,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  10%|█         | 207/2039 [04:06<36:13,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  10%|█         | 208/2039 [04:07<36:58,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  10%|█         | 209/2039 [04:08<37:34,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  10%|█         | 210/2039 [04:09<36:30,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  10%|█         | 211/2039 [04:11<37:18,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  10%|█         | 212/2039 [04:12<40:00,  1.31s/it]
+Evaluating SFT_LoRA - FullInfo:  10%|█         | 213/2039 [04:13<38:09,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  10%|█         | 214/2039 [04:14<36:56,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  11%|█         | 215/2039 [04:16<37:38,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  11%|█         | 216/2039 [04:17<35:05,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  11%|█         | 217/2039 [04:18<33:28,  1.10s/it]
+Evaluating SFT_LoRA - FullInfo:  11%|█         | 218/2039 [04:19<37:23,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  11%|█         | 219/2039 [04:20<37:12,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  11%|█         | 220/2039 [04:21<34:14,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  11%|█         | 221/2039 [04:22<32:45,  1.08s/it]
+Evaluating SFT_LoRA - FullInfo:  11%|█         | 222/2039 [04:24<39:49,  1.32s/it]
+Evaluating SFT_LoRA - FullInfo:  11%|█         | 223/2039 [04:25<38:19,  1.27s/it]
+Evaluating SFT_LoRA - FullInfo:  11%|█         | 224/2039 [04:26<34:57,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  11%|█         | 225/2039 [04:28<36:43,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  11%|█         | 226/2039 [04:29<39:29,  1.31s/it]
+Evaluating SFT_LoRA - FullInfo:  11%|█         | 227/2039 [04:30<37:09,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  11%|█         | 228/2039 [04:31<35:33,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  11%|█         | 229/2039 [04:33<38:31,  1.28s/it]
+Evaluating SFT_LoRA - FullInfo:  11%|█▏        | 230/2039 [04:35<44:38,  1.48s/it]
+Evaluating SFT_LoRA - FullInfo:  11%|█▏        | 231/2039 [04:36<45:39,  1.52s/it]
+Evaluating SFT_LoRA - FullInfo:  11%|█▏        | 232/2039 [04:37<42:05,  1.40s/it]
+Evaluating SFT_LoRA - FullInfo:  11%|█▏        | 233/2039 [04:38<38:52,  1.29s/it]
+Evaluating SFT_LoRA - FullInfo:  11%|█▏        | 234/2039 [04:40<41:44,  1.39s/it]
+Evaluating SFT_LoRA - FullInfo:  12%|█▏        | 235/2039 [04:41<40:43,  1.35s/it]
+Evaluating SFT_LoRA - FullInfo:  12%|█▏        | 236/2039 [04:43<39:11,  1.30s/it]
+Evaluating SFT_LoRA - FullInfo:  12%|█▏        | 237/2039 [04:44<37:41,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  12%|█▏        | 238/2039 [04:45<36:43,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  12%|█▏        | 239/2039 [04:46<35:56,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  12%|█▏        | 240/2039 [04:47<35:24,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  12%|█▏        | 241/2039 [04:48<33:22,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  12%|█▏        | 242/2039 [04:49<32:33,  1.09s/it]
+Evaluating SFT_LoRA - FullInfo:  12%|█▏        | 243/2039 [04:50<34:58,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  12%|█▏        | 244/2039 [04:52<40:19,  1.35s/it]
+Evaluating SFT_LoRA - FullInfo:  12%|█▏        | 245/2039 [04:53<36:56,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  12%|█▏        | 246/2039 [04:54<37:23,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  12%|█▏        | 247/2039 [04:56<37:00,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  12%|█▏        | 248/2039 [04:57<35:18,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  12%|█▏        | 249/2039 [04:58<34:09,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  12%|█▏        | 250/2039 [04:59<32:41,  1.10s/it]
+Evaluating SFT_LoRA - FullInfo:  12%|█▏        | 251/2039 [05:00<31:25,  1.05s/it]
+Evaluating SFT_LoRA - FullInfo:  12%|█▏        | 252/2039 [05:01<30:47,  1.03s/it]
+Evaluating SFT_LoRA - FullInfo:  12%|█▏        | 253/2039 [05:02<29:36,  1.01it/s]
+Evaluating SFT_LoRA - FullInfo:  12%|█▏        | 254/2039 [05:03<29:29,  1.01it/s]
+Evaluating SFT_LoRA - FullInfo:  13%|█▎        | 255/2039 [05:04<30:34,  1.03s/it]
+Evaluating SFT_LoRA - FullInfo:  13%|█▎        | 256/2039 [05:05<31:33,  1.06s/it]
+Evaluating SFT_LoRA - FullInfo:  13%|█▎        | 257/2039 [05:06<32:40,  1.10s/it]
+Evaluating SFT_LoRA - FullInfo:  13%|█▎        | 258/2039 [05:08<35:46,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  13%|█▎        | 259/2039 [05:09<38:28,  1.30s/it]
+Evaluating SFT_LoRA - FullInfo:  13%|█▎        | 260/2039 [05:10<35:27,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  13%|█▎        | 261/2039 [05:11<36:15,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  13%|█▎        | 262/2039 [05:12<34:08,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  13%|█▎        | 263/2039 [05:14<35:11,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  13%|█▎        | 264/2039 [05:15<33:55,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  13%|█▎        | 265/2039 [05:16<36:37,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  13%|█▎        | 266/2039 [05:17<36:57,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  13%|█▎        | 267/2039 [05:18<33:37,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  13%|█▎        | 268/2039 [05:19<32:53,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  13%|█▎        | 269/2039 [05:21<35:43,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  13%|█▎        | 270/2039 [05:22<36:57,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  13%|█▎        | 271/2039 [05:23<38:44,  1.31s/it]
+Evaluating SFT_LoRA - FullInfo:  13%|█▎        | 272/2039 [05:25<37:53,  1.29s/it]
+Evaluating SFT_LoRA - FullInfo:  13%|█▎        | 273/2039 [05:26<40:31,  1.38s/it]
+Evaluating SFT_LoRA - FullInfo:  13%|█▎        | 274/2039 [05:28<41:37,  1.42s/it]
+Evaluating SFT_LoRA - FullInfo:  13%|█▎        | 275/2039 [05:29<38:56,  1.32s/it]
+Evaluating SFT_LoRA - FullInfo:  14%|█▎        | 276/2039 [05:30<35:13,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  14%|█▎        | 277/2039 [05:31<37:32,  1.28s/it]
+Evaluating SFT_LoRA - FullInfo:  14%|█▎        | 278/2039 [05:32<36:05,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  14%|█▎        | 279/2039 [05:34<36:36,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  14%|█▎        | 280/2039 [05:35<36:46,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  14%|█▍        | 281/2039 [05:36<36:25,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  14%|█▍        | 282/2039 [05:37<35:49,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  14%|█▍        | 283/2039 [05:39<38:20,  1.31s/it]
+Evaluating SFT_LoRA - FullInfo:  14%|█▍        | 284/2039 [05:40<36:52,  1.26s/it]
+Evaluating SFT_LoRA - FullInfo:  14%|█▍        | 285/2039 [05:41<34:15,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  14%|█▍        | 286/2039 [05:42<33:06,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  14%|█▍        | 287/2039 [05:43<32:08,  1.10s/it]
+Evaluating SFT_LoRA - FullInfo:  14%|█▍        | 288/2039 [05:44<31:34,  1.08s/it]
+Evaluating SFT_LoRA - FullInfo:  14%|█▍        | 289/2039 [05:45<30:27,  1.04s/it]
+Evaluating SFT_LoRA - FullInfo:  14%|█▍        | 290/2039 [05:47<36:52,  1.26s/it]
+Evaluating SFT_LoRA - FullInfo:  14%|█▍        | 291/2039 [05:48<34:19,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  14%|█▍        | 292/2039 [05:49<33:13,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  14%|█▍        | 293/2039 [05:50<33:12,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  14%|█▍        | 294/2039 [05:51<33:36,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  14%|█▍        | 295/2039 [05:52<31:58,  1.10s/it]
+Evaluating SFT_LoRA - FullInfo:  15%|█▍        | 296/2039 [05:53<32:55,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  15%|█▍        | 297/2039 [05:54<31:32,  1.09s/it]
+Evaluating SFT_LoRA - FullInfo:  15%|█▍        | 298/2039 [05:55<30:39,  1.06s/it]
+Evaluating SFT_LoRA - FullInfo:  15%|█▍        | 299/2039 [05:56<30:22,  1.05s/it]
+Evaluating SFT_LoRA - FullInfo:  15%|█▍        | 300/2039 [05:58<31:15,  1.08s/it]
+Evaluating SFT_LoRA - FullInfo:  15%|█▍        | 301/2039 [05:59<35:12,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  15%|█▍        | 302/2039 [06:00<33:06,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  15%|█▍        | 303/2039 [06:01<33:29,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  15%|█▍        | 304/2039 [06:02<32:28,  1.12s/it]
+Evaluating SFT_LoRA - FullInfo:  15%|█▍        | 305/2039 [06:04<36:34,  1.27s/it]
+Evaluating SFT_LoRA - FullInfo:  15%|█▌        | 306/2039 [06:05<37:11,  1.29s/it]
+Evaluating SFT_LoRA - FullInfo:  15%|█▌        | 307/2039 [06:06<35:04,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  15%|█▌        | 308/2039 [06:08<38:22,  1.33s/it]
+Evaluating SFT_LoRA - FullInfo:  15%|█▌        | 309/2039 [06:09<36:48,  1.28s/it]
+Evaluating SFT_LoRA - FullInfo:  15%|█▌        | 310/2039 [06:10<34:05,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  15%|█▌        | 311/2039 [06:11<32:52,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  15%|█▌        | 312/2039 [06:12<31:31,  1.10s/it]
+Evaluating SFT_LoRA - FullInfo:  15%|█▌        | 313/2039 [06:13<33:48,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  15%|█▌        | 314/2039 [06:14<31:59,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  15%|█▌        | 315/2039 [06:15<31:59,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  15%|█▌        | 316/2039 [06:17<33:30,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  16%|█▌        | 317/2039 [06:18<37:52,  1.32s/it]
+Evaluating SFT_LoRA - FullInfo:  16%|█▌        | 318/2039 [06:20<36:46,  1.28s/it]
+Evaluating SFT_LoRA - FullInfo:  16%|█▌        | 319/2039 [06:21<39:23,  1.37s/it]
+Evaluating SFT_LoRA - FullInfo:  16%|█▌        | 320/2039 [06:22<37:10,  1.30s/it]
+Evaluating SFT_LoRA - FullInfo:  16%|█▌        | 321/2039 [06:24<36:28,  1.27s/it]
+Evaluating SFT_LoRA - FullInfo:  16%|█▌        | 322/2039 [06:25<35:53,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  16%|█▌        | 323/2039 [06:26<33:21,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  16%|█▌        | 324/2039 [06:27<32:11,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  16%|█▌        | 325/2039 [06:28<33:33,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  16%|█▌        | 326/2039 [06:29<34:56,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  16%|█▌        | 327/2039 [06:30<33:26,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  16%|█▌        | 328/2039 [06:31<32:17,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  16%|█▌        | 329/2039 [06:33<33:38,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  16%|█▌        | 330/2039 [06:34<33:21,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  16%|█▌        | 331/2039 [06:35<34:16,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  16%|█▋        | 332/2039 [06:36<33:30,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  16%|█▋        | 333/2039 [06:37<33:01,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  16%|█▋        | 334/2039 [06:39<33:58,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  16%|█▋        | 335/2039 [06:40<32:32,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  16%|█▋        | 336/2039 [06:41<33:34,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  17%|█▋        | 337/2039 [06:42<31:43,  1.12s/it]
+Evaluating SFT_LoRA - FullInfo:  17%|█▋        | 338/2039 [06:43<30:24,  1.07s/it]
+Evaluating SFT_LoRA - FullInfo:  17%|█▋        | 339/2039 [06:44<30:44,  1.08s/it]
+Evaluating SFT_LoRA - FullInfo:  17%|█▋        | 340/2039 [06:45<33:06,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  17%|█▋        | 341/2039 [06:47<32:50,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  17%|█▋        | 342/2039 [06:48<32:58,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  17%|█▋        | 343/2039 [06:49<34:27,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  17%|█▋        | 344/2039 [06:51<38:16,  1.36s/it]
+Evaluating SFT_LoRA - FullInfo:  17%|█▋        | 345/2039 [06:52<35:30,  1.26s/it]
+Evaluating SFT_LoRA - FullInfo:  17%|█▋        | 346/2039 [06:53<34:22,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  17%|█▋        | 347/2039 [06:54<37:33,  1.33s/it]
+Evaluating SFT_LoRA - FullInfo:  17%|█▋        | 348/2039 [06:56<39:09,  1.39s/it]
+Evaluating SFT_LoRA - FullInfo:  17%|█▋        | 349/2039 [06:57<36:48,  1.31s/it]
+Evaluating SFT_LoRA - FullInfo:  17%|█▋        | 350/2039 [06:58<36:32,  1.30s/it]
+Evaluating SFT_LoRA - FullInfo:  17%|█▋        | 351/2039 [07:00<36:32,  1.30s/it]
+Evaluating SFT_LoRA - FullInfo:  17%|█▋        | 352/2039 [07:01<36:50,  1.31s/it]
+Evaluating SFT_LoRA - FullInfo:  17%|█▋        | 353/2039 [07:02<36:35,  1.30s/it]
+Evaluating SFT_LoRA - FullInfo:  17%|█▋        | 354/2039 [07:04<39:47,  1.42s/it]
+Evaluating SFT_LoRA - FullInfo:  17%|█▋        | 355/2039 [07:05<37:16,  1.33s/it]
+Evaluating SFT_LoRA - FullInfo:  17%|█▋        | 356/2039 [07:06<36:01,  1.28s/it]
+Evaluating SFT_LoRA - FullInfo:  18%|█▊        | 357/2039 [07:07<35:08,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  18%|█▊        | 358/2039 [07:09<34:00,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  18%|█▊        | 359/2039 [07:10<34:39,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  18%|█▊        | 360/2039 [07:11<36:49,  1.32s/it]
+Evaluating SFT_LoRA - FullInfo:  18%|█▊        | 361/2039 [07:13<35:57,  1.29s/it]
+Evaluating SFT_LoRA - FullInfo:  18%|█▊        | 362/2039 [07:14<36:33,  1.31s/it]
+Evaluating SFT_LoRA - FullInfo:  18%|█▊        | 363/2039 [07:15<37:49,  1.35s/it]
+Evaluating SFT_LoRA - FullInfo:  18%|█▊        | 364/2039 [07:17<37:13,  1.33s/it]
+Evaluating SFT_LoRA - FullInfo:  18%|█▊        | 365/2039 [07:18<34:07,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  18%|█▊        | 366/2039 [07:19<33:30,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  18%|█▊        | 367/2039 [07:20<33:35,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  18%|█▊        | 368/2039 [07:21<32:11,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  18%|█▊        | 369/2039 [07:22<31:16,  1.12s/it]
+Evaluating SFT_LoRA - FullInfo:  18%|█▊        | 370/2039 [07:23<31:49,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  18%|█▊        | 371/2039 [07:24<30:57,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  18%|█▊        | 372/2039 [07:26<33:51,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  18%|█▊        | 373/2039 [07:27<31:51,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  18%|█▊        | 374/2039 [07:28<30:54,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  18%|█▊        | 375/2039 [07:29<30:23,  1.10s/it]
+Evaluating SFT_LoRA - FullInfo:  18%|█▊        | 376/2039 [07:30<32:34,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  18%|█▊        | 377/2039 [07:31<31:35,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  19%|█▊        | 378/2039 [07:32<30:40,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  19%|█▊        | 379/2039 [07:34<34:00,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  19%|█▊        | 380/2039 [07:35<31:48,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  19%|█▊        | 381/2039 [07:36<32:46,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  19%|█▊        | 382/2039 [07:37<31:38,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  19%|█▉        | 383/2039 [07:38<32:46,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  19%|█▉        | 384/2039 [07:40<37:36,  1.36s/it]
+Evaluating SFT_LoRA - FullInfo:  19%|█▉        | 385/2039 [07:41<35:34,  1.29s/it]
+Evaluating SFT_LoRA - FullInfo:  19%|█▉        | 386/2039 [07:42<34:21,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  19%|█▉        | 387/2039 [07:44<34:32,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  19%|█▉        | 388/2039 [07:45<32:17,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  19%|█▉        | 389/2039 [07:46<31:03,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  19%|█▉        | 390/2039 [07:48<36:28,  1.33s/it]
+Evaluating SFT_LoRA - FullInfo:  19%|█▉        | 391/2039 [07:49<34:47,  1.27s/it]
+Evaluating SFT_LoRA - FullInfo:  19%|█▉        | 392/2039 [07:50<36:09,  1.32s/it]
+Evaluating SFT_LoRA - FullInfo:  19%|█▉        | 393/2039 [07:51<35:46,  1.30s/it]
+Evaluating SFT_LoRA - FullInfo:  19%|█▉        | 394/2039 [07:53<34:16,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  19%|█▉        | 395/2039 [07:53<32:03,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  19%|█▉        | 396/2039 [07:55<32:10,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  19%|█▉        | 397/2039 [07:56<33:41,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  20%|█▉        | 398/2039 [07:57<31:39,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  20%|█▉        | 399/2039 [07:58<31:50,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  20%|█▉        | 400/2039 [07:59<30:15,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  20%|█▉        | 401/2039 [08:00<31:42,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  20%|█▉        | 402/2039 [08:02<32:42,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  20%|█▉        | 403/2039 [08:03<32:40,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  20%|█▉        | 404/2039 [08:04<33:21,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  20%|█▉        | 405/2039 [08:05<31:52,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  20%|█▉        | 406/2039 [08:07<34:16,  1.26s/it]
+Evaluating SFT_LoRA - FullInfo:  20%|█▉        | 407/2039 [08:08<32:38,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  20%|██        | 408/2039 [08:09<31:22,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  20%|██        | 409/2039 [08:10<30:34,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  20%|██        | 410/2039 [08:11<33:20,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  20%|██        | 411/2039 [08:13<32:58,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  20%|██        | 412/2039 [08:14<32:20,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  20%|██        | 413/2039 [08:15<31:42,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  20%|██        | 414/2039 [08:16<30:48,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  20%|██        | 415/2039 [08:17<33:17,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  20%|██        | 416/2039 [08:19<33:06,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  20%|██        | 417/2039 [08:20<34:51,  1.29s/it]
+Evaluating SFT_LoRA - FullInfo:  21%|██        | 418/2039 [08:21<33:28,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  21%|██        | 419/2039 [08:22<32:41,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  21%|██        | 420/2039 [08:24<37:20,  1.38s/it]
+Evaluating SFT_LoRA - FullInfo:  21%|██        | 421/2039 [08:25<36:29,  1.35s/it]
+Evaluating SFT_LoRA - FullInfo:  21%|██        | 422/2039 [08:26<33:48,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  21%|██        | 423/2039 [08:28<34:00,  1.26s/it]
+Evaluating SFT_LoRA - FullInfo:  21%|██        | 424/2039 [08:29<35:26,  1.32s/it]
+Evaluating SFT_LoRA - FullInfo:  21%|██        | 425/2039 [08:30<33:17,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  21%|██        | 426/2039 [08:31<31:48,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  21%|██        | 427/2039 [08:32<30:36,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  21%|██        | 428/2039 [08:34<33:29,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  21%|██        | 429/2039 [08:35<31:52,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  21%|██        | 430/2039 [08:36<30:35,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  21%|██        | 431/2039 [08:37<29:10,  1.09s/it]
+Evaluating SFT_LoRA - FullInfo:  21%|██        | 432/2039 [08:38<28:10,  1.05s/it]
+Evaluating SFT_LoRA - FullInfo:  21%|██        | 433/2039 [08:39<32:35,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  21%|██▏       | 434/2039 [08:41<33:04,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  21%|██▏       | 435/2039 [08:42<31:02,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  21%|██▏       | 436/2039 [08:43<30:00,  1.12s/it]
+Evaluating SFT_LoRA - FullInfo:  21%|██▏       | 437/2039 [08:44<30:09,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  21%|██▏       | 438/2039 [08:45<30:48,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  22%|██▏       | 439/2039 [08:46<31:00,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  22%|██▏       | 440/2039 [08:47<31:57,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  22%|██▏       | 441/2039 [08:48<30:38,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  22%|██▏       | 442/2039 [08:50<30:59,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  22%|██▏       | 443/2039 [08:51<34:58,  1.31s/it]
+Evaluating SFT_LoRA - FullInfo:  22%|██▏       | 444/2039 [08:53<39:56,  1.50s/it]
+Evaluating SFT_LoRA - FullInfo:  22%|██▏       | 445/2039 [08:55<38:40,  1.46s/it]
+Evaluating SFT_LoRA - FullInfo:  22%|██▏       | 446/2039 [08:56<36:11,  1.36s/it]
+Evaluating SFT_LoRA - FullInfo:  22%|██▏       | 447/2039 [08:57<34:10,  1.29s/it]
+Evaluating SFT_LoRA - FullInfo:  22%|██▏       | 448/2039 [08:58<31:05,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  22%|██▏       | 449/2039 [08:59<29:27,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  22%|██▏       | 450/2039 [09:00<29:33,  1.12s/it]
+Evaluating SFT_LoRA - FullInfo:  22%|██▏       | 451/2039 [09:01<29:45,  1.12s/it]
+Evaluating SFT_LoRA - FullInfo:  22%|██▏       | 452/2039 [09:02<29:42,  1.12s/it]
+Evaluating SFT_LoRA - FullInfo:  22%|██▏       | 453/2039 [09:03<29:51,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  22%|██▏       | 454/2039 [09:05<31:10,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  22%|██▏       | 455/2039 [09:06<34:23,  1.30s/it]
+Evaluating SFT_LoRA - FullInfo:  22%|██▏       | 456/2039 [09:07<34:07,  1.29s/it]
+Evaluating SFT_LoRA - FullInfo:  22%|██▏       | 457/2039 [09:09<32:59,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  22%|██▏       | 458/2039 [09:10<33:10,  1.26s/it]
+Evaluating SFT_LoRA - FullInfo:  23%|██▎       | 459/2039 [09:11<32:37,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  23%|██▎       | 460/2039 [09:12<30:34,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  23%|██▎       | 461/2039 [09:13<29:40,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  23%|██▎       | 462/2039 [09:15<32:08,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  23%|██▎       | 463/2039 [09:16<33:57,  1.29s/it]
+Evaluating SFT_LoRA - FullInfo:  23%|██▎       | 464/2039 [09:17<31:28,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  23%|██▎       | 465/2039 [09:18<32:04,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  23%|██▎       | 466/2039 [09:20<32:34,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  23%|██▎       | 467/2039 [09:21<35:18,  1.35s/it]
+Evaluating SFT_LoRA - FullInfo:  23%|██▎       | 468/2039 [09:22<33:57,  1.30s/it]
+Evaluating SFT_LoRA - FullInfo:  23%|██▎       | 469/2039 [09:23<32:35,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  23%|██▎       | 470/2039 [09:25<33:21,  1.28s/it]
+Evaluating SFT_LoRA - FullInfo:  23%|██▎       | 471/2039 [09:26<32:16,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  23%|██▎       | 472/2039 [09:27<30:40,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  23%|██▎       | 473/2039 [09:28<29:35,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  23%|██▎       | 474/2039 [09:29<30:38,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  23%|██▎       | 475/2039 [09:30<29:03,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  23%|██▎       | 476/2039 [09:31<29:19,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  23%|██▎       | 477/2039 [09:33<30:34,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  23%|██▎       | 478/2039 [09:34<30:20,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  23%|██▎       | 479/2039 [09:35<29:55,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  24%|██▎       | 480/2039 [09:36<30:51,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  24%|██▎       | 481/2039 [09:37<28:28,  1.10s/it]
+Evaluating SFT_LoRA - FullInfo:  24%|██▎       | 482/2039 [09:38<28:41,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  24%|██▎       | 483/2039 [09:39<28:07,  1.08s/it]
+Evaluating SFT_LoRA - FullInfo:  24%|██▎       | 484/2039 [09:41<29:47,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  24%|██▍       | 485/2039 [09:42<32:06,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  24%|██▍       | 486/2039 [09:43<30:37,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  24%|██▍       | 487/2039 [09:44<30:22,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  24%|██▍       | 488/2039 [09:45<30:27,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  24%|██▍       | 489/2039 [09:47<32:35,  1.26s/it]
+Evaluating SFT_LoRA - FullInfo:  24%|██▍       | 490/2039 [09:48<30:52,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  24%|██▍       | 491/2039 [09:49<30:45,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  24%|██▍       | 492/2039 [09:51<33:13,  1.29s/it]
+Evaluating SFT_LoRA - FullInfo:  24%|██▍       | 493/2039 [09:52<30:42,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  24%|██▍       | 494/2039 [09:53<31:18,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  24%|██▍       | 495/2039 [09:54<29:22,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  24%|██▍       | 496/2039 [09:55<30:21,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  24%|██▍       | 497/2039 [09:56<31:01,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  24%|██▍       | 498/2039 [09:58<30:34,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  24%|██▍       | 499/2039 [09:58<28:45,  1.12s/it]
+Evaluating SFT_LoRA - FullInfo:  25%|██▍       | 500/2039 [10:00<28:03,  1.09s/it]
+Evaluating SFT_LoRA - FullInfo:  25%|██▍       | 501/2039 [10:00<27:09,  1.06s/it]
+Evaluating SFT_LoRA - FullInfo:  25%|██▍       | 502/2039 [10:02<29:18,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  25%|██▍       | 503/2039 [10:03<29:16,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  25%|██▍       | 504/2039 [10:04<30:22,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  25%|██▍       | 505/2039 [10:05<30:30,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  25%|██▍       | 506/2039 [10:07<30:27,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  25%|██▍       | 507/2039 [10:08<32:16,  1.26s/it]
+Evaluating SFT_LoRA - FullInfo:  25%|██▍       | 508/2039 [10:10<36:09,  1.42s/it]
+Evaluating SFT_LoRA - FullInfo:  25%|██▍       | 509/2039 [10:11<33:10,  1.30s/it]
+Evaluating SFT_LoRA - FullInfo:  25%|██▌       | 510/2039 [10:12<31:16,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  25%|██▌       | 511/2039 [10:13<30:35,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  25%|██▌       | 512/2039 [10:14<31:07,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  25%|██▌       | 513/2039 [10:16<32:02,  1.26s/it]
+Evaluating SFT_LoRA - FullInfo:  25%|██▌       | 514/2039 [10:17<32:17,  1.27s/it]
+Evaluating SFT_LoRA - FullInfo:  25%|██▌       | 515/2039 [10:18<31:36,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  25%|██▌       | 516/2039 [10:20<32:22,  1.28s/it]
+Evaluating SFT_LoRA - FullInfo:  25%|██▌       | 517/2039 [10:21<30:29,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  25%|██▌       | 518/2039 [10:22<34:10,  1.35s/it]
+Evaluating SFT_LoRA - FullInfo:  25%|██▌       | 519/2039 [10:24<36:11,  1.43s/it]
+Evaluating SFT_LoRA - FullInfo:  26%|██▌       | 520/2039 [10:25<34:33,  1.36s/it]
+Evaluating SFT_LoRA - FullInfo:  26%|██▌       | 521/2039 [10:26<32:41,  1.29s/it]
+Evaluating SFT_LoRA - FullInfo:  26%|██▌       | 522/2039 [10:27<31:33,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  26%|██▌       | 523/2039 [10:29<34:10,  1.35s/it]
+Evaluating SFT_LoRA - FullInfo:  26%|██▌       | 524/2039 [10:30<32:34,  1.29s/it]
+Evaluating SFT_LoRA - FullInfo:  26%|██▌       | 525/2039 [10:32<36:36,  1.45s/it]
+Evaluating SFT_LoRA - FullInfo:  26%|██▌       | 526/2039 [10:33<34:07,  1.35s/it]
+Evaluating SFT_LoRA - FullInfo:  26%|██▌       | 527/2039 [10:35<34:48,  1.38s/it]
+Evaluating SFT_LoRA - FullInfo:  26%|██▌       | 528/2039 [10:36<34:04,  1.35s/it]
+Evaluating SFT_LoRA - FullInfo:  26%|██▌       | 529/2039 [10:37<32:59,  1.31s/it]
+Evaluating SFT_LoRA - FullInfo:  26%|██▌       | 530/2039 [10:38<29:55,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  26%|██▌       | 531/2039 [10:39<26:28,  1.05s/it]
+Evaluating SFT_LoRA - FullInfo:  26%|██▌       | 532/2039 [10:40<27:31,  1.10s/it]
+Evaluating SFT_LoRA - FullInfo:  26%|██▌       | 533/2039 [10:41<26:41,  1.06s/it]
+Evaluating SFT_LoRA - FullInfo:  26%|██▌       | 534/2039 [10:42<27:17,  1.09s/it]
+Evaluating SFT_LoRA - FullInfo:  26%|██▌       | 535/2039 [10:43<26:28,  1.06s/it]
+Evaluating SFT_LoRA - FullInfo:  26%|██▋       | 536/2039 [10:45<30:28,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  26%|██▋       | 537/2039 [10:46<29:02,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  26%|██▋       | 538/2039 [10:46<26:56,  1.08s/it]
+Evaluating SFT_LoRA - FullInfo:  26%|██▋       | 539/2039 [10:48<27:43,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  26%|██▋       | 540/2039 [10:49<27:46,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  27%|██▋       | 541/2039 [10:50<30:10,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  27%|██▋       | 542/2039 [10:51<29:27,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  27%|██▋       | 543/2039 [10:52<28:30,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  27%|██▋       | 544/2039 [10:53<27:11,  1.09s/it]
+Evaluating SFT_LoRA - FullInfo:  27%|██▋       | 545/2039 [10:55<29:58,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  27%|██▋       | 546/2039 [10:56<27:44,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  27%|██▋       | 547/2039 [10:57<27:14,  1.10s/it]
+Evaluating SFT_LoRA - FullInfo:  27%|██▋       | 548/2039 [10:59<32:56,  1.33s/it]
+Evaluating SFT_LoRA - FullInfo:  27%|██▋       | 549/2039 [11:00<32:32,  1.31s/it]
+Evaluating SFT_LoRA - FullInfo:  27%|██▋       | 550/2039 [11:01<32:19,  1.30s/it]
+Evaluating SFT_LoRA - FullInfo:  27%|██▋       | 551/2039 [11:02<31:27,  1.27s/it]
+Evaluating SFT_LoRA - FullInfo:  27%|██▋       | 552/2039 [11:04<30:47,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  27%|██▋       | 553/2039 [11:05<31:02,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  27%|██▋       | 554/2039 [11:06<30:02,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  27%|██▋       | 555/2039 [11:07<28:42,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  27%|██▋       | 556/2039 [11:08<30:11,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  27%|██▋       | 557/2039 [11:09<27:17,  1.10s/it]
+Evaluating SFT_LoRA - FullInfo:  27%|██▋       | 558/2039 [11:10<28:04,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  27%|██▋       | 559/2039 [11:11<27:13,  1.10s/it]
+Evaluating SFT_LoRA - FullInfo:  27%|██▋       | 560/2039 [11:13<27:28,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  28%|██▊       | 561/2039 [11:14<26:57,  1.09s/it]
+Evaluating SFT_LoRA - FullInfo:  28%|██▊       | 562/2039 [11:15<25:55,  1.05s/it]
+Evaluating SFT_LoRA - FullInfo:  28%|██▊       | 563/2039 [11:16<27:30,  1.12s/it]
+Evaluating SFT_LoRA - FullInfo:  28%|██▊       | 564/2039 [11:17<30:07,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  28%|██▊       | 565/2039 [11:18<28:18,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  28%|██▊       | 566/2039 [11:20<30:25,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  28%|██▊       | 567/2039 [11:21<27:45,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  28%|██▊       | 568/2039 [11:22<29:20,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  28%|██▊       | 569/2039 [11:23<28:12,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  28%|██▊       | 570/2039 [11:24<28:29,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  28%|██▊       | 571/2039 [11:26<32:12,  1.32s/it]
+Evaluating SFT_LoRA - FullInfo:  28%|██▊       | 572/2039 [11:27<31:54,  1.30s/it]
+Evaluating SFT_LoRA - FullInfo:  28%|██▊       | 573/2039 [11:28<30:29,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  28%|██▊       | 574/2039 [11:29<28:29,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  28%|██▊       | 575/2039 [11:30<28:15,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  28%|██▊       | 576/2039 [11:31<26:54,  1.10s/it]
+Evaluating SFT_LoRA - FullInfo:  28%|██▊       | 577/2039 [11:33<30:35,  1.26s/it]
+Evaluating SFT_LoRA - FullInfo:  28%|██▊       | 578/2039 [11:34<31:53,  1.31s/it]
+Evaluating SFT_LoRA - FullInfo:  28%|██▊       | 579/2039 [11:35<29:53,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  28%|██▊       | 580/2039 [11:37<30:44,  1.26s/it]
+Evaluating SFT_LoRA - FullInfo:  28%|██▊       | 581/2039 [11:38<32:11,  1.32s/it]
+Evaluating SFT_LoRA - FullInfo:  29%|██▊       | 582/2039 [11:39<30:10,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  29%|██▊       | 583/2039 [11:41<31:31,  1.30s/it]
+Evaluating SFT_LoRA - FullInfo:  29%|██▊       | 584/2039 [11:42<31:20,  1.29s/it]
+Evaluating SFT_LoRA - FullInfo:  29%|██▊       | 585/2039 [11:43<30:13,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  29%|██▊       | 586/2039 [11:44<28:15,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  29%|██▉       | 587/2039 [11:45<29:02,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  29%|██▉       | 588/2039 [11:47<30:52,  1.28s/it]
+Evaluating SFT_LoRA - FullInfo:  29%|██▉       | 589/2039 [11:48<29:17,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  29%|██▉       | 590/2039 [11:49<30:13,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  29%|██▉       | 591/2039 [11:50<29:12,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  29%|██▉       | 592/2039 [11:51<28:01,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  29%|██▉       | 593/2039 [11:53<31:13,  1.30s/it]
+Evaluating SFT_LoRA - FullInfo:  29%|██▉       | 594/2039 [11:54<29:53,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  29%|██▉       | 595/2039 [11:56<32:29,  1.35s/it]
+Evaluating SFT_LoRA - FullInfo:  29%|██▉       | 596/2039 [11:57<31:31,  1.31s/it]
+Evaluating SFT_LoRA - FullInfo:  29%|██▉       | 597/2039 [11:58<31:22,  1.31s/it]
+Evaluating SFT_LoRA - FullInfo:  29%|██▉       | 598/2039 [12:00<31:16,  1.30s/it]
+Evaluating SFT_LoRA - FullInfo:  29%|██▉       | 599/2039 [12:01<30:35,  1.27s/it]
+Evaluating SFT_LoRA - FullInfo:  29%|██▉       | 600/2039 [12:02<28:47,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  29%|██▉       | 601/2039 [12:03<30:32,  1.27s/it]
+Evaluating SFT_LoRA - FullInfo:  30%|██▉       | 602/2039 [12:04<29:34,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  30%|██▉       | 603/2039 [12:05<27:43,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  30%|██▉       | 604/2039 [12:07<27:33,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  30%|██▉       | 605/2039 [12:08<27:57,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  30%|██▉       | 606/2039 [12:09<25:52,  1.08s/it]
+Evaluating SFT_LoRA - FullInfo:  30%|██▉       | 607/2039 [12:10<26:35,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  30%|██▉       | 608/2039 [12:12<31:16,  1.31s/it]
+Evaluating SFT_LoRA - FullInfo:  30%|██▉       | 609/2039 [12:12<28:17,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  30%|██▉       | 610/2039 [12:14<28:15,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  30%|██▉       | 611/2039 [12:15<27:05,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  30%|███       | 612/2039 [12:16<26:25,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  30%|███       | 613/2039 [12:17<25:54,  1.09s/it]
+Evaluating SFT_LoRA - FullInfo:  30%|███       | 614/2039 [12:18<25:40,  1.08s/it]
+Evaluating SFT_LoRA - FullInfo:  30%|███       | 615/2039 [12:19<27:13,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  30%|███       | 616/2039 [12:20<27:04,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  30%|███       | 617/2039 [12:22<27:58,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  30%|███       | 618/2039 [12:23<29:45,  1.26s/it]
+Evaluating SFT_LoRA - FullInfo:  30%|███       | 619/2039 [12:24<28:06,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  30%|███       | 620/2039 [12:25<26:02,  1.10s/it]
+Evaluating SFT_LoRA - FullInfo:  30%|███       | 621/2039 [12:26<26:50,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  31%|███       | 622/2039 [12:27<27:24,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  31%|███       | 623/2039 [12:29<28:17,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  31%|███       | 624/2039 [12:30<26:43,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  31%|███       | 625/2039 [12:31<25:31,  1.08s/it]
+Evaluating SFT_LoRA - FullInfo:  31%|███       | 626/2039 [12:32<25:48,  1.10s/it]
+Evaluating SFT_LoRA - FullInfo:  31%|███       | 627/2039 [12:33<26:37,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  31%|███       | 628/2039 [12:34<25:59,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  31%|███       | 629/2039 [12:35<28:26,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  31%|███       | 630/2039 [12:37<32:45,  1.40s/it]
+Evaluating SFT_LoRA - FullInfo:  31%|███       | 631/2039 [12:38<30:57,  1.32s/it]
+Evaluating SFT_LoRA - FullInfo:  31%|███       | 632/2039 [12:40<30:38,  1.31s/it]
+Evaluating SFT_LoRA - FullInfo:  31%|███       | 633/2039 [12:42<34:33,  1.47s/it]
+Evaluating SFT_LoRA - FullInfo:  31%|███       | 634/2039 [12:43<34:57,  1.49s/it]
+Evaluating SFT_LoRA - FullInfo:  31%|███       | 635/2039 [12:44<31:56,  1.36s/it]
+Evaluating SFT_LoRA - FullInfo:  31%|███       | 636/2039 [12:45<29:43,  1.27s/it]
+Evaluating SFT_LoRA - FullInfo:  31%|███       | 637/2039 [12:46<27:32,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  31%|███▏      | 638/2039 [12:47<26:40,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  31%|███▏      | 639/2039 [12:48<25:34,  1.10s/it]
+Evaluating SFT_LoRA - FullInfo:  31%|███▏      | 640/2039 [12:49<25:13,  1.08s/it]
+Evaluating SFT_LoRA - FullInfo:  31%|███▏      | 641/2039 [12:50<24:56,  1.07s/it]
+Evaluating SFT_LoRA - FullInfo:  31%|███▏      | 642/2039 [12:52<26:56,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  32%|███▏      | 643/2039 [12:53<28:55,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  32%|███▏      | 644/2039 [12:54<26:31,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  32%|███▏      | 645/2039 [12:55<27:59,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  32%|███▏      | 646/2039 [12:57<28:05,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  32%|███▏      | 647/2039 [12:58<30:18,  1.31s/it]
+Evaluating SFT_LoRA - FullInfo:  32%|███▏      | 648/2039 [12:59<30:10,  1.30s/it]
+Evaluating SFT_LoRA - FullInfo:  32%|███▏      | 649/2039 [13:00<28:16,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  32%|███▏      | 650/2039 [13:02<27:47,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  32%|███▏      | 651/2039 [13:03<27:52,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  32%|███▏      | 652/2039 [13:04<27:13,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  32%|███▏      | 653/2039 [13:05<25:11,  1.09s/it]
+Evaluating SFT_LoRA - FullInfo:  32%|███▏      | 654/2039 [13:06<25:25,  1.10s/it]
+Evaluating SFT_LoRA - FullInfo:  32%|███▏      | 655/2039 [13:07<25:03,  1.09s/it]
+Evaluating SFT_LoRA - FullInfo:  32%|███▏      | 656/2039 [13:08<25:49,  1.12s/it]
+Evaluating SFT_LoRA - FullInfo:  32%|███▏      | 657/2039 [13:09<26:24,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  32%|███▏      | 658/2039 [13:11<26:49,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  32%|███▏      | 659/2039 [13:12<27:42,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  32%|███▏      | 660/2039 [13:13<27:09,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  32%|███▏      | 661/2039 [13:14<25:00,  1.09s/it]
+Evaluating SFT_LoRA - FullInfo:  32%|███▏      | 662/2039 [13:15<24:34,  1.07s/it]
+Evaluating SFT_LoRA - FullInfo:  33%|███▎      | 663/2039 [13:16<23:53,  1.04s/it]
+Evaluating SFT_LoRA - FullInfo:  33%|███▎      | 664/2039 [13:17<26:02,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  33%|███▎      | 665/2039 [13:18<26:57,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  33%|███▎      | 666/2039 [13:20<25:58,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  33%|███▎      | 667/2039 [13:21<25:26,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  33%|███▎      | 668/2039 [13:22<26:36,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  33%|███▎      | 669/2039 [13:23<25:10,  1.10s/it]
+Evaluating SFT_LoRA - FullInfo:  33%|███▎      | 670/2039 [13:24<26:26,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  33%|███▎      | 671/2039 [13:25<25:09,  1.10s/it]
+Evaluating SFT_LoRA - FullInfo:  33%|███▎      | 672/2039 [13:26<24:12,  1.06s/it]
+Evaluating SFT_LoRA - FullInfo:  33%|███▎      | 673/2039 [13:27<24:44,  1.09s/it]
+Evaluating SFT_LoRA - FullInfo:  33%|███▎      | 674/2039 [13:28<25:00,  1.10s/it]
+Evaluating SFT_LoRA - FullInfo:  33%|███▎      | 675/2039 [13:29<25:06,  1.10s/it]
+Evaluating SFT_LoRA - FullInfo:  33%|███▎      | 676/2039 [13:31<27:23,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  33%|███▎      | 677/2039 [13:32<25:19,  1.12s/it]
+Evaluating SFT_LoRA - FullInfo:  33%|███▎      | 678/2039 [13:33<27:28,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  33%|███▎      | 679/2039 [13:34<27:50,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  33%|███▎      | 680/2039 [13:36<26:30,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  33%|███▎      | 681/2039 [13:37<26:08,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  33%|███▎      | 682/2039 [13:38<28:00,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  33%|███▎      | 683/2039 [13:39<27:40,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  34%|███▎      | 684/2039 [13:40<26:28,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  34%|███▎      | 685/2039 [13:41<26:14,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  34%|███▎      | 686/2039 [13:43<26:03,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  34%|███▎      | 687/2039 [13:44<25:46,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  34%|███▎      | 688/2039 [13:45<28:24,  1.26s/it]
+Evaluating SFT_LoRA - FullInfo:  34%|███▍      | 689/2039 [13:46<27:01,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  34%|███▍      | 690/2039 [13:48<27:33,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  34%|███▍      | 691/2039 [13:49<27:59,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  34%|███▍      | 692/2039 [13:50<25:40,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  34%|███▍      | 693/2039 [13:51<25:38,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  34%|███▍      | 694/2039 [13:52<25:56,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  34%|███▍      | 695/2039 [13:53<25:49,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  34%|███▍      | 696/2039 [13:54<26:03,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  34%|███▍      | 697/2039 [13:56<27:17,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  34%|███▍      | 698/2039 [13:57<25:59,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  34%|███▍      | 699/2039 [13:58<28:27,  1.27s/it]
+Evaluating SFT_LoRA - FullInfo:  34%|███▍      | 700/2039 [14:00<29:43,  1.33s/it]
+Evaluating SFT_LoRA - FullInfo:  34%|███▍      | 701/2039 [14:01<27:13,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  34%|███▍      | 702/2039 [14:02<26:07,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  34%|███▍      | 703/2039 [14:03<27:58,  1.26s/it]
+Evaluating SFT_LoRA - FullInfo:  35%|███▍      | 704/2039 [14:05<28:39,  1.29s/it]
+Evaluating SFT_LoRA - FullInfo:  35%|███▍      | 705/2039 [14:06<27:38,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  35%|███▍      | 706/2039 [14:07<26:49,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  35%|███▍      | 707/2039 [14:08<25:40,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  35%|███▍      | 708/2039 [14:09<26:27,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  35%|███▍      | 709/2039 [14:11<29:13,  1.32s/it]
+Evaluating SFT_LoRA - FullInfo:  35%|███▍      | 710/2039 [14:12<28:20,  1.28s/it]
+Evaluating SFT_LoRA - FullInfo:  35%|███▍      | 711/2039 [14:13<27:14,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  35%|███▍      | 712/2039 [14:15<31:54,  1.44s/it]
+Evaluating SFT_LoRA - FullInfo:  35%|███▍      | 713/2039 [14:16<30:47,  1.39s/it]
+Evaluating SFT_LoRA - FullInfo:  35%|███▌      | 714/2039 [14:18<31:38,  1.43s/it]
+Evaluating SFT_LoRA - FullInfo:  35%|███▌      | 715/2039 [14:19<29:58,  1.36s/it]
+Evaluating SFT_LoRA - FullInfo:  35%|███▌      | 716/2039 [14:20<28:22,  1.29s/it]
+Evaluating SFT_LoRA - FullInfo:  35%|███▌      | 717/2039 [14:21<27:27,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  35%|███▌      | 718/2039 [14:23<26:46,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  35%|███▌      | 719/2039 [14:24<26:16,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  35%|███▌      | 720/2039 [14:25<26:10,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  35%|███▌      | 721/2039 [14:26<26:16,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  35%|███▌      | 722/2039 [14:28<28:21,  1.29s/it]
+Evaluating SFT_LoRA - FullInfo:  35%|███▌      | 723/2039 [14:29<26:44,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  36%|███▌      | 724/2039 [14:30<26:16,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  36%|███▌      | 725/2039 [14:31<27:22,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  36%|███▌      | 726/2039 [14:32<24:53,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  36%|███▌      | 727/2039 [14:33<24:43,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  36%|███▌      | 728/2039 [14:34<25:01,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  36%|███▌      | 729/2039 [14:36<26:18,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  36%|███▌      | 730/2039 [14:37<25:07,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  36%|███▌      | 731/2039 [14:38<27:06,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  36%|███▌      | 732/2039 [14:39<25:24,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  36%|███▌      | 733/2039 [14:40<24:11,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  36%|███▌      | 734/2039 [14:41<23:37,  1.09s/it]
+Evaluating SFT_LoRA - FullInfo:  36%|███▌      | 735/2039 [14:42<24:26,  1.12s/it]
+Evaluating SFT_LoRA - FullInfo:  36%|███▌      | 736/2039 [14:43<23:31,  1.08s/it]
+Evaluating SFT_LoRA - FullInfo:  36%|███▌      | 737/2039 [14:44<23:46,  1.10s/it]
+Evaluating SFT_LoRA - FullInfo:  36%|███▌      | 738/2039 [14:46<24:06,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  36%|███▌      | 739/2039 [14:46<22:34,  1.04s/it]
+Evaluating SFT_LoRA - FullInfo:  36%|███▋      | 740/2039 [14:49<28:50,  1.33s/it]
+Evaluating SFT_LoRA - FullInfo:  36%|███▋      | 741/2039 [14:50<27:24,  1.27s/it]
+Evaluating SFT_LoRA - FullInfo:  36%|███▋      | 742/2039 [14:51<27:04,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  36%|███▋      | 743/2039 [14:52<25:46,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  36%|███▋      | 744/2039 [14:53<27:49,  1.29s/it]
+Evaluating SFT_LoRA - FullInfo:  37%|███▋      | 745/2039 [14:54<25:42,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  37%|███▋      | 746/2039 [14:56<25:37,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  37%|███▋      | 747/2039 [14:57<25:36,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  37%|███▋      | 748/2039 [14:58<24:39,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  37%|███▋      | 749/2039 [14:59<25:35,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  37%|███▋      | 750/2039 [15:00<26:13,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  37%|███▋      | 751/2039 [15:02<26:32,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  37%|███▋      | 752/2039 [15:03<25:12,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  37%|███▋      | 753/2039 [15:04<24:14,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  37%|███▋      | 754/2039 [15:05<24:21,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  37%|███▋      | 755/2039 [15:06<23:49,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  37%|███▋      | 756/2039 [15:07<23:26,  1.10s/it]
+Evaluating SFT_LoRA - FullInfo:  37%|███▋      | 757/2039 [15:08<24:38,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  37%|███▋      | 758/2039 [15:10<28:40,  1.34s/it]
+Evaluating SFT_LoRA - FullInfo:  37%|███▋      | 759/2039 [15:12<29:53,  1.40s/it]
+Evaluating SFT_LoRA - FullInfo:  37%|███▋      | 760/2039 [15:13<27:01,  1.27s/it]
+Evaluating SFT_LoRA - FullInfo:  37%|███▋      | 761/2039 [15:13<24:42,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  37%|███▋      | 762/2039 [15:15<24:51,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  37%|███▋      | 763/2039 [15:16<24:56,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  37%|███▋      | 764/2039 [15:17<24:43,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  38%|███▊      | 765/2039 [15:18<24:53,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  38%|███▊      | 766/2039 [15:19<24:43,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  38%|███▊      | 767/2039 [15:21<25:04,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  38%|███▊      | 768/2039 [15:22<27:16,  1.29s/it]
+Evaluating SFT_LoRA - FullInfo:  38%|███▊      | 769/2039 [15:23<25:39,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  38%|███▊      | 770/2039 [15:24<24:30,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  38%|███▊      | 771/2039 [15:26<26:45,  1.27s/it]
+Evaluating SFT_LoRA - FullInfo:  38%|███▊      | 772/2039 [15:27<25:47,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  38%|███▊      | 773/2039 [15:28<25:32,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  38%|███▊      | 774/2039 [15:29<24:21,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  38%|███▊      | 775/2039 [15:30<26:34,  1.26s/it]
+Evaluating SFT_LoRA - FullInfo:  38%|███▊      | 776/2039 [15:32<25:12,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  38%|███▊      | 777/2039 [15:33<25:39,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  38%|███▊      | 778/2039 [15:34<23:16,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  38%|███▊      | 779/2039 [15:35<23:21,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  38%|███▊      | 780/2039 [15:36<23:33,  1.12s/it]
+Evaluating SFT_LoRA - FullInfo:  38%|███▊      | 781/2039 [15:37<24:05,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  38%|███▊      | 782/2039 [15:38<23:01,  1.10s/it]
+Evaluating SFT_LoRA - FullInfo:  38%|███▊      | 783/2039 [15:39<22:18,  1.07s/it]
+Evaluating SFT_LoRA - FullInfo:  38%|███▊      | 784/2039 [15:40<23:40,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  38%|███▊      | 785/2039 [15:42<24:33,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  39%|███▊      | 786/2039 [15:43<27:13,  1.30s/it]
+Evaluating SFT_LoRA - FullInfo:  39%|███▊      | 787/2039 [15:44<26:35,  1.27s/it]
+Evaluating SFT_LoRA - FullInfo:  39%|███▊      | 788/2039 [15:46<26:36,  1.28s/it]
+Evaluating SFT_LoRA - FullInfo:  39%|███▊      | 789/2039 [15:47<25:05,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  39%|███▊      | 790/2039 [15:48<26:33,  1.28s/it]
+Evaluating SFT_LoRA - FullInfo:  39%|███▉      | 791/2039 [15:49<25:35,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  39%|███▉      | 792/2039 [15:51<25:25,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  39%|███▉      | 793/2039 [15:52<24:22,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  39%|███▉      | 794/2039 [15:53<23:06,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  39%|███▉      | 795/2039 [15:54<25:08,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  39%|███▉      | 796/2039 [15:55<24:07,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  39%|███▉      | 797/2039 [15:57<31:34,  1.53s/it]
+Evaluating SFT_LoRA - FullInfo:  39%|███▉      | 798/2039 [15:59<29:14,  1.41s/it]
+Evaluating SFT_LoRA - FullInfo:  39%|███▉      | 799/2039 [15:59<25:53,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  39%|███▉      | 800/2039 [16:01<24:29,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  39%|███▉      | 801/2039 [16:02<25:26,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  39%|███▉      | 802/2039 [16:04<28:49,  1.40s/it]
+Evaluating SFT_LoRA - FullInfo:  39%|███▉      | 803/2039 [16:05<27:02,  1.31s/it]
+Evaluating SFT_LoRA - FullInfo:  39%|███▉      | 804/2039 [16:06<25:20,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  39%|███▉      | 805/2039 [16:07<23:46,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  40%|███▉      | 806/2039 [16:08<24:05,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  40%|███▉      | 807/2039 [16:09<25:45,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  40%|███▉      | 808/2039 [16:11<26:51,  1.31s/it]
+Evaluating SFT_LoRA - FullInfo:  40%|███▉      | 809/2039 [16:13<29:01,  1.42s/it]
+Evaluating SFT_LoRA - FullInfo:  40%|███▉      | 810/2039 [16:14<28:32,  1.39s/it]
+Evaluating SFT_LoRA - FullInfo:  40%|███▉      | 811/2039 [16:15<27:27,  1.34s/it]
+Evaluating SFT_LoRA - FullInfo:  40%|███▉      | 812/2039 [16:16<25:05,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  40%|███▉      | 813/2039 [16:17<24:52,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  40%|███▉      | 814/2039 [16:18<22:47,  1.12s/it]
+Evaluating SFT_LoRA - FullInfo:  40%|███▉      | 815/2039 [16:19<21:49,  1.07s/it]
+Evaluating SFT_LoRA - FullInfo:  40%|████      | 816/2039 [16:20<21:14,  1.04s/it]
+Evaluating SFT_LoRA - FullInfo:  40%|████      | 817/2039 [16:22<23:49,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  40%|████      | 818/2039 [16:23<23:54,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  40%|████      | 819/2039 [16:24<27:04,  1.33s/it]
+Evaluating SFT_LoRA - FullInfo:  40%|████      | 820/2039 [16:26<25:48,  1.27s/it]
+Evaluating SFT_LoRA - FullInfo:  40%|████      | 821/2039 [16:27<25:03,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  40%|████      | 822/2039 [16:28<23:31,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  40%|████      | 823/2039 [16:29<23:48,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  40%|████      | 824/2039 [16:30<22:27,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  40%|████      | 825/2039 [16:31<21:04,  1.04s/it]
+Evaluating SFT_LoRA - FullInfo:  41%|████      | 826/2039 [16:33<28:34,  1.41s/it]
+Evaluating SFT_LoRA - FullInfo:  41%|████      | 827/2039 [16:34<26:52,  1.33s/it]
+Evaluating SFT_LoRA - FullInfo:  41%|████      | 828/2039 [16:35<25:03,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  41%|████      | 829/2039 [16:37<26:23,  1.31s/it]
+Evaluating SFT_LoRA - FullInfo:  41%|████      | 830/2039 [16:38<26:15,  1.30s/it]
+Evaluating SFT_LoRA - FullInfo:  41%|████      | 831/2039 [16:39<23:47,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  41%|████      | 832/2039 [16:40<22:51,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  41%|████      | 833/2039 [16:41<21:53,  1.09s/it]
+Evaluating SFT_LoRA - FullInfo:  41%|████      | 834/2039 [16:42<22:00,  1.10s/it]
+Evaluating SFT_LoRA - FullInfo:  41%|████      | 835/2039 [16:43<23:04,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  41%|████      | 836/2039 [16:44<23:18,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  41%|████      | 837/2039 [16:46<23:09,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  41%|████      | 838/2039 [16:47<25:46,  1.29s/it]
+Evaluating SFT_LoRA - FullInfo:  41%|████      | 839/2039 [16:48<24:20,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  41%|████      | 840/2039 [16:49<23:45,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  41%|████      | 841/2039 [16:50<23:28,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  41%|████▏     | 842/2039 [16:52<22:39,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  41%|████▏     | 843/2039 [16:52<21:38,  1.09s/it]
+Evaluating SFT_LoRA - FullInfo:  41%|████▏     | 844/2039 [16:54<22:01,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  41%|████▏     | 845/2039 [16:55<22:28,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  41%|████▏     | 846/2039 [16:56<21:53,  1.10s/it]
+Evaluating SFT_LoRA - FullInfo:  42%|████▏     | 847/2039 [16:57<24:48,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  42%|████▏     | 848/2039 [16:59<26:48,  1.35s/it]
+Evaluating SFT_LoRA - FullInfo:  42%|████▏     | 849/2039 [17:00<25:48,  1.30s/it]
+Evaluating SFT_LoRA - FullInfo:  42%|████▏     | 850/2039 [17:01<24:49,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  42%|████▏     | 851/2039 [17:03<24:35,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  42%|████▏     | 852/2039 [17:04<24:22,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  42%|████▏     | 853/2039 [17:06<27:55,  1.41s/it]
+Evaluating SFT_LoRA - FullInfo:  42%|████▏     | 854/2039 [17:07<26:32,  1.34s/it]
+Evaluating SFT_LoRA - FullInfo:  42%|████▏     | 855/2039 [17:08<24:23,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  42%|████▏     | 856/2039 [17:09<24:02,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  42%|████▏     | 857/2039 [17:10<23:50,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  42%|████▏     | 858/2039 [17:11<22:18,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  42%|████▏     | 859/2039 [17:13<24:15,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  42%|████▏     | 860/2039 [17:14<23:12,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  42%|████▏     | 861/2039 [17:15<24:06,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  42%|████▏     | 862/2039 [17:16<23:30,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  42%|████▏     | 863/2039 [17:18<25:14,  1.29s/it]
+Evaluating SFT_LoRA - FullInfo:  42%|████▏     | 864/2039 [17:19<25:33,  1.31s/it]
+Evaluating SFT_LoRA - FullInfo:  42%|████▏     | 865/2039 [17:20<25:27,  1.30s/it]
+Evaluating SFT_LoRA - FullInfo:  42%|████▏     | 866/2039 [17:21<23:36,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  43%|████▎     | 867/2039 [17:22<23:06,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  43%|████▎     | 868/2039 [17:24<24:58,  1.28s/it]
+Evaluating SFT_LoRA - FullInfo:  43%|████▎     | 869/2039 [17:25<22:38,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  43%|████▎     | 870/2039 [17:26<21:35,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  43%|████▎     | 871/2039 [17:27<21:40,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  43%|████▎     | 872/2039 [17:28<22:40,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  43%|████▎     | 873/2039 [17:29<23:19,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  43%|████▎     | 874/2039 [17:30<22:23,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  43%|████▎     | 875/2039 [17:32<23:06,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  43%|████▎     | 876/2039 [17:33<24:08,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  43%|████▎     | 877/2039 [17:34<22:51,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  43%|████▎     | 878/2039 [17:36<24:41,  1.28s/it]
+Evaluating SFT_LoRA - FullInfo:  43%|████▎     | 879/2039 [17:37<23:55,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  43%|████▎     | 880/2039 [17:38<22:27,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  43%|████▎     | 881/2039 [17:39<20:57,  1.09s/it]
+Evaluating SFT_LoRA - FullInfo:  43%|████▎     | 882/2039 [17:40<20:12,  1.05s/it]
+Evaluating SFT_LoRA - FullInfo:  43%|████▎     | 883/2039 [17:41<20:38,  1.07s/it]
+Evaluating SFT_LoRA - FullInfo:  43%|████▎     | 884/2039 [17:42<19:41,  1.02s/it]
+Evaluating SFT_LoRA - FullInfo:  43%|████▎     | 885/2039 [17:43<20:23,  1.06s/it]
+Evaluating SFT_LoRA - FullInfo:  43%|████▎     | 886/2039 [17:44<19:53,  1.03s/it]
+Evaluating SFT_LoRA - FullInfo:  44%|████▎     | 887/2039 [17:45<19:58,  1.04s/it]
+Evaluating SFT_LoRA - FullInfo:  44%|████▎     | 888/2039 [17:46<20:01,  1.04s/it]
+Evaluating SFT_LoRA - FullInfo:  44%|████▎     | 889/2039 [17:47<19:38,  1.02s/it]
+Evaluating SFT_LoRA - FullInfo:  44%|████▎     | 890/2039 [17:48<21:01,  1.10s/it]
+Evaluating SFT_LoRA - FullInfo:  44%|████▎     | 891/2039 [17:49<20:19,  1.06s/it]
+Evaluating SFT_LoRA - FullInfo:  44%|████▎     | 892/2039 [17:50<20:16,  1.06s/it]
+Evaluating SFT_LoRA - FullInfo:  44%|████▍     | 893/2039 [17:51<20:12,  1.06s/it]
+Evaluating SFT_LoRA - FullInfo:  44%|████▍     | 894/2039 [17:52<19:20,  1.01s/it]
+Evaluating SFT_LoRA - FullInfo:  44%|████▍     | 895/2039 [17:53<19:09,  1.00s/it]
+Evaluating SFT_LoRA - FullInfo:  44%|████▍     | 896/2039 [17:54<20:45,  1.09s/it]
+Evaluating SFT_LoRA - FullInfo:  44%|████▍     | 897/2039 [17:56<20:56,  1.10s/it]
+Evaluating SFT_LoRA - FullInfo:  44%|████▍     | 898/2039 [17:57<21:27,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  44%|████▍     | 899/2039 [17:58<22:16,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  44%|████▍     | 900/2039 [18:00<26:00,  1.37s/it]
+Evaluating SFT_LoRA - FullInfo:  44%|████▍     | 901/2039 [18:01<23:41,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  44%|████▍     | 902/2039 [18:02<25:10,  1.33s/it]
+Evaluating SFT_LoRA - FullInfo:  44%|████▍     | 903/2039 [18:04<24:54,  1.32s/it]
+Evaluating SFT_LoRA - FullInfo:  44%|████▍     | 904/2039 [18:05<22:55,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  44%|████▍     | 905/2039 [18:06<26:12,  1.39s/it]
+Evaluating SFT_LoRA - FullInfo:  44%|████▍     | 906/2039 [18:08<25:11,  1.33s/it]
+Evaluating SFT_LoRA - FullInfo:  44%|████▍     | 907/2039 [18:09<24:30,  1.30s/it]
+Evaluating SFT_LoRA - FullInfo:  45%|████▍     | 908/2039 [18:10<22:35,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  45%|████▍     | 909/2039 [18:11<21:43,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  45%|████▍     | 910/2039 [18:12<23:52,  1.27s/it]
+Evaluating SFT_LoRA - FullInfo:  45%|████▍     | 911/2039 [18:14<23:24,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  45%|████▍     | 912/2039 [18:15<22:47,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  45%|████▍     | 913/2039 [18:16<22:39,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  45%|████▍     | 914/2039 [18:17<21:43,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  45%|████▍     | 915/2039 [18:18<21:05,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  45%|████▍     | 916/2039 [18:19<21:59,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  45%|████▍     | 917/2039 [18:20<22:10,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  45%|████▌     | 918/2039 [18:22<22:41,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  45%|████▌     | 919/2039 [18:23<20:55,  1.12s/it]
+Evaluating SFT_LoRA - FullInfo:  45%|████▌     | 920/2039 [18:24<21:44,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  45%|████▌     | 921/2039 [18:25<21:50,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  45%|████▌     | 922/2039 [18:27<24:10,  1.30s/it]
+Evaluating SFT_LoRA - FullInfo:  45%|████▌     | 923/2039 [18:28<26:22,  1.42s/it]
+Evaluating SFT_LoRA - FullInfo:  45%|████▌     | 924/2039 [18:29<24:13,  1.30s/it]
+Evaluating SFT_LoRA - FullInfo:  45%|████▌     | 925/2039 [18:31<22:46,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  45%|████▌     | 926/2039 [18:32<23:55,  1.29s/it]
+Evaluating SFT_LoRA - FullInfo:  45%|████▌     | 927/2039 [18:33<24:45,  1.34s/it]
+Evaluating SFT_LoRA - FullInfo:  46%|████▌     | 928/2039 [18:34<22:10,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  46%|████▌     | 929/2039 [18:35<20:50,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  46%|████▌     | 930/2039 [18:36<21:18,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  46%|████▌     | 931/2039 [18:38<22:28,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  46%|████▌     | 932/2039 [18:39<21:52,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  46%|████▌     | 933/2039 [18:40<20:43,  1.12s/it]
+Evaluating SFT_LoRA - FullInfo:  46%|████▌     | 934/2039 [18:41<21:56,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  46%|████▌     | 935/2039 [18:42<21:52,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  46%|████▌     | 936/2039 [18:44<21:40,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  46%|████▌     | 937/2039 [18:45<20:51,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  46%|████▌     | 938/2039 [18:46<22:51,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  46%|████▌     | 939/2039 [18:47<21:15,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  46%|████▌     | 940/2039 [18:48<20:37,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  46%|████▌     | 941/2039 [18:49<19:46,  1.08s/it]
+Evaluating SFT_LoRA - FullInfo:  46%|████▌     | 942/2039 [18:50<19:57,  1.09s/it]
+Evaluating SFT_LoRA - FullInfo:  46%|████▌     | 943/2039 [18:51<20:12,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  46%|████▋     | 944/2039 [18:53<21:10,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  46%|████▋     | 945/2039 [18:54<21:17,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  46%|████▋     | 946/2039 [18:55<21:51,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  46%|████▋     | 947/2039 [18:56<21:47,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  46%|████▋     | 948/2039 [18:58<23:14,  1.28s/it]
+Evaluating SFT_LoRA - FullInfo:  47%|████▋     | 949/2039 [18:59<22:27,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  47%|████▋     | 950/2039 [19:00<21:04,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  47%|████▋     | 951/2039 [19:01<20:07,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  47%|████▋     | 952/2039 [19:02<20:42,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  47%|████▋     | 953/2039 [19:03<20:35,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  47%|████▋     | 954/2039 [19:05<21:50,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  47%|████▋     | 955/2039 [19:06<20:54,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  47%|████▋     | 956/2039 [19:07<20:50,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  47%|████▋     | 957/2039 [19:08<21:00,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  47%|████▋     | 958/2039 [19:09<19:53,  1.10s/it]
+Evaluating SFT_LoRA - FullInfo:  47%|████▋     | 959/2039 [19:10<19:59,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  47%|████▋     | 960/2039 [19:11<19:38,  1.09s/it]
+Evaluating SFT_LoRA - FullInfo:  47%|████▋     | 961/2039 [19:13<24:12,  1.35s/it]
+Evaluating SFT_LoRA - FullInfo:  47%|████▋     | 962/2039 [19:15<26:23,  1.47s/it]
+Evaluating SFT_LoRA - FullInfo:  47%|████▋     | 963/2039 [19:16<24:06,  1.34s/it]
+Evaluating SFT_LoRA - FullInfo:  47%|████▋     | 964/2039 [19:17<22:03,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  47%|████▋     | 965/2039 [19:18<21:28,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  47%|████▋     | 966/2039 [19:19<20:42,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  47%|████▋     | 967/2039 [19:20<21:19,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  47%|████▋     | 968/2039 [19:22<22:35,  1.27s/it]
+Evaluating SFT_LoRA - FullInfo:  48%|████▊     | 969/2039 [19:23<21:03,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  48%|████▊     | 970/2039 [19:24<22:04,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  48%|████▊     | 971/2039 [19:25<22:17,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  48%|████▊     | 972/2039 [19:27<22:03,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  48%|████▊     | 973/2039 [19:28<20:59,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  48%|████▊     | 974/2039 [19:29<22:43,  1.28s/it]
+Evaluating SFT_LoRA - FullInfo:  48%|████▊     | 975/2039 [19:30<23:03,  1.30s/it]
+Evaluating SFT_LoRA - FullInfo:  48%|████▊     | 976/2039 [19:32<23:17,  1.31s/it]
+Evaluating SFT_LoRA - FullInfo:  48%|████▊     | 977/2039 [19:33<21:52,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  48%|████▊     | 978/2039 [19:35<26:05,  1.48s/it]
+Evaluating SFT_LoRA - FullInfo:  48%|████▊     | 979/2039 [19:36<23:27,  1.33s/it]
+Evaluating SFT_LoRA - FullInfo:  48%|████▊     | 980/2039 [19:37<22:29,  1.27s/it]
+Evaluating SFT_LoRA - FullInfo:  48%|████▊     | 981/2039 [19:38<20:55,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  48%|████▊     | 982/2039 [19:39<19:51,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  48%|████▊     | 983/2039 [19:40<20:18,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  48%|████▊     | 984/2039 [19:41<20:36,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  48%|████▊     | 985/2039 [19:43<20:25,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  48%|████▊     | 986/2039 [19:44<20:32,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  48%|████▊     | 987/2039 [19:45<19:52,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  48%|████▊     | 988/2039 [19:46<20:07,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  49%|████▊     | 989/2039 [19:47<20:48,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  49%|████▊     | 990/2039 [19:48<20:26,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  49%|████▊     | 991/2039 [19:50<21:19,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  49%|████▊     | 992/2039 [19:51<21:17,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  49%|████▊     | 993/2039 [19:52<20:55,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  49%|████▊     | 994/2039 [19:53<20:09,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  49%|████▉     | 995/2039 [19:54<19:09,  1.10s/it]
+Evaluating SFT_LoRA - FullInfo:  49%|████▉     | 996/2039 [19:55<18:54,  1.09s/it]
+Evaluating SFT_LoRA - FullInfo:  49%|████▉     | 997/2039 [19:57<20:11,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  49%|████▉     | 998/2039 [19:57<18:27,  1.06s/it]
+Evaluating SFT_LoRA - FullInfo:  49%|████▉     | 999/2039 [19:58<18:21,  1.06s/it]
+Evaluating SFT_LoRA - FullInfo:  49%|████▉     | 1000/2039 [20:00<19:02,  1.10s/it]
+Evaluating SFT_LoRA - FullInfo:  49%|████▉     | 1001/2039 [20:01<19:27,  1.12s/it]
+Evaluating SFT_LoRA - FullInfo:  49%|████▉     | 1002/2039 [20:02<19:33,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  49%|████▉     | 1003/2039 [20:03<19:02,  1.10s/it]
+Evaluating SFT_LoRA - FullInfo:  49%|████▉     | 1004/2039 [20:04<19:58,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  49%|████▉     | 1005/2039 [20:05<19:04,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  49%|████▉     | 1006/2039 [20:06<19:17,  1.12s/it]
+Evaluating SFT_LoRA - FullInfo:  49%|████▉     | 1007/2039 [20:08<19:18,  1.12s/it]
+Evaluating SFT_LoRA - FullInfo:  49%|████▉     | 1008/2039 [20:09<20:25,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  49%|████▉     | 1009/2039 [20:11<23:43,  1.38s/it]
+Evaluating SFT_LoRA - FullInfo:  50%|████▉     | 1010/2039 [20:12<21:10,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  50%|████▉     | 1011/2039 [20:13<20:45,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  50%|████▉     | 1012/2039 [20:14<20:25,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  50%|████▉     | 1013/2039 [20:15<20:24,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  50%|████▉     | 1014/2039 [20:16<20:12,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  50%|████▉     | 1015/2039 [20:17<19:59,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  50%|████▉     | 1016/2039 [20:19<19:40,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  50%|████▉     | 1017/2039 [20:20<20:19,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  50%|████▉     | 1018/2039 [20:21<19:54,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  50%|████▉     | 1019/2039 [20:22<21:13,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  50%|█████     | 1020/2039 [20:23<19:46,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  50%|█████     | 1021/2039 [20:24<18:49,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  50%|█████     | 1022/2039 [20:26<19:09,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  50%|█████     | 1023/2039 [20:27<21:13,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  50%|█████     | 1024/2039 [20:28<21:20,  1.26s/it]
+Evaluating SFT_LoRA - FullInfo:  50%|█████     | 1025/2039 [20:29<20:42,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  50%|█████     | 1026/2039 [20:31<19:47,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  50%|█████     | 1027/2039 [20:32<21:56,  1.30s/it]
+Evaluating SFT_LoRA - FullInfo:  50%|█████     | 1028/2039 [20:33<21:30,  1.28s/it]
+Evaluating SFT_LoRA - FullInfo:  50%|█████     | 1029/2039 [20:34<19:57,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  51%|█████     | 1030/2039 [20:36<20:03,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  51%|█████     | 1031/2039 [20:37<20:09,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  51%|█████     | 1032/2039 [20:38<20:34,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  51%|█████     | 1033/2039 [20:39<20:12,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  51%|█████     | 1034/2039 [20:40<20:15,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  51%|█████     | 1035/2039 [20:42<20:59,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  51%|█████     | 1036/2039 [20:43<20:41,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  51%|█████     | 1037/2039 [20:44<20:52,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  51%|█████     | 1038/2039 [20:46<21:20,  1.28s/it]
+Evaluating SFT_LoRA - FullInfo:  51%|█████     | 1039/2039 [20:47<21:22,  1.28s/it]
+Evaluating SFT_LoRA - FullInfo:  51%|█████     | 1040/2039 [20:48<21:42,  1.30s/it]
+Evaluating SFT_LoRA - FullInfo:  51%|█████     | 1041/2039 [20:49<20:19,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  51%|█████     | 1042/2039 [20:51<20:32,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  51%|█████     | 1043/2039 [20:52<20:02,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  51%|█████     | 1044/2039 [20:53<20:20,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  51%|█████▏    | 1045/2039 [20:55<23:50,  1.44s/it]
+Evaluating SFT_LoRA - FullInfo:  51%|█████▏    | 1046/2039 [20:56<22:36,  1.37s/it]
+Evaluating SFT_LoRA - FullInfo:  51%|█████▏    | 1047/2039 [20:58<23:45,  1.44s/it]
+Evaluating SFT_LoRA - FullInfo:  51%|█████▏    | 1048/2039 [20:59<22:56,  1.39s/it]
+Evaluating SFT_LoRA - FullInfo:  51%|█████▏    | 1049/2039 [21:00<22:01,  1.33s/it]
+Evaluating SFT_LoRA - FullInfo:  51%|█████▏    | 1050/2039 [21:01<21:41,  1.32s/it]
+Evaluating SFT_LoRA - FullInfo:  52%|█████▏    | 1051/2039 [21:02<19:31,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  52%|█████▏    | 1052/2039 [21:03<17:49,  1.08s/it]
+Evaluating SFT_LoRA - FullInfo:  52%|█████▏    | 1053/2039 [21:04<18:19,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  52%|█████▏    | 1054/2039 [21:06<20:42,  1.26s/it]
+Evaluating SFT_LoRA - FullInfo:  52%|█████▏    | 1055/2039 [21:07<19:33,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  52%|█████▏    | 1056/2039 [21:08<18:52,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  52%|█████▏    | 1057/2039 [21:09<20:23,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  52%|█████▏    | 1058/2039 [21:11<21:47,  1.33s/it]
+Evaluating SFT_LoRA - FullInfo:  52%|█████▏    | 1059/2039 [21:12<22:16,  1.36s/it]
+Evaluating SFT_LoRA - FullInfo:  52%|█████▏    | 1060/2039 [21:14<20:44,  1.27s/it]
+Evaluating SFT_LoRA - FullInfo:  52%|█████▏    | 1061/2039 [21:15<21:37,  1.33s/it]
+Evaluating SFT_LoRA - FullInfo:  52%|█████▏    | 1062/2039 [21:16<20:55,  1.29s/it]
+Evaluating SFT_LoRA - FullInfo:  52%|█████▏    | 1063/2039 [21:17<19:18,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  52%|█████▏    | 1064/2039 [21:18<18:55,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  52%|█████▏    | 1065/2039 [21:19<18:48,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  52%|█████▏    | 1066/2039 [21:20<18:33,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  52%|█████▏    | 1067/2039 [21:22<17:58,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  52%|█████▏    | 1068/2039 [21:23<19:06,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  52%|█████▏    | 1069/2039 [21:24<18:53,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  52%|█████▏    | 1070/2039 [21:25<20:11,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  53%|█████▎    | 1071/2039 [21:27<19:53,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  53%|█████▎    | 1072/2039 [21:28<21:20,  1.32s/it]
+Evaluating SFT_LoRA - FullInfo:  53%|█████▎    | 1073/2039 [21:29<20:38,  1.28s/it]
+Evaluating SFT_LoRA - FullInfo:  53%|█████▎    | 1074/2039 [21:30<19:25,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  53%|█████▎    | 1075/2039 [21:32<20:09,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  53%|█████▎    | 1076/2039 [21:33<19:54,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  53%|█████▎    | 1077/2039 [21:34<18:34,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  53%|█████▎    | 1078/2039 [21:35<19:05,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  53%|█████▎    | 1079/2039 [21:36<18:44,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  53%|█████▎    | 1080/2039 [21:38<18:53,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  53%|█████▎    | 1081/2039 [21:39<19:21,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  53%|█████▎    | 1082/2039 [21:40<19:37,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  53%|█████▎    | 1083/2039 [21:41<20:13,  1.27s/it]
+Evaluating SFT_LoRA - FullInfo:  53%|█████▎    | 1084/2039 [21:43<19:08,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  53%|█████▎    | 1085/2039 [21:44<20:35,  1.29s/it]
+Evaluating SFT_LoRA - FullInfo:  53%|█████▎    | 1086/2039 [21:45<21:19,  1.34s/it]
+Evaluating SFT_LoRA - FullInfo:  53%|█████▎    | 1087/2039 [21:47<19:52,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  53%|█████▎    | 1088/2039 [21:48<21:50,  1.38s/it]
+Evaluating SFT_LoRA - FullInfo:  53%|█████▎    | 1089/2039 [21:49<20:45,  1.31s/it]
+Evaluating SFT_LoRA - FullInfo:  53%|█████▎    | 1090/2039 [21:51<22:57,  1.45s/it]
+Evaluating SFT_LoRA - FullInfo:  54%|█████▎    | 1091/2039 [21:53<23:10,  1.47s/it]
+Evaluating SFT_LoRA - FullInfo:  54%|█████▎    | 1092/2039 [21:54<21:38,  1.37s/it]
+Evaluating SFT_LoRA - FullInfo:  54%|█████▎    | 1093/2039 [21:55<21:12,  1.34s/it]
+Evaluating SFT_LoRA - FullInfo:  54%|█████▎    | 1094/2039 [21:56<19:41,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  54%|█████▎    | 1095/2039 [21:58<20:53,  1.33s/it]
+Evaluating SFT_LoRA - FullInfo:  54%|█████▍    | 1096/2039 [21:59<21:32,  1.37s/it]
+Evaluating SFT_LoRA - FullInfo:  54%|█████▍    | 1097/2039 [22:00<21:23,  1.36s/it]
+Evaluating SFT_LoRA - FullInfo:  54%|█████▍    | 1098/2039 [22:01<19:36,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  54%|█████▍    | 1099/2039 [22:03<22:00,  1.41s/it]
+Evaluating SFT_LoRA - FullInfo:  54%|█████▍    | 1100/2039 [22:04<20:58,  1.34s/it]
+Evaluating SFT_LoRA - FullInfo:  54%|█████▍    | 1101/2039 [22:06<20:12,  1.29s/it]
+Evaluating SFT_LoRA - FullInfo:  54%|█████▍    | 1102/2039 [22:07<20:05,  1.29s/it]
+Evaluating SFT_LoRA - FullInfo:  54%|█████▍    | 1103/2039 [22:08<18:56,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  54%|█████▍    | 1104/2039 [22:09<18:55,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  54%|█████▍    | 1105/2039 [22:11<20:04,  1.29s/it]
+Evaluating SFT_LoRA - FullInfo:  54%|█████▍    | 1106/2039 [22:12<20:45,  1.34s/it]
+Evaluating SFT_LoRA - FullInfo:  54%|█████▍    | 1107/2039 [22:13<20:01,  1.29s/it]
+Evaluating SFT_LoRA - FullInfo:  54%|█████▍    | 1108/2039 [22:14<19:21,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  54%|█████▍    | 1109/2039 [22:16<20:20,  1.31s/it]
+Evaluating SFT_LoRA - FullInfo:  54%|█████▍    | 1110/2039 [22:17<19:27,  1.26s/it]
+Evaluating SFT_LoRA - FullInfo:  54%|█████▍    | 1111/2039 [22:18<18:45,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  55%|█████▍    | 1112/2039 [22:19<17:57,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  55%|█████▍    | 1113/2039 [22:20<17:23,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  55%|█████▍    | 1114/2039 [22:21<16:56,  1.10s/it]
+Evaluating SFT_LoRA - FullInfo:  55%|█████▍    | 1115/2039 [22:23<19:37,  1.27s/it]
+Evaluating SFT_LoRA - FullInfo:  55%|█████▍    | 1116/2039 [22:24<18:13,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  55%|█████▍    | 1117/2039 [22:25<18:55,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  55%|█████▍    | 1118/2039 [22:26<17:38,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  55%|█████▍    | 1119/2039 [22:27<16:23,  1.07s/it]
+Evaluating SFT_LoRA - FullInfo:  55%|█████▍    | 1120/2039 [22:29<19:12,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  55%|█████▍    | 1121/2039 [22:30<18:14,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  55%|█████▌    | 1122/2039 [22:31<19:27,  1.27s/it]
+Evaluating SFT_LoRA - FullInfo:  55%|█████▌    | 1123/2039 [22:32<18:05,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  55%|█████▌    | 1124/2039 [22:33<16:39,  1.09s/it]
+Evaluating SFT_LoRA - FullInfo:  55%|█████▌    | 1125/2039 [22:34<16:44,  1.10s/it]
+Evaluating SFT_LoRA - FullInfo:  55%|█████▌    | 1126/2039 [22:35<17:33,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  55%|█████▌    | 1127/2039 [22:37<17:32,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  55%|█████▌    | 1128/2039 [22:38<19:15,  1.27s/it]
+Evaluating SFT_LoRA - FullInfo:  55%|█████▌    | 1129/2039 [22:40<20:08,  1.33s/it]
+Evaluating SFT_LoRA - FullInfo:  55%|█████▌    | 1130/2039 [22:41<18:34,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  55%|█████▌    | 1131/2039 [22:42<20:15,  1.34s/it]
+Evaluating SFT_LoRA - FullInfo:  56%|█████▌    | 1132/2039 [22:43<19:20,  1.28s/it]
+Evaluating SFT_LoRA - FullInfo:  56%|█████▌    | 1133/2039 [22:44<18:15,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  56%|█████▌    | 1134/2039 [22:46<18:14,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  56%|█████▌    | 1135/2039 [22:47<17:29,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  56%|█████▌    | 1136/2039 [22:48<17:44,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  56%|█████▌    | 1137/2039 [22:49<17:46,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  56%|█████▌    | 1138/2039 [22:50<17:27,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  56%|█████▌    | 1139/2039 [22:51<17:33,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  56%|█████▌    | 1140/2039 [22:52<16:42,  1.12s/it]
+Evaluating SFT_LoRA - FullInfo:  56%|█████▌    | 1141/2039 [22:54<18:25,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  56%|█████▌    | 1142/2039 [22:55<17:19,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  56%|█████▌    | 1143/2039 [22:56<16:49,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  56%|█████▌    | 1144/2039 [22:57<17:28,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  56%|█████▌    | 1145/2039 [22:58<16:48,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  56%|█████▌    | 1146/2039 [22:59<17:27,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  56%|█████▋    | 1147/2039 [23:01<17:18,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  56%|█████▋    | 1148/2039 [23:02<18:53,  1.27s/it]
+Evaluating SFT_LoRA - FullInfo:  56%|█████▋    | 1149/2039 [23:03<17:48,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  56%|█████▋    | 1150/2039 [23:04<17:45,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  56%|█████▋    | 1151/2039 [23:05<16:20,  1.10s/it]
+Evaluating SFT_LoRA - FullInfo:  56%|█████▋    | 1152/2039 [23:07<17:21,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  57%|█████▋    | 1153/2039 [23:08<19:56,  1.35s/it]
+Evaluating SFT_LoRA - FullInfo:  57%|█████▋    | 1154/2039 [23:09<18:36,  1.26s/it]
+Evaluating SFT_LoRA - FullInfo:  57%|█████▋    | 1155/2039 [23:11<19:37,  1.33s/it]
+Evaluating SFT_LoRA - FullInfo:  57%|█████▋    | 1156/2039 [23:12<19:48,  1.35s/it]
+Evaluating SFT_LoRA - FullInfo:  57%|█████▋    | 1157/2039 [23:14<22:20,  1.52s/it]
+Evaluating SFT_LoRA - FullInfo:  57%|█████▋    | 1158/2039 [23:15<19:36,  1.34s/it]
+Evaluating SFT_LoRA - FullInfo:  57%|█████▋    | 1159/2039 [23:16<17:56,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  57%|█████▋    | 1160/2039 [23:17<18:27,  1.26s/it]
+Evaluating SFT_LoRA - FullInfo:  57%|█████▋    | 1161/2039 [23:19<17:57,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  57%|█████▋    | 1162/2039 [23:19<16:45,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  57%|█████▋    | 1163/2039 [23:21<17:21,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  57%|█████▋    | 1164/2039 [23:22<18:00,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  57%|█████▋    | 1165/2039 [23:23<17:06,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  57%|█████▋    | 1166/2039 [23:24<16:51,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  57%|█████▋    | 1167/2039 [23:25<16:23,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  57%|█████▋    | 1168/2039 [23:26<16:02,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  57%|█████▋    | 1169/2039 [23:28<18:16,  1.26s/it]
+Evaluating SFT_LoRA - FullInfo:  57%|█████▋    | 1170/2039 [23:29<17:57,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  57%|█████▋    | 1171/2039 [23:30<17:00,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  57%|█████▋    | 1172/2039 [23:31<16:53,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  58%|█████▊    | 1173/2039 [23:33<18:01,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  58%|█████▊    | 1174/2039 [23:34<17:28,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  58%|█████▊    | 1175/2039 [23:35<17:49,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  58%|█████▊    | 1176/2039 [23:36<17:15,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  58%|█████▊    | 1177/2039 [23:37<16:19,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  58%|█████▊    | 1178/2039 [23:38<15:57,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  58%|█████▊    | 1179/2039 [23:40<15:58,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  58%|█████▊    | 1180/2039 [23:41<16:40,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  58%|█████▊    | 1181/2039 [23:42<17:14,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  58%|█████▊    | 1182/2039 [23:43<16:50,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  58%|█████▊    | 1183/2039 [23:44<16:32,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  58%|█████▊    | 1184/2039 [23:46<17:21,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  58%|█████▊    | 1185/2039 [23:47<17:19,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  58%|█████▊    | 1186/2039 [23:48<16:16,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  58%|█████▊    | 1187/2039 [23:49<15:47,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  58%|█████▊    | 1188/2039 [23:50<15:13,  1.07s/it]
+Evaluating SFT_LoRA - FullInfo:  58%|█████▊    | 1189/2039 [23:51<15:23,  1.09s/it]
+Evaluating SFT_LoRA - FullInfo:  58%|█████▊    | 1190/2039 [23:52<14:54,  1.05s/it]
+Evaluating SFT_LoRA - FullInfo:  58%|█████▊    | 1191/2039 [23:53<14:14,  1.01s/it]
+Evaluating SFT_LoRA - FullInfo:  58%|█████▊    | 1192/2039 [23:54<16:24,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  59%|█████▊    | 1193/2039 [23:56<16:21,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  59%|█████▊    | 1194/2039 [23:57<16:51,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  59%|█████▊    | 1195/2039 [23:58<17:12,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  59%|█████▊    | 1196/2039 [23:59<16:08,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  59%|█████▊    | 1197/2039 [24:01<17:26,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  59%|█████▉    | 1198/2039 [24:02<17:17,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  59%|█████▉    | 1199/2039 [24:03<17:48,  1.27s/it]
+Evaluating SFT_LoRA - FullInfo:  59%|█████▉    | 1200/2039 [24:05<18:34,  1.33s/it]
+Evaluating SFT_LoRA - FullInfo:  59%|█████▉    | 1201/2039 [24:06<17:58,  1.29s/it]
+Evaluating SFT_LoRA - FullInfo:  59%|█████▉    | 1202/2039 [24:07<18:40,  1.34s/it]
+Evaluating SFT_LoRA - FullInfo:  59%|█████▉    | 1203/2039 [24:08<17:45,  1.27s/it]
+Evaluating SFT_LoRA - FullInfo:  59%|█████▉    | 1204/2039 [24:09<16:43,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  59%|█████▉    | 1205/2039 [24:10<15:44,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  59%|█████▉    | 1206/2039 [24:11<15:07,  1.09s/it]
+Evaluating SFT_LoRA - FullInfo:  59%|█████▉    | 1207/2039 [24:12<14:38,  1.06s/it]
+Evaluating SFT_LoRA - FullInfo:  59%|█████▉    | 1208/2039 [24:13<14:33,  1.05s/it]
+Evaluating SFT_LoRA - FullInfo:  59%|█████▉    | 1209/2039 [24:14<14:15,  1.03s/it]
+Evaluating SFT_LoRA - FullInfo:  59%|█████▉    | 1210/2039 [24:15<14:22,  1.04s/it]
+Evaluating SFT_LoRA - FullInfo:  59%|█████▉    | 1211/2039 [24:17<16:40,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  59%|█████▉    | 1212/2039 [24:18<17:12,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  59%|█████▉    | 1213/2039 [24:20<16:56,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  60%|█████▉    | 1214/2039 [24:21<17:25,  1.27s/it]
+Evaluating SFT_LoRA - FullInfo:  60%|█████▉    | 1215/2039 [24:22<17:02,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  60%|█████▉    | 1216/2039 [24:23<17:30,  1.28s/it]
+Evaluating SFT_LoRA - FullInfo:  60%|█████▉    | 1217/2039 [24:24<16:32,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  60%|█████▉    | 1218/2039 [24:26<16:47,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  60%|█████▉    | 1219/2039 [24:27<16:03,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  60%|█████▉    | 1220/2039 [24:28<15:13,  1.12s/it]
+Evaluating SFT_LoRA - FullInfo:  60%|█████▉    | 1221/2039 [24:29<15:55,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  60%|█████▉    | 1222/2039 [24:30<14:44,  1.08s/it]
+Evaluating SFT_LoRA - FullInfo:  60%|█████▉    | 1223/2039 [24:31<15:15,  1.12s/it]
+Evaluating SFT_LoRA - FullInfo:  60%|██████    | 1224/2039 [24:33<16:38,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  60%|██████    | 1225/2039 [24:34<18:07,  1.34s/it]
+Evaluating SFT_LoRA - FullInfo:  60%|██████    | 1226/2039 [24:35<17:35,  1.30s/it]
+Evaluating SFT_LoRA - FullInfo:  60%|██████    | 1227/2039 [24:36<16:11,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  60%|██████    | 1228/2039 [24:38<17:14,  1.28s/it]
+Evaluating SFT_LoRA - FullInfo:  60%|██████    | 1229/2039 [24:39<16:51,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  60%|██████    | 1230/2039 [24:40<16:19,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  60%|██████    | 1231/2039 [24:41<16:37,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  60%|██████    | 1232/2039 [24:43<16:10,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  60%|██████    | 1233/2039 [24:44<16:47,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  61%|██████    | 1234/2039 [24:45<15:41,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  61%|██████    | 1235/2039 [24:46<15:07,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  61%|██████    | 1236/2039 [24:48<18:19,  1.37s/it]
+Evaluating SFT_LoRA - FullInfo:  61%|██████    | 1237/2039 [24:49<17:41,  1.32s/it]
+Evaluating SFT_LoRA - FullInfo:  61%|██████    | 1238/2039 [24:50<16:49,  1.26s/it]
+Evaluating SFT_LoRA - FullInfo:  61%|██████    | 1239/2039 [24:52<17:38,  1.32s/it]
+Evaluating SFT_LoRA - FullInfo:  61%|██████    | 1240/2039 [24:53<17:08,  1.29s/it]
+Evaluating SFT_LoRA - FullInfo:  61%|██████    | 1241/2039 [24:54<17:44,  1.33s/it]
+Evaluating SFT_LoRA - FullInfo:  61%|██████    | 1242/2039 [24:56<17:33,  1.32s/it]
+Evaluating SFT_LoRA - FullInfo:  61%|██████    | 1243/2039 [24:57<15:51,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  61%|██████    | 1244/2039 [24:58<14:55,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  61%|██████    | 1245/2039 [24:58<14:21,  1.08s/it]
+Evaluating SFT_LoRA - FullInfo:  61%|██████    | 1246/2039 [25:00<16:42,  1.26s/it]
+Evaluating SFT_LoRA - FullInfo:  61%|██████    | 1247/2039 [25:01<16:13,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  61%|██████    | 1248/2039 [25:03<16:08,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  61%|██████▏   | 1249/2039 [25:04<16:00,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  61%|██████▏   | 1250/2039 [25:05<15:00,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  61%|██████▏   | 1251/2039 [25:06<15:01,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  61%|██████▏   | 1252/2039 [25:07<15:54,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  61%|██████▏   | 1253/2039 [25:09<17:21,  1.32s/it]
+Evaluating SFT_LoRA - FullInfo:  62%|██████▏   | 1254/2039 [25:10<15:53,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  62%|██████▏   | 1255/2039 [25:11<16:45,  1.28s/it]
+Evaluating SFT_LoRA - FullInfo:  62%|██████▏   | 1256/2039 [25:12<16:05,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  62%|██████▏   | 1257/2039 [25:13<15:22,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  62%|██████▏   | 1258/2039 [25:15<15:20,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  62%|██████▏   | 1259/2039 [25:16<14:44,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  62%|██████▏   | 1260/2039 [25:17<14:21,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  62%|██████▏   | 1261/2039 [25:18<14:22,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  62%|██████▏   | 1262/2039 [25:19<15:06,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  62%|██████▏   | 1263/2039 [25:20<14:40,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  62%|██████▏   | 1264/2039 [25:22<16:13,  1.26s/it]
+Evaluating SFT_LoRA - FullInfo:  62%|██████▏   | 1265/2039 [25:23<15:10,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  62%|██████▏   | 1266/2039 [25:24<16:32,  1.28s/it]
+Evaluating SFT_LoRA - FullInfo:  62%|██████▏   | 1267/2039 [25:25<15:34,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  62%|██████▏   | 1268/2039 [25:26<15:29,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  62%|██████▏   | 1269/2039 [25:28<15:08,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  62%|██████▏   | 1270/2039 [25:29<14:35,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  62%|██████▏   | 1271/2039 [25:30<14:54,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  62%|██████▏   | 1272/2039 [25:31<15:00,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  62%|██████▏   | 1273/2039 [25:32<14:55,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  62%|██████▏   | 1274/2039 [25:33<14:46,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  63%|██████▎   | 1275/2039 [25:35<15:12,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  63%|██████▎   | 1276/2039 [25:36<14:34,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  63%|██████▎   | 1277/2039 [25:37<14:27,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  63%|██████▎   | 1278/2039 [25:38<14:37,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  63%|██████▎   | 1279/2039 [25:39<14:34,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  63%|██████▎   | 1280/2039 [25:40<14:49,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  63%|██████▎   | 1281/2039 [25:41<14:58,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  63%|██████▎   | 1282/2039 [25:43<14:48,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  63%|██████▎   | 1283/2039 [25:44<16:07,  1.28s/it]
+Evaluating SFT_LoRA - FullInfo:  63%|██████▎   | 1284/2039 [25:45<15:16,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  63%|██████▎   | 1285/2039 [25:47<17:36,  1.40s/it]
+Evaluating SFT_LoRA - FullInfo:  63%|██████▎   | 1286/2039 [25:48<16:00,  1.28s/it]
+Evaluating SFT_LoRA - FullInfo:  63%|██████▎   | 1287/2039 [25:49<16:00,  1.28s/it]
+Evaluating SFT_LoRA - FullInfo:  63%|██████▎   | 1288/2039 [25:50<15:21,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  63%|██████▎   | 1289/2039 [25:51<14:39,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  63%|██████▎   | 1290/2039 [25:53<15:40,  1.26s/it]
+Evaluating SFT_LoRA - FullInfo:  63%|██████▎   | 1291/2039 [25:54<15:27,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  63%|██████▎   | 1292/2039 [25:56<17:07,  1.37s/it]
+Evaluating SFT_LoRA - FullInfo:  63%|██████▎   | 1293/2039 [25:57<17:42,  1.42s/it]
+Evaluating SFT_LoRA - FullInfo:  63%|██████▎   | 1294/2039 [25:58<16:15,  1.31s/it]
+Evaluating SFT_LoRA - FullInfo:  64%|██████▎   | 1295/2039 [26:00<15:52,  1.28s/it]
+Evaluating SFT_LoRA - FullInfo:  64%|██████▎   | 1296/2039 [26:01<15:29,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  64%|██████▎   | 1297/2039 [26:02<16:46,  1.36s/it]
+Evaluating SFT_LoRA - FullInfo:  64%|██████▎   | 1298/2039 [26:04<16:31,  1.34s/it]
+Evaluating SFT_LoRA - FullInfo:  64%|██████▎   | 1299/2039 [26:05<17:11,  1.39s/it]
+Evaluating SFT_LoRA - FullInfo:  64%|██████▍   | 1300/2039 [26:06<16:15,  1.32s/it]
+Evaluating SFT_LoRA - FullInfo:  64%|██████▍   | 1301/2039 [26:08<16:46,  1.36s/it]
+Evaluating SFT_LoRA - FullInfo:  64%|██████▍   | 1302/2039 [26:09<16:30,  1.34s/it]
+Evaluating SFT_LoRA - FullInfo:  64%|██████▍   | 1303/2039 [26:10<16:32,  1.35s/it]
+Evaluating SFT_LoRA - FullInfo:  64%|██████▍   | 1304/2039 [26:12<16:14,  1.33s/it]
+Evaluating SFT_LoRA - FullInfo:  64%|██████▍   | 1305/2039 [26:13<14:51,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  64%|██████▍   | 1306/2039 [26:14<14:45,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  64%|██████▍   | 1307/2039 [26:15<14:25,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  64%|██████▍   | 1308/2039 [26:17<15:36,  1.28s/it]
+Evaluating SFT_LoRA - FullInfo:  64%|██████▍   | 1309/2039 [26:18<17:24,  1.43s/it]
+Evaluating SFT_LoRA - FullInfo:  64%|██████▍   | 1310/2039 [26:20<18:18,  1.51s/it]
+Evaluating SFT_LoRA - FullInfo:  64%|██████▍   | 1311/2039 [26:21<18:06,  1.49s/it]
+Evaluating SFT_LoRA - FullInfo:  64%|██████▍   | 1312/2039 [26:23<16:42,  1.38s/it]
+Evaluating SFT_LoRA - FullInfo:  64%|██████▍   | 1313/2039 [26:24<15:47,  1.31s/it]
+Evaluating SFT_LoRA - FullInfo:  64%|██████▍   | 1314/2039 [26:25<15:10,  1.26s/it]
+Evaluating SFT_LoRA - FullInfo:  64%|██████▍   | 1315/2039 [26:26<14:38,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  65%|██████▍   | 1316/2039 [26:27<14:29,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  65%|██████▍   | 1317/2039 [26:28<13:57,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  65%|██████▍   | 1318/2039 [26:29<14:25,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  65%|██████▍   | 1319/2039 [26:31<14:06,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  65%|██████▍   | 1320/2039 [26:32<15:57,  1.33s/it]
+Evaluating SFT_LoRA - FullInfo:  65%|██████▍   | 1321/2039 [26:34<17:27,  1.46s/it]
+Evaluating SFT_LoRA - FullInfo:  65%|██████▍   | 1322/2039 [26:35<15:59,  1.34s/it]
+Evaluating SFT_LoRA - FullInfo:  65%|██████▍   | 1323/2039 [26:37<16:24,  1.37s/it]
+Evaluating SFT_LoRA - FullInfo:  65%|██████▍   | 1324/2039 [26:38<16:04,  1.35s/it]
+Evaluating SFT_LoRA - FullInfo:  65%|██████▍   | 1325/2039 [26:39<16:35,  1.39s/it]
+Evaluating SFT_LoRA - FullInfo:  65%|██████▌   | 1326/2039 [26:41<16:56,  1.43s/it]
+Evaluating SFT_LoRA - FullInfo:  65%|██████▌   | 1327/2039 [26:42<15:30,  1.31s/it]
+Evaluating SFT_LoRA - FullInfo:  65%|██████▌   | 1328/2039 [26:43<15:41,  1.32s/it]
+Evaluating SFT_LoRA - FullInfo:  65%|██████▌   | 1329/2039 [26:44<14:23,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  65%|██████▌   | 1330/2039 [26:45<13:09,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  65%|██████▌   | 1331/2039 [26:46<13:30,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  65%|██████▌   | 1332/2039 [26:48<13:39,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  65%|██████▌   | 1333/2039 [26:48<12:43,  1.08s/it]
+Evaluating SFT_LoRA - FullInfo:  65%|██████▌   | 1334/2039 [26:49<12:17,  1.05s/it]
+Evaluating SFT_LoRA - FullInfo:  65%|██████▌   | 1335/2039 [26:50<12:14,  1.04s/it]
+Evaluating SFT_LoRA - FullInfo:  66%|██████▌   | 1336/2039 [26:51<12:10,  1.04s/it]
+Evaluating SFT_LoRA - FullInfo:  66%|██████▌   | 1337/2039 [26:53<13:53,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  66%|██████▌   | 1338/2039 [26:54<13:56,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  66%|██████▌   | 1339/2039 [26:55<13:23,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  66%|██████▌   | 1340/2039 [26:56<13:19,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  66%|██████▌   | 1341/2039 [26:58<14:37,  1.26s/it]
+Evaluating SFT_LoRA - FullInfo:  66%|██████▌   | 1342/2039 [26:59<14:42,  1.27s/it]
+Evaluating SFT_LoRA - FullInfo:  66%|██████▌   | 1343/2039 [27:01<15:49,  1.36s/it]
+Evaluating SFT_LoRA - FullInfo:  66%|██████▌   | 1344/2039 [27:02<14:58,  1.29s/it]
+Evaluating SFT_LoRA - FullInfo:  66%|██████▌   | 1345/2039 [27:03<14:06,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  66%|██████▌   | 1346/2039 [27:04<13:50,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  66%|██████▌   | 1347/2039 [27:05<13:03,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  66%|██████▌   | 1348/2039 [27:07<14:24,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  66%|██████▌   | 1349/2039 [27:08<14:16,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  66%|██████▌   | 1350/2039 [27:09<13:16,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  66%|██████▋   | 1351/2039 [27:10<12:49,  1.12s/it]
+Evaluating SFT_LoRA - FullInfo:  66%|██████▋   | 1352/2039 [27:11<14:30,  1.27s/it]
+Evaluating SFT_LoRA - FullInfo:  66%|██████▋   | 1353/2039 [27:13<15:36,  1.36s/it]
+Evaluating SFT_LoRA - FullInfo:  66%|██████▋   | 1354/2039 [27:14<15:56,  1.40s/it]
+Evaluating SFT_LoRA - FullInfo:  66%|██████▋   | 1355/2039 [27:16<15:03,  1.32s/it]
+Evaluating SFT_LoRA - FullInfo:  67%|██████▋   | 1356/2039 [27:17<14:21,  1.26s/it]
+Evaluating SFT_LoRA - FullInfo:  67%|██████▋   | 1357/2039 [27:18<13:32,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  67%|██████▋   | 1358/2039 [27:19<13:29,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  67%|██████▋   | 1359/2039 [27:20<13:27,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  67%|██████▋   | 1360/2039 [27:21<13:30,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  67%|██████▋   | 1361/2039 [27:22<12:57,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  67%|██████▋   | 1362/2039 [27:24<13:24,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  67%|██████▋   | 1363/2039 [27:25<14:25,  1.28s/it]
+Evaluating SFT_LoRA - FullInfo:  67%|██████▋   | 1364/2039 [27:27<15:10,  1.35s/it]
+Evaluating SFT_LoRA - FullInfo:  67%|██████▋   | 1365/2039 [27:28<15:42,  1.40s/it]
+Evaluating SFT_LoRA - FullInfo:  67%|██████▋   | 1366/2039 [27:30<15:30,  1.38s/it]
+Evaluating SFT_LoRA - FullInfo:  67%|██████▋   | 1367/2039 [27:31<14:49,  1.32s/it]
+Evaluating SFT_LoRA - FullInfo:  67%|██████▋   | 1368/2039 [27:32<15:31,  1.39s/it]
+Evaluating SFT_LoRA - FullInfo:  67%|██████▋   | 1369/2039 [27:34<15:40,  1.40s/it]
+Evaluating SFT_LoRA - FullInfo:  67%|██████▋   | 1370/2039 [27:35<16:05,  1.44s/it]
+Evaluating SFT_LoRA - FullInfo:  67%|██████▋   | 1371/2039 [27:36<14:59,  1.35s/it]
+Evaluating SFT_LoRA - FullInfo:  67%|██████▋   | 1372/2039 [27:37<13:43,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  67%|██████▋   | 1373/2039 [27:38<13:21,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  67%|██████▋   | 1374/2039 [27:40<13:24,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  67%|██████▋   | 1375/2039 [27:41<13:24,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  67%|██████▋   | 1376/2039 [27:43<15:00,  1.36s/it]
+Evaluating SFT_LoRA - FullInfo:  68%|██████▊   | 1377/2039 [27:44<14:11,  1.29s/it]
+Evaluating SFT_LoRA - FullInfo:  68%|██████▊   | 1378/2039 [27:45<14:11,  1.29s/it]
+Evaluating SFT_LoRA - FullInfo:  68%|██████▊   | 1379/2039 [27:46<13:10,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  68%|██████▊   | 1380/2039 [27:47<12:12,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  68%|██████▊   | 1381/2039 [27:48<12:19,  1.12s/it]
+Evaluating SFT_LoRA - FullInfo:  68%|██████▊   | 1382/2039 [27:50<13:33,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  68%|██████▊   | 1383/2039 [27:51<12:38,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  68%|██████▊   | 1384/2039 [27:52<14:21,  1.32s/it]
+Evaluating SFT_LoRA - FullInfo:  68%|██████▊   | 1385/2039 [27:55<18:13,  1.67s/it]
+Evaluating SFT_LoRA - FullInfo:  68%|██████▊   | 1386/2039 [27:56<16:58,  1.56s/it]
+Evaluating SFT_LoRA - FullInfo:  68%|██████▊   | 1387/2039 [27:57<16:38,  1.53s/it]
+Evaluating SFT_LoRA - FullInfo:  68%|██████▊   | 1388/2039 [27:59<15:20,  1.41s/it]
+Evaluating SFT_LoRA - FullInfo:  68%|██████▊   | 1389/2039 [28:00<16:15,  1.50s/it]
+Evaluating SFT_LoRA - FullInfo:  68%|██████▊   | 1390/2039 [28:01<14:11,  1.31s/it]
+Evaluating SFT_LoRA - FullInfo:  68%|██████▊   | 1391/2039 [28:02<13:46,  1.28s/it]
+Evaluating SFT_LoRA - FullInfo:  68%|██████▊   | 1392/2039 [28:04<13:58,  1.30s/it]
+Evaluating SFT_LoRA - FullInfo:  68%|██████▊   | 1393/2039 [28:05<13:28,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  68%|██████▊   | 1394/2039 [28:07<14:47,  1.38s/it]
+Evaluating SFT_LoRA - FullInfo:  68%|██████▊   | 1395/2039 [28:08<14:26,  1.34s/it]
+Evaluating SFT_LoRA - FullInfo:  68%|██████▊   | 1396/2039 [28:09<13:12,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  69%|██████▊   | 1397/2039 [28:10<12:53,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  69%|██████▊   | 1398/2039 [28:11<13:18,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  69%|██████▊   | 1399/2039 [28:13<14:27,  1.35s/it]
+Evaluating SFT_LoRA - FullInfo:  69%|██████▊   | 1400/2039 [28:14<12:54,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  69%|██████▊   | 1401/2039 [28:15<13:23,  1.26s/it]
+Evaluating SFT_LoRA - FullInfo:  69%|██████▉   | 1402/2039 [28:16<12:40,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  69%|██████▉   | 1403/2039 [28:17<12:43,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  69%|██████▉   | 1404/2039 [28:19<13:27,  1.27s/it]
+Evaluating SFT_LoRA - FullInfo:  69%|██████▉   | 1405/2039 [28:20<13:44,  1.30s/it]
+Evaluating SFT_LoRA - FullInfo:  69%|██████▉   | 1406/2039 [28:21<12:41,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  69%|██████▉   | 1407/2039 [28:23<13:44,  1.30s/it]
+Evaluating SFT_LoRA - FullInfo:  69%|██████▉   | 1408/2039 [28:24<14:26,  1.37s/it]
+Evaluating SFT_LoRA - FullInfo:  69%|██████▉   | 1409/2039 [28:25<13:42,  1.30s/it]
+Evaluating SFT_LoRA - FullInfo:  69%|██████▉   | 1410/2039 [28:27<13:40,  1.30s/it]
+Evaluating SFT_LoRA - FullInfo:  69%|██████▉   | 1411/2039 [28:28<12:48,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  69%|██████▉   | 1412/2039 [28:29<12:16,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  69%|██████▉   | 1413/2039 [28:30<12:37,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  69%|██████▉   | 1414/2039 [28:31<12:07,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  69%|██████▉   | 1415/2039 [28:33<13:01,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  69%|██████▉   | 1416/2039 [28:34<12:07,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  69%|██████▉   | 1417/2039 [28:35<13:08,  1.27s/it]
+Evaluating SFT_LoRA - FullInfo:  70%|██████▉   | 1418/2039 [28:37<14:09,  1.37s/it]
+Evaluating SFT_LoRA - FullInfo:  70%|██████▉   | 1419/2039 [28:38<13:05,  1.27s/it]
+Evaluating SFT_LoRA - FullInfo:  70%|██████▉   | 1420/2039 [28:39<13:47,  1.34s/it]
+Evaluating SFT_LoRA - FullInfo:  70%|██████▉   | 1421/2039 [28:41<13:46,  1.34s/it]
+Evaluating SFT_LoRA - FullInfo:  70%|██████▉   | 1422/2039 [28:41<12:23,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  70%|██████▉   | 1423/2039 [28:43<12:18,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  70%|██████▉   | 1424/2039 [28:44<11:38,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  70%|██████▉   | 1425/2039 [28:45<12:37,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  70%|██████▉   | 1426/2039 [28:46<11:59,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  70%|██████▉   | 1427/2039 [28:48<13:33,  1.33s/it]
+Evaluating SFT_LoRA - FullInfo:  70%|███████   | 1428/2039 [28:49<12:42,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  70%|███████   | 1429/2039 [28:50<12:04,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  70%|███████   | 1430/2039 [28:51<13:17,  1.31s/it]
+Evaluating SFT_LoRA - FullInfo:  70%|███████   | 1431/2039 [28:53<12:28,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  70%|███████   | 1432/2039 [28:54<14:16,  1.41s/it]
+Evaluating SFT_LoRA - FullInfo:  70%|███████   | 1433/2039 [28:56<13:52,  1.37s/it]
+Evaluating SFT_LoRA - FullInfo:  70%|███████   | 1434/2039 [28:57<13:18,  1.32s/it]
+Evaluating SFT_LoRA - FullInfo:  70%|███████   | 1435/2039 [28:58<12:26,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  70%|███████   | 1436/2039 [29:00<14:17,  1.42s/it]
+Evaluating SFT_LoRA - FullInfo:  70%|███████   | 1437/2039 [29:02<15:21,  1.53s/it]
+Evaluating SFT_LoRA - FullInfo:  71%|███████   | 1438/2039 [29:03<14:10,  1.41s/it]
+Evaluating SFT_LoRA - FullInfo:  71%|███████   | 1439/2039 [29:04<14:28,  1.45s/it]
+Evaluating SFT_LoRA - FullInfo:  71%|███████   | 1440/2039 [29:05<13:40,  1.37s/it]
+Evaluating SFT_LoRA - FullInfo:  71%|███████   | 1441/2039 [29:07<13:12,  1.32s/it]
+Evaluating SFT_LoRA - FullInfo:  71%|███████   | 1442/2039 [29:08<12:46,  1.28s/it]
+Evaluating SFT_LoRA - FullInfo:  71%|███████   | 1443/2039 [29:09<12:31,  1.26s/it]
+Evaluating SFT_LoRA - FullInfo:  71%|███████   | 1444/2039 [29:10<12:35,  1.27s/it]
+Evaluating SFT_LoRA - FullInfo:  71%|███████   | 1445/2039 [29:11<11:54,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  71%|███████   | 1446/2039 [29:13<11:54,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  71%|███████   | 1447/2039 [29:14<11:21,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  71%|███████   | 1448/2039 [29:15<11:00,  1.12s/it]
+Evaluating SFT_LoRA - FullInfo:  71%|███████   | 1449/2039 [29:16<10:59,  1.12s/it]
+Evaluating SFT_LoRA - FullInfo:  71%|███████   | 1450/2039 [29:17<10:42,  1.09s/it]
+Evaluating SFT_LoRA - FullInfo:  71%|███████   | 1451/2039 [29:18<10:22,  1.06s/it]
+Evaluating SFT_LoRA - FullInfo:  71%|███████   | 1452/2039 [29:19<11:28,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  71%|███████▏  | 1453/2039 [29:20<11:31,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  71%|███████▏  | 1454/2039 [29:22<11:36,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  71%|███████▏  | 1455/2039 [29:23<11:39,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  71%|███████▏  | 1456/2039 [29:24<12:50,  1.32s/it]
+Evaluating SFT_LoRA - FullInfo:  71%|███████▏  | 1457/2039 [29:26<13:15,  1.37s/it]
+Evaluating SFT_LoRA - FullInfo:  72%|███████▏  | 1458/2039 [29:27<12:15,  1.27s/it]
+Evaluating SFT_LoRA - FullInfo:  72%|███████▏  | 1459/2039 [29:28<11:33,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  72%|███████▏  | 1460/2039 [29:29<12:28,  1.29s/it]
+Evaluating SFT_LoRA - FullInfo:  72%|███████▏  | 1461/2039 [29:31<11:44,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  72%|███████▏  | 1462/2039 [29:31<10:57,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  72%|███████▏  | 1463/2039 [29:33<13:14,  1.38s/it]
+Evaluating SFT_LoRA - FullInfo:  72%|███████▏  | 1464/2039 [29:34<12:04,  1.26s/it]
+Evaluating SFT_LoRA - FullInfo:  72%|███████▏  | 1465/2039 [29:36<11:55,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  72%|███████▏  | 1466/2039 [29:37<11:08,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  72%|███████▏  | 1467/2039 [29:38<11:28,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  72%|███████▏  | 1468/2039 [29:39<10:45,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  72%|███████▏  | 1469/2039 [29:40<10:54,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  72%|███████▏  | 1470/2039 [29:41<10:46,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  72%|███████▏  | 1471/2039 [29:43<11:39,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  72%|███████▏  | 1472/2039 [29:44<11:45,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  72%|███████▏  | 1473/2039 [29:45<11:48,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  72%|███████▏  | 1474/2039 [29:46<11:25,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  72%|███████▏  | 1475/2039 [29:47<10:41,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  72%|███████▏  | 1476/2039 [29:48<11:02,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  72%|███████▏  | 1477/2039 [29:50<11:46,  1.26s/it]
+Evaluating SFT_LoRA - FullInfo:  72%|███████▏  | 1478/2039 [29:51<11:51,  1.27s/it]
+Evaluating SFT_LoRA - FullInfo:  73%|███████▎  | 1479/2039 [29:53<12:03,  1.29s/it]
+Evaluating SFT_LoRA - FullInfo:  73%|███████▎  | 1480/2039 [29:53<10:56,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  73%|███████▎  | 1481/2039 [29:55<11:40,  1.26s/it]
+Evaluating SFT_LoRA - FullInfo:  73%|███████▎  | 1482/2039 [29:56<11:01,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  73%|███████▎  | 1483/2039 [29:57<11:53,  1.28s/it]
+Evaluating SFT_LoRA - FullInfo:  73%|███████▎  | 1484/2039 [29:59<11:29,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  73%|███████▎  | 1485/2039 [30:00<10:42,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  73%|███████▎  | 1486/2039 [30:01<10:34,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  73%|███████▎  | 1487/2039 [30:02<10:56,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  73%|███████▎  | 1488/2039 [30:03<10:54,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  73%|███████▎  | 1489/2039 [30:05<12:01,  1.31s/it]
+Evaluating SFT_LoRA - FullInfo:  73%|███████▎  | 1490/2039 [30:06<11:15,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  73%|███████▎  | 1491/2039 [30:07<11:21,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  73%|███████▎  | 1492/2039 [30:08<10:33,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  73%|███████▎  | 1493/2039 [30:09<10:01,  1.10s/it]
+Evaluating SFT_LoRA - FullInfo:  73%|███████▎  | 1494/2039 [30:10<10:44,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  73%|███████▎  | 1495/2039 [30:12<11:00,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  73%|███████▎  | 1496/2039 [30:13<10:21,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  73%|███████▎  | 1497/2039 [30:14<10:32,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  73%|███████▎  | 1498/2039 [30:16<12:11,  1.35s/it]
+Evaluating SFT_LoRA - FullInfo:  74%|███████▎  | 1499/2039 [30:17<11:19,  1.26s/it]
+Evaluating SFT_LoRA - FullInfo:  74%|███████▎  | 1500/2039 [30:18<10:34,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  74%|███████▎  | 1501/2039 [30:19<10:28,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  74%|███████▎  | 1502/2039 [30:20<09:55,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  74%|███████▎  | 1503/2039 [30:21<10:23,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  74%|███████▍  | 1504/2039 [30:23<11:19,  1.27s/it]
+Evaluating SFT_LoRA - FullInfo:  74%|███████▍  | 1505/2039 [30:24<10:55,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  74%|███████▍  | 1506/2039 [30:25<11:27,  1.29s/it]
+Evaluating SFT_LoRA - FullInfo:  74%|███████▍  | 1507/2039 [30:26<10:47,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  74%|███████▍  | 1508/2039 [30:27<10:34,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  74%|███████▍  | 1509/2039 [30:29<10:26,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  74%|███████▍  | 1510/2039 [30:30<10:00,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  74%|███████▍  | 1511/2039 [30:31<09:42,  1.10s/it]
+Evaluating SFT_LoRA - FullInfo:  74%|███████▍  | 1512/2039 [30:32<09:32,  1.09s/it]
+Evaluating SFT_LoRA - FullInfo:  74%|███████▍  | 1513/2039 [30:33<09:35,  1.09s/it]
+Evaluating SFT_LoRA - FullInfo:  74%|███████▍  | 1514/2039 [30:34<10:13,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  74%|███████▍  | 1515/2039 [30:35<10:28,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  74%|███████▍  | 1516/2039 [30:36<10:15,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  74%|███████▍  | 1517/2039 [30:38<10:04,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  74%|███████▍  | 1518/2039 [30:39<10:08,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  74%|███████▍  | 1519/2039 [30:40<09:59,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  75%|███████▍  | 1520/2039 [30:41<10:04,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  75%|███████▍  | 1521/2039 [30:42<09:56,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  75%|███████▍  | 1522/2039 [30:43<09:54,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  75%|███████▍  | 1523/2039 [30:44<09:37,  1.12s/it]
+Evaluating SFT_LoRA - FullInfo:  75%|███████▍  | 1524/2039 [30:46<11:57,  1.39s/it]
+Evaluating SFT_LoRA - FullInfo:  75%|███████▍  | 1525/2039 [30:47<11:00,  1.29s/it]
+Evaluating SFT_LoRA - FullInfo:  75%|███████▍  | 1526/2039 [30:49<10:23,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  75%|███████▍  | 1527/2039 [30:50<10:18,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  75%|███████▍  | 1528/2039 [30:51<10:29,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  75%|███████▍  | 1529/2039 [30:53<11:14,  1.32s/it]
+Evaluating SFT_LoRA - FullInfo:  75%|███████▌  | 1530/2039 [30:54<10:57,  1.29s/it]
+Evaluating SFT_LoRA - FullInfo:  75%|███████▌  | 1531/2039 [30:55<10:43,  1.27s/it]
+Evaluating SFT_LoRA - FullInfo:  75%|███████▌  | 1532/2039 [30:56<09:55,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  75%|███████▌  | 1533/2039 [30:57<09:55,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  75%|███████▌  | 1534/2039 [30:59<11:35,  1.38s/it]
+Evaluating SFT_LoRA - FullInfo:  75%|███████▌  | 1535/2039 [31:00<11:05,  1.32s/it]
+Evaluating SFT_LoRA - FullInfo:  75%|███████▌  | 1536/2039 [31:01<10:13,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  75%|███████▌  | 1537/2039 [31:02<09:56,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  75%|███████▌  | 1538/2039 [31:03<09:35,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  75%|███████▌  | 1539/2039 [31:04<09:19,  1.12s/it]
+Evaluating SFT_LoRA - FullInfo:  76%|███████▌  | 1540/2039 [31:07<12:24,  1.49s/it]
+Evaluating SFT_LoRA - FullInfo:  76%|███████▌  | 1541/2039 [31:08<12:50,  1.55s/it]
+Evaluating SFT_LoRA - FullInfo:  76%|███████▌  | 1542/2039 [31:10<11:55,  1.44s/it]
+Evaluating SFT_LoRA - FullInfo:  76%|███████▌  | 1543/2039 [31:11<12:29,  1.51s/it]
+Evaluating SFT_LoRA - FullInfo:  76%|███████▌  | 1544/2039 [31:12<11:09,  1.35s/it]
+Evaluating SFT_LoRA - FullInfo:  76%|███████▌  | 1545/2039 [31:13<10:24,  1.26s/it]
+Evaluating SFT_LoRA - FullInfo:  76%|███████▌  | 1546/2039 [31:14<10:12,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  76%|███████▌  | 1547/2039 [31:16<10:28,  1.28s/it]
+Evaluating SFT_LoRA - FullInfo:  76%|███████▌  | 1548/2039 [31:17<10:13,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  76%|███████▌  | 1549/2039 [31:18<09:33,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  76%|███████▌  | 1550/2039 [31:19<09:03,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  76%|███████▌  | 1551/2039 [31:20<09:13,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  76%|███████▌  | 1552/2039 [31:21<08:57,  1.10s/it]
+Evaluating SFT_LoRA - FullInfo:  76%|███████▌  | 1553/2039 [31:22<09:01,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  76%|███████▌  | 1554/2039 [31:24<09:09,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  76%|███████▋  | 1555/2039 [31:25<09:28,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  76%|███████▋  | 1556/2039 [31:26<09:28,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  76%|███████▋  | 1557/2039 [31:27<09:21,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  76%|███████▋  | 1558/2039 [31:28<09:22,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  76%|███████▋  | 1559/2039 [31:29<09:22,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  77%|███████▋  | 1560/2039 [31:30<08:55,  1.12s/it]
+Evaluating SFT_LoRA - FullInfo:  77%|███████▋  | 1561/2039 [31:32<09:18,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  77%|███████▋  | 1562/2039 [31:33<09:13,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  77%|███████▋  | 1563/2039 [31:34<08:57,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  77%|███████▋  | 1564/2039 [31:35<08:36,  1.09s/it]
+Evaluating SFT_LoRA - FullInfo:  77%|███████▋  | 1565/2039 [31:36<09:01,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  77%|███████▋  | 1566/2039 [31:37<09:00,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  77%|███████▋  | 1567/2039 [31:39<11:15,  1.43s/it]
+Evaluating SFT_LoRA - FullInfo:  77%|███████▋  | 1568/2039 [31:41<10:28,  1.33s/it]
+Evaluating SFT_LoRA - FullInfo:  77%|███████▋  | 1569/2039 [31:43<12:04,  1.54s/it]
+Evaluating SFT_LoRA - FullInfo:  77%|███████▋  | 1570/2039 [31:44<12:46,  1.63s/it]
+Evaluating SFT_LoRA - FullInfo:  77%|███████▋  | 1571/2039 [31:46<11:33,  1.48s/it]
+Evaluating SFT_LoRA - FullInfo:  77%|███████▋  | 1572/2039 [31:47<11:04,  1.42s/it]
+Evaluating SFT_LoRA - FullInfo:  77%|███████▋  | 1573/2039 [31:48<10:29,  1.35s/it]
+Evaluating SFT_LoRA - FullInfo:  77%|███████▋  | 1574/2039 [31:49<09:54,  1.28s/it]
+Evaluating SFT_LoRA - FullInfo:  77%|███████▋  | 1575/2039 [31:50<09:23,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  77%|███████▋  | 1576/2039 [31:51<08:58,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  77%|███████▋  | 1577/2039 [31:52<08:43,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  77%|███████▋  | 1578/2039 [31:54<09:15,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  77%|███████▋  | 1579/2039 [31:55<09:23,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  77%|███████▋  | 1580/2039 [31:56<08:44,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  78%|███████▊  | 1581/2039 [31:57<08:41,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  78%|███████▊  | 1582/2039 [31:58<09:09,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  78%|███████▊  | 1583/2039 [32:00<09:27,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  78%|███████▊  | 1584/2039 [32:01<08:56,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  78%|███████▊  | 1585/2039 [32:02<09:39,  1.28s/it]
+Evaluating SFT_LoRA - FullInfo:  78%|███████▊  | 1586/2039 [32:04<09:59,  1.32s/it]
+Evaluating SFT_LoRA - FullInfo:  78%|███████▊  | 1587/2039 [32:05<09:38,  1.28s/it]
+Evaluating SFT_LoRA - FullInfo:  78%|███████▊  | 1588/2039 [32:06<09:28,  1.26s/it]
+Evaluating SFT_LoRA - FullInfo:  78%|███████▊  | 1589/2039 [32:07<09:20,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  78%|███████▊  | 1590/2039 [32:08<08:42,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  78%|███████▊  | 1591/2039 [32:09<08:45,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  78%|███████▊  | 1592/2039 [32:10<08:08,  1.09s/it]
+Evaluating SFT_LoRA - FullInfo:  78%|███████▊  | 1593/2039 [32:11<07:42,  1.04s/it]
+Evaluating SFT_LoRA - FullInfo:  78%|███████▊  | 1594/2039 [32:13<08:14,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  78%|███████▊  | 1595/2039 [32:14<08:02,  1.09s/it]
+Evaluating SFT_LoRA - FullInfo:  78%|███████▊  | 1596/2039 [32:15<08:26,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  78%|███████▊  | 1597/2039 [32:17<09:35,  1.30s/it]
+Evaluating SFT_LoRA - FullInfo:  78%|███████▊  | 1598/2039 [32:18<08:52,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  78%|███████▊  | 1599/2039 [32:19<08:47,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  78%|███████▊  | 1600/2039 [32:20<09:27,  1.29s/it]
+Evaluating SFT_LoRA - FullInfo:  79%|███████▊  | 1601/2039 [32:22<10:38,  1.46s/it]
+Evaluating SFT_LoRA - FullInfo:  79%|███████▊  | 1602/2039 [32:23<09:52,  1.35s/it]
+Evaluating SFT_LoRA - FullInfo:  79%|███████▊  | 1603/2039 [32:24<09:41,  1.33s/it]
+Evaluating SFT_LoRA - FullInfo:  79%|███████▊  | 1604/2039 [32:25<09:01,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  79%|███████▊  | 1605/2039 [32:27<08:42,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  79%|███████▉  | 1606/2039 [32:28<08:20,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  79%|███████▉  | 1607/2039 [32:29<08:17,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  79%|███████▉  | 1608/2039 [32:30<07:44,  1.08s/it]
+Evaluating SFT_LoRA - FullInfo:  79%|███████▉  | 1609/2039 [32:31<09:13,  1.29s/it]
+Evaluating SFT_LoRA - FullInfo:  79%|███████▉  | 1610/2039 [32:33<09:02,  1.26s/it]
+Evaluating SFT_LoRA - FullInfo:  79%|███████▉  | 1611/2039 [32:34<08:46,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  79%|███████▉  | 1612/2039 [32:35<08:52,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  79%|███████▉  | 1613/2039 [32:36<08:17,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  79%|███████▉  | 1614/2039 [32:38<09:02,  1.28s/it]
+Evaluating SFT_LoRA - FullInfo:  79%|███████▉  | 1615/2039 [32:39<08:32,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  79%|███████▉  | 1616/2039 [32:40<08:08,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  79%|███████▉  | 1617/2039 [32:41<08:15,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  79%|███████▉  | 1618/2039 [32:42<07:39,  1.09s/it]
+Evaluating SFT_LoRA - FullInfo:  79%|███████▉  | 1619/2039 [32:43<07:45,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  79%|███████▉  | 1620/2039 [32:44<07:28,  1.07s/it]
+Evaluating SFT_LoRA - FullInfo:  79%|███████▉  | 1621/2039 [32:45<07:42,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  80%|███████▉  | 1622/2039 [32:47<08:32,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  80%|███████▉  | 1623/2039 [32:48<09:18,  1.34s/it]
+Evaluating SFT_LoRA - FullInfo:  80%|███████▉  | 1624/2039 [32:50<09:11,  1.33s/it]
+Evaluating SFT_LoRA - FullInfo:  80%|███████▉  | 1625/2039 [32:51<09:02,  1.31s/it]
+Evaluating SFT_LoRA - FullInfo:  80%|███████▉  | 1626/2039 [32:52<08:46,  1.27s/it]
+Evaluating SFT_LoRA - FullInfo:  80%|███████▉  | 1627/2039 [32:54<09:12,  1.34s/it]
+Evaluating SFT_LoRA - FullInfo:  80%|███████▉  | 1628/2039 [32:54<08:25,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  80%|███████▉  | 1629/2039 [32:56<08:14,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  80%|███████▉  | 1630/2039 [32:57<08:34,  1.26s/it]
+Evaluating SFT_LoRA - FullInfo:  80%|███████▉  | 1631/2039 [32:58<08:07,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  80%|████████  | 1632/2039 [33:00<09:04,  1.34s/it]
+Evaluating SFT_LoRA - FullInfo:  80%|████████  | 1633/2039 [33:01<08:40,  1.28s/it]
+Evaluating SFT_LoRA - FullInfo:  80%|████████  | 1634/2039 [33:02<08:09,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  80%|████████  | 1635/2039 [33:03<08:15,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  80%|████████  | 1636/2039 [33:05<09:00,  1.34s/it]
+Evaluating SFT_LoRA - FullInfo:  80%|████████  | 1637/2039 [33:06<08:16,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  80%|████████  | 1638/2039 [33:07<08:20,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  80%|████████  | 1639/2039 [33:08<07:45,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  80%|████████  | 1640/2039 [33:09<07:46,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  80%|████████  | 1641/2039 [33:10<07:39,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  81%|████████  | 1642/2039 [33:12<07:41,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  81%|████████  | 1643/2039 [33:13<08:02,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  81%|████████  | 1644/2039 [33:14<07:24,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  81%|████████  | 1645/2039 [33:15<07:22,  1.12s/it]
+Evaluating SFT_LoRA - FullInfo:  81%|████████  | 1646/2039 [33:16<07:29,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  81%|████████  | 1647/2039 [33:18<08:11,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  81%|████████  | 1648/2039 [33:19<07:37,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  81%|████████  | 1649/2039 [33:20<07:31,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  81%|████████  | 1650/2039 [33:21<08:13,  1.27s/it]
+Evaluating SFT_LoRA - FullInfo:  81%|████████  | 1651/2039 [33:23<08:23,  1.30s/it]
+Evaluating SFT_LoRA - FullInfo:  81%|████████  | 1652/2039 [33:24<08:50,  1.37s/it]
+Evaluating SFT_LoRA - FullInfo:  81%|████████  | 1653/2039 [33:25<08:24,  1.31s/it]
+Evaluating SFT_LoRA - FullInfo:  81%|████████  | 1654/2039 [33:26<07:53,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  81%|████████  | 1655/2039 [33:28<08:08,  1.27s/it]
+Evaluating SFT_LoRA - FullInfo:  81%|████████  | 1656/2039 [33:29<08:53,  1.39s/it]
+Evaluating SFT_LoRA - FullInfo:  81%|████████▏ | 1657/2039 [33:31<08:32,  1.34s/it]
+Evaluating SFT_LoRA - FullInfo:  81%|████████▏ | 1658/2039 [33:32<09:31,  1.50s/it]
+Evaluating SFT_LoRA - FullInfo:  81%|████████▏ | 1659/2039 [33:34<08:58,  1.42s/it]
+Evaluating SFT_LoRA - FullInfo:  81%|████████▏ | 1660/2039 [33:35<08:23,  1.33s/it]
+Evaluating SFT_LoRA - FullInfo:  81%|████████▏ | 1661/2039 [33:36<08:34,  1.36s/it]
+Evaluating SFT_LoRA - FullInfo:  82%|████████▏ | 1662/2039 [33:38<09:20,  1.49s/it]
+Evaluating SFT_LoRA - FullInfo:  82%|████████▏ | 1663/2039 [33:39<08:37,  1.38s/it]
+Evaluating SFT_LoRA - FullInfo:  82%|████████▏ | 1664/2039 [33:40<07:59,  1.28s/it]
+Evaluating SFT_LoRA - FullInfo:  82%|████████▏ | 1665/2039 [33:41<07:40,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  82%|████████▏ | 1666/2039 [33:43<07:33,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  82%|████████▏ | 1667/2039 [33:44<07:14,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  82%|████████▏ | 1668/2039 [33:45<07:15,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  82%|████████▏ | 1669/2039 [33:46<07:33,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  82%|████████▏ | 1670/2039 [33:47<07:09,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  82%|████████▏ | 1671/2039 [33:49<07:39,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  82%|████████▏ | 1672/2039 [33:50<07:16,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  82%|████████▏ | 1673/2039 [33:51<06:52,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  82%|████████▏ | 1674/2039 [33:52<07:42,  1.27s/it]
+Evaluating SFT_LoRA - FullInfo:  82%|████████▏ | 1675/2039 [33:53<07:15,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  82%|████████▏ | 1676/2039 [33:54<06:50,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  82%|████████▏ | 1677/2039 [33:56<07:25,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  82%|████████▏ | 1678/2039 [33:57<07:23,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  82%|████████▏ | 1679/2039 [33:58<07:34,  1.26s/it]
+Evaluating SFT_LoRA - FullInfo:  82%|████████▏ | 1680/2039 [34:00<08:09,  1.36s/it]
+Evaluating SFT_LoRA - FullInfo:  82%|████████▏ | 1681/2039 [34:01<07:26,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  82%|████████▏ | 1682/2039 [34:02<07:46,  1.31s/it]
+Evaluating SFT_LoRA - FullInfo:  83%|████████▎ | 1683/2039 [34:03<07:07,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  83%|████████▎ | 1684/2039 [34:04<07:05,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  83%|████████▎ | 1685/2039 [34:05<06:38,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  83%|████████▎ | 1686/2039 [34:06<06:37,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  83%|████████▎ | 1687/2039 [34:08<06:53,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  83%|████████▎ | 1688/2039 [34:09<07:05,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  83%|████████▎ | 1689/2039 [34:11<07:44,  1.33s/it]
+Evaluating SFT_LoRA - FullInfo:  83%|████████▎ | 1690/2039 [34:12<07:30,  1.29s/it]
+Evaluating SFT_LoRA - FullInfo:  83%|████████▎ | 1691/2039 [34:13<07:04,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  83%|████████▎ | 1692/2039 [34:14<06:37,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  83%|████████▎ | 1693/2039 [34:15<06:25,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  83%|████████▎ | 1694/2039 [34:16<06:44,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  83%|████████▎ | 1695/2039 [34:17<06:38,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  83%|████████▎ | 1696/2039 [34:19<06:39,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  83%|████████▎ | 1697/2039 [34:20<06:43,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  83%|████████▎ | 1698/2039 [34:21<06:52,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  83%|████████▎ | 1699/2039 [34:22<06:59,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  83%|████████▎ | 1700/2039 [34:24<07:44,  1.37s/it]
+Evaluating SFT_LoRA - FullInfo:  83%|████████▎ | 1701/2039 [34:25<07:24,  1.32s/it]
+Evaluating SFT_LoRA - FullInfo:  83%|████████▎ | 1702/2039 [34:27<07:38,  1.36s/it]
+Evaluating SFT_LoRA - FullInfo:  84%|████████▎ | 1703/2039 [34:28<07:45,  1.38s/it]
+Evaluating SFT_LoRA - FullInfo:  84%|████████▎ | 1704/2039 [34:30<07:50,  1.41s/it]
+Evaluating SFT_LoRA - FullInfo:  84%|████████▎ | 1705/2039 [34:31<07:23,  1.33s/it]
+Evaluating SFT_LoRA - FullInfo:  84%|████████▎ | 1706/2039 [34:32<06:47,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  84%|████████▎ | 1707/2039 [34:33<06:59,  1.26s/it]
+Evaluating SFT_LoRA - FullInfo:  84%|████████▍ | 1708/2039 [34:34<06:46,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  84%|████████▍ | 1709/2039 [34:35<06:36,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  84%|████████▍ | 1710/2039 [34:37<07:08,  1.30s/it]
+Evaluating SFT_LoRA - FullInfo:  84%|████████▍ | 1711/2039 [34:38<07:22,  1.35s/it]
+Evaluating SFT_LoRA - FullInfo:  84%|████████▍ | 1712/2039 [34:40<07:14,  1.33s/it]
+Evaluating SFT_LoRA - FullInfo:  84%|████████▍ | 1713/2039 [34:41<06:38,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  84%|████████▍ | 1714/2039 [34:42<06:35,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  84%|████████▍ | 1715/2039 [34:43<06:27,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  84%|████████▍ | 1716/2039 [34:44<06:19,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  84%|████████▍ | 1717/2039 [34:45<06:37,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  84%|████████▍ | 1718/2039 [34:46<06:11,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  84%|████████▍ | 1719/2039 [34:47<06:00,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  84%|████████▍ | 1720/2039 [34:49<07:00,  1.32s/it]
+Evaluating SFT_LoRA - FullInfo:  84%|████████▍ | 1721/2039 [34:50<06:33,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  84%|████████▍ | 1722/2039 [34:51<06:00,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  85%|████████▍ | 1723/2039 [34:52<05:44,  1.09s/it]
+Evaluating SFT_LoRA - FullInfo:  85%|████████▍ | 1724/2039 [34:53<05:45,  1.10s/it]
+Evaluating SFT_LoRA - FullInfo:  85%|████████▍ | 1725/2039 [34:54<05:26,  1.04s/it]
+Evaluating SFT_LoRA - FullInfo:  85%|████████▍ | 1726/2039 [34:55<05:32,  1.06s/it]
+Evaluating SFT_LoRA - FullInfo:  85%|████████▍ | 1727/2039 [34:56<05:30,  1.06s/it]
+Evaluating SFT_LoRA - FullInfo:  85%|████████▍ | 1728/2039 [34:58<05:43,  1.10s/it]
+Evaluating SFT_LoRA - FullInfo:  85%|████████▍ | 1729/2039 [34:59<05:52,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  85%|████████▍ | 1730/2039 [35:00<05:50,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  85%|████████▍ | 1731/2039 [35:01<06:11,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  85%|████████▍ | 1732/2039 [35:03<07:04,  1.38s/it]
+Evaluating SFT_LoRA - FullInfo:  85%|████████▍ | 1733/2039 [35:04<06:24,  1.26s/it]
+Evaluating SFT_LoRA - FullInfo:  85%|████████▌ | 1734/2039 [35:05<06:39,  1.31s/it]
+Evaluating SFT_LoRA - FullInfo:  85%|████████▌ | 1735/2039 [35:07<06:23,  1.26s/it]
+Evaluating SFT_LoRA - FullInfo:  85%|████████▌ | 1736/2039 [35:09<07:47,  1.54s/it]
+Evaluating SFT_LoRA - FullInfo:  85%|████████▌ | 1737/2039 [35:10<07:36,  1.51s/it]
+Evaluating SFT_LoRA - FullInfo:  85%|████████▌ | 1738/2039 [35:11<07:02,  1.40s/it]
+Evaluating SFT_LoRA - FullInfo:  85%|████████▌ | 1739/2039 [35:13<06:49,  1.37s/it]
+Evaluating SFT_LoRA - FullInfo:  85%|████████▌ | 1740/2039 [35:14<05:58,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  85%|████████▌ | 1741/2039 [35:15<05:52,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  85%|████████▌ | 1742/2039 [35:16<06:01,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  85%|████████▌ | 1743/2039 [35:18<07:05,  1.44s/it]
+Evaluating SFT_LoRA - FullInfo:  86%|████████▌ | 1744/2039 [35:19<06:50,  1.39s/it]
+Evaluating SFT_LoRA - FullInfo:  86%|████████▌ | 1745/2039 [35:20<06:18,  1.29s/it]
+Evaluating SFT_LoRA - FullInfo:  86%|████████▌ | 1746/2039 [35:21<06:02,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  86%|████████▌ | 1747/2039 [35:23<06:20,  1.30s/it]
+Evaluating SFT_LoRA - FullInfo:  86%|████████▌ | 1748/2039 [35:24<05:51,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  86%|████████▌ | 1749/2039 [35:25<06:15,  1.30s/it]
+Evaluating SFT_LoRA - FullInfo:  86%|████████▌ | 1750/2039 [35:27<06:12,  1.29s/it]
+Evaluating SFT_LoRA - FullInfo:  86%|████████▌ | 1751/2039 [35:28<05:55,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  86%|████████▌ | 1752/2039 [35:29<06:33,  1.37s/it]
+Evaluating SFT_LoRA - FullInfo:  86%|████████▌ | 1753/2039 [35:30<05:59,  1.26s/it]
+Evaluating SFT_LoRA - FullInfo:  86%|████████▌ | 1754/2039 [35:31<05:41,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  86%|████████▌ | 1755/2039 [35:33<05:32,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  86%|████████▌ | 1756/2039 [35:34<05:32,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  86%|████████▌ | 1757/2039 [35:35<05:27,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  86%|████████▌ | 1758/2039 [35:36<05:10,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  86%|████████▋ | 1759/2039 [35:37<05:16,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  86%|████████▋ | 1760/2039 [35:38<05:15,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  86%|████████▋ | 1761/2039 [35:40<05:42,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  86%|████████▋ | 1762/2039 [35:41<06:18,  1.37s/it]
+Evaluating SFT_LoRA - FullInfo:  86%|████████▋ | 1763/2039 [35:43<06:09,  1.34s/it]
+Evaluating SFT_LoRA - FullInfo:  87%|████████▋ | 1764/2039 [35:44<06:19,  1.38s/it]
+Evaluating SFT_LoRA - FullInfo:  87%|████████▋ | 1765/2039 [35:45<05:56,  1.30s/it]
+Evaluating SFT_LoRA - FullInfo:  87%|████████▋ | 1766/2039 [35:46<05:59,  1.32s/it]
+Evaluating SFT_LoRA - FullInfo:  87%|████████▋ | 1767/2039 [35:48<05:54,  1.30s/it]
+Evaluating SFT_LoRA - FullInfo:  87%|████████▋ | 1768/2039 [35:49<06:23,  1.41s/it]
+Evaluating SFT_LoRA - FullInfo:  87%|████████▋ | 1769/2039 [35:50<05:46,  1.28s/it]
+Evaluating SFT_LoRA - FullInfo:  87%|████████▋ | 1770/2039 [35:51<05:25,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  87%|████████▋ | 1771/2039 [35:53<05:16,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  87%|████████▋ | 1772/2039 [35:54<05:29,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  87%|████████▋ | 1773/2039 [35:55<05:20,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  87%|████████▋ | 1774/2039 [35:56<05:24,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  87%|████████▋ | 1775/2039 [35:57<05:09,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  87%|████████▋ | 1776/2039 [35:59<05:34,  1.27s/it]
+Evaluating SFT_LoRA - FullInfo:  87%|████████▋ | 1777/2039 [36:01<06:11,  1.42s/it]
+Evaluating SFT_LoRA - FullInfo:  87%|████████▋ | 1778/2039 [36:02<06:13,  1.43s/it]
+Evaluating SFT_LoRA - FullInfo:  87%|████████▋ | 1779/2039 [36:03<05:35,  1.29s/it]
+Evaluating SFT_LoRA - FullInfo:  87%|████████▋ | 1780/2039 [36:05<06:15,  1.45s/it]
+Evaluating SFT_LoRA - FullInfo:  87%|████████▋ | 1781/2039 [36:06<06:13,  1.45s/it]
+Evaluating SFT_LoRA - FullInfo:  87%|████████▋ | 1782/2039 [36:07<05:42,  1.33s/it]
+Evaluating SFT_LoRA - FullInfo:  87%|████████▋ | 1783/2039 [36:09<06:27,  1.51s/it]
+Evaluating SFT_LoRA - FullInfo:  87%|████████▋ | 1784/2039 [36:11<06:15,  1.47s/it]
+Evaluating SFT_LoRA - FullInfo:  88%|████████▊ | 1785/2039 [36:12<05:54,  1.40s/it]
+Evaluating SFT_LoRA - FullInfo:  88%|████████▊ | 1786/2039 [36:13<05:44,  1.36s/it]
+Evaluating SFT_LoRA - FullInfo:  88%|████████▊ | 1787/2039 [36:15<05:37,  1.34s/it]
+Evaluating SFT_LoRA - FullInfo:  88%|████████▊ | 1788/2039 [36:16<05:21,  1.28s/it]
+Evaluating SFT_LoRA - FullInfo:  88%|████████▊ | 1789/2039 [36:17<05:50,  1.40s/it]
+Evaluating SFT_LoRA - FullInfo:  88%|████████▊ | 1790/2039 [36:18<05:28,  1.32s/it]
+Evaluating SFT_LoRA - FullInfo:  88%|████████▊ | 1791/2039 [36:20<05:20,  1.29s/it]
+Evaluating SFT_LoRA - FullInfo:  88%|████████▊ | 1792/2039 [36:21<05:06,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  88%|████████▊ | 1793/2039 [36:22<04:56,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  88%|████████▊ | 1794/2039 [36:23<05:07,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  88%|████████▊ | 1795/2039 [36:24<04:49,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  88%|████████▊ | 1796/2039 [36:25<04:37,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  88%|████████▊ | 1797/2039 [36:26<04:29,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  88%|████████▊ | 1798/2039 [36:28<04:53,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  88%|████████▊ | 1799/2039 [36:29<04:57,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  88%|████████▊ | 1800/2039 [36:30<04:47,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  88%|████████▊ | 1801/2039 [36:31<04:46,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  88%|████████▊ | 1802/2039 [36:33<04:41,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  88%|████████▊ | 1803/2039 [36:34<04:51,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  88%|████████▊ | 1804/2039 [36:35<04:37,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  89%|████████▊ | 1805/2039 [36:36<04:38,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  89%|████████▊ | 1806/2039 [36:37<04:31,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  89%|████████▊ | 1807/2039 [36:39<05:05,  1.32s/it]
+Evaluating SFT_LoRA - FullInfo:  89%|████████▊ | 1808/2039 [36:40<04:52,  1.26s/it]
+Evaluating SFT_LoRA - FullInfo:  89%|████████▊ | 1809/2039 [36:42<05:24,  1.41s/it]
+Evaluating SFT_LoRA - FullInfo:  89%|████████▉ | 1810/2039 [36:43<05:13,  1.37s/it]
+Evaluating SFT_LoRA - FullInfo:  89%|████████▉ | 1811/2039 [36:44<04:55,  1.30s/it]
+Evaluating SFT_LoRA - FullInfo:  89%|████████▉ | 1812/2039 [36:46<04:58,  1.32s/it]
+Evaluating SFT_LoRA - FullInfo:  89%|████████▉ | 1813/2039 [36:47<04:44,  1.26s/it]
+Evaluating SFT_LoRA - FullInfo:  89%|████████▉ | 1814/2039 [36:48<04:19,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  89%|████████▉ | 1815/2039 [36:49<04:32,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  89%|████████▉ | 1816/2039 [36:50<04:19,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  89%|████████▉ | 1817/2039 [36:51<04:16,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  89%|████████▉ | 1818/2039 [36:53<04:24,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  89%|████████▉ | 1819/2039 [36:54<04:24,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  89%|████████▉ | 1820/2039 [36:55<04:18,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  89%|████████▉ | 1821/2039 [36:56<04:34,  1.26s/it]
+Evaluating SFT_LoRA - FullInfo:  89%|████████▉ | 1822/2039 [36:58<04:35,  1.27s/it]
+Evaluating SFT_LoRA - FullInfo:  89%|████████▉ | 1823/2039 [36:59<04:44,  1.32s/it]
+Evaluating SFT_LoRA - FullInfo:  89%|████████▉ | 1824/2039 [37:00<04:16,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  90%|████████▉ | 1825/2039 [37:01<04:04,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  90%|████████▉ | 1826/2039 [37:02<03:56,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  90%|████████▉ | 1827/2039 [37:03<04:06,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  90%|████████▉ | 1828/2039 [37:05<04:08,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  90%|████████▉ | 1829/2039 [37:06<04:05,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  90%|████████▉ | 1830/2039 [37:07<03:56,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  90%|████████▉ | 1831/2039 [37:08<03:58,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  90%|████████▉ | 1832/2039 [37:09<03:57,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  90%|████████▉ | 1833/2039 [37:10<03:49,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  90%|████████▉ | 1834/2039 [37:11<03:49,  1.12s/it]
+Evaluating SFT_LoRA - FullInfo:  90%|████████▉ | 1835/2039 [37:12<03:44,  1.10s/it]
+Evaluating SFT_LoRA - FullInfo:  90%|█████████ | 1836/2039 [37:14<04:09,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  90%|█████████ | 1837/2039 [37:15<03:57,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  90%|█████████ | 1838/2039 [37:16<04:22,  1.31s/it]
+Evaluating SFT_LoRA - FullInfo:  90%|█████████ | 1839/2039 [37:18<04:30,  1.35s/it]
+Evaluating SFT_LoRA - FullInfo:  90%|█████████ | 1840/2039 [37:19<04:25,  1.33s/it]
+Evaluating SFT_LoRA - FullInfo:  90%|█████████ | 1841/2039 [37:21<05:04,  1.54s/it]
+Evaluating SFT_LoRA - FullInfo:  90%|█████████ | 1842/2039 [37:22<04:29,  1.37s/it]
+Evaluating SFT_LoRA - FullInfo:  90%|█████████ | 1843/2039 [37:23<04:05,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  90%|█████████ | 1844/2039 [37:25<04:20,  1.33s/it]
+Evaluating SFT_LoRA - FullInfo:  90%|█████████ | 1845/2039 [37:26<04:15,  1.32s/it]
+Evaluating SFT_LoRA - FullInfo:  91%|█████████ | 1846/2039 [37:27<03:49,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  91%|█████████ | 1847/2039 [37:28<03:34,  1.12s/it]
+Evaluating SFT_LoRA - FullInfo:  91%|█████████ | 1848/2039 [37:29<03:26,  1.08s/it]
+Evaluating SFT_LoRA - FullInfo:  91%|█████████ | 1849/2039 [37:30<03:50,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  91%|█████████ | 1850/2039 [37:32<03:57,  1.26s/it]
+Evaluating SFT_LoRA - FullInfo:  91%|█████████ | 1851/2039 [37:33<04:12,  1.34s/it]
+Evaluating SFT_LoRA - FullInfo:  91%|█████████ | 1852/2039 [37:35<04:29,  1.44s/it]
+Evaluating SFT_LoRA - FullInfo:  91%|█████████ | 1853/2039 [37:36<04:32,  1.46s/it]
+Evaluating SFT_LoRA - FullInfo:  91%|█████████ | 1854/2039 [37:38<04:29,  1.46s/it]
+Evaluating SFT_LoRA - FullInfo:  91%|█████████ | 1855/2039 [37:39<04:00,  1.31s/it]
+Evaluating SFT_LoRA - FullInfo:  91%|█████████ | 1856/2039 [37:40<04:19,  1.42s/it]
+Evaluating SFT_LoRA - FullInfo:  91%|█████████ | 1857/2039 [37:42<03:57,  1.30s/it]
+Evaluating SFT_LoRA - FullInfo:  91%|█████████ | 1858/2039 [37:43<03:42,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  91%|█████████ | 1859/2039 [37:44<03:52,  1.29s/it]
+Evaluating SFT_LoRA - FullInfo:  91%|█████████ | 1860/2039 [37:45<03:43,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  91%|█████████▏| 1861/2039 [37:46<03:43,  1.26s/it]
+Evaluating SFT_LoRA - FullInfo:  91%|█████████▏| 1862/2039 [37:47<03:30,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  91%|█████████▏| 1863/2039 [37:49<03:21,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  91%|█████████▏| 1864/2039 [37:50<03:23,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  91%|█████████▏| 1865/2039 [37:51<03:11,  1.10s/it]
+Evaluating SFT_LoRA - FullInfo:  92%|█████████▏| 1866/2039 [37:52<03:16,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  92%|█████████▏| 1867/2039 [37:53<03:14,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  92%|█████████▏| 1868/2039 [37:54<03:15,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  92%|█████████▏| 1869/2039 [37:55<03:05,  1.09s/it]
+Evaluating SFT_LoRA - FullInfo:  92%|█████████▏| 1870/2039 [37:56<03:02,  1.08s/it]
+Evaluating SFT_LoRA - FullInfo:  92%|█████████▏| 1871/2039 [37:58<03:23,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  92%|█████████▏| 1872/2039 [37:59<03:12,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  92%|█████████▏| 1873/2039 [38:00<03:34,  1.29s/it]
+Evaluating SFT_LoRA - FullInfo:  92%|█████████▏| 1874/2039 [38:02<03:41,  1.34s/it]
+Evaluating SFT_LoRA - FullInfo:  92%|█████████▏| 1875/2039 [38:03<03:18,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  92%|█████████▏| 1876/2039 [38:04<03:09,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  92%|█████████▏| 1877/2039 [38:05<03:30,  1.30s/it]
+Evaluating SFT_LoRA - FullInfo:  92%|█████████▏| 1878/2039 [38:06<03:12,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  92%|█████████▏| 1879/2039 [38:08<03:15,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  92%|█████████▏| 1880/2039 [38:09<02:59,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  92%|█████████▏| 1881/2039 [38:10<02:53,  1.10s/it]
+Evaluating SFT_LoRA - FullInfo:  92%|█████████▏| 1882/2039 [38:11<03:16,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  92%|█████████▏| 1883/2039 [38:12<03:12,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  92%|█████████▏| 1884/2039 [38:13<02:59,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  92%|█████████▏| 1885/2039 [38:14<02:50,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  92%|█████████▏| 1886/2039 [38:16<03:15,  1.28s/it]
+Evaluating SFT_LoRA - FullInfo:  93%|█████████▎| 1887/2039 [38:17<03:10,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  93%|█████████▎| 1888/2039 [38:19<03:33,  1.41s/it]
+Evaluating SFT_LoRA - FullInfo:  93%|█████████▎| 1889/2039 [38:20<03:15,  1.30s/it]
+Evaluating SFT_LoRA - FullInfo:  93%|█████████▎| 1890/2039 [38:22<03:31,  1.42s/it]
+Evaluating SFT_LoRA - FullInfo:  93%|█████████▎| 1891/2039 [38:23<03:27,  1.40s/it]
+Evaluating SFT_LoRA - FullInfo:  93%|█████████▎| 1892/2039 [38:24<03:21,  1.37s/it]
+Evaluating SFT_LoRA - FullInfo:  93%|█████████▎| 1893/2039 [38:26<03:10,  1.30s/it]
+Evaluating SFT_LoRA - FullInfo:  93%|█████████▎| 1894/2039 [38:27<02:57,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  93%|█████████▎| 1895/2039 [38:27<02:42,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  93%|█████████▎| 1896/2039 [38:29<02:57,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  93%|█████████▎| 1897/2039 [38:30<02:50,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  93%|█████████▎| 1898/2039 [38:31<02:50,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  93%|█████████▎| 1899/2039 [38:32<02:38,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  93%|█████████▎| 1900/2039 [38:33<02:38,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  93%|█████████▎| 1901/2039 [38:34<02:33,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  93%|█████████▎| 1902/2039 [38:36<02:28,  1.09s/it]
+Evaluating SFT_LoRA - FullInfo:  93%|█████████▎| 1903/2039 [38:37<02:30,  1.10s/it]
+Evaluating SFT_LoRA - FullInfo:  93%|█████████▎| 1904/2039 [38:38<02:26,  1.08s/it]
+Evaluating SFT_LoRA - FullInfo:  93%|█████████▎| 1905/2039 [38:39<02:26,  1.09s/it]
+Evaluating SFT_LoRA - FullInfo:  93%|█████████▎| 1906/2039 [38:41<02:52,  1.30s/it]
+Evaluating SFT_LoRA - FullInfo:  94%|█████████▎| 1907/2039 [38:42<02:58,  1.35s/it]
+Evaluating SFT_LoRA - FullInfo:  94%|█████████▎| 1908/2039 [38:43<02:47,  1.28s/it]
+Evaluating SFT_LoRA - FullInfo:  94%|█████████▎| 1909/2039 [38:44<02:42,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  94%|█████████▎| 1910/2039 [38:46<02:45,  1.29s/it]
+Evaluating SFT_LoRA - FullInfo:  94%|█████████▎| 1911/2039 [38:47<02:35,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  94%|█████████▍| 1912/2039 [38:48<02:27,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  94%|█████████▍| 1913/2039 [38:49<02:27,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  94%|█████████▍| 1914/2039 [38:50<02:21,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  94%|█████████▍| 1915/2039 [38:51<02:20,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  94%|█████████▍| 1916/2039 [38:52<02:14,  1.09s/it]
+Evaluating SFT_LoRA - FullInfo:  94%|█████████▍| 1917/2039 [38:53<02:20,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  94%|█████████▍| 1918/2039 [38:55<02:27,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  94%|█████████▍| 1919/2039 [38:56<02:31,  1.27s/it]
+Evaluating SFT_LoRA - FullInfo:  94%|█████████▍| 1920/2039 [38:57<02:29,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  94%|█████████▍| 1921/2039 [38:59<02:23,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  94%|█████████▍| 1922/2039 [39:00<02:25,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  94%|█████████▍| 1923/2039 [39:01<02:33,  1.32s/it]
+Evaluating SFT_LoRA - FullInfo:  94%|█████████▍| 1924/2039 [39:02<02:21,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  94%|█████████▍| 1925/2039 [39:05<02:50,  1.49s/it]
+Evaluating SFT_LoRA - FullInfo:  94%|█████████▍| 1926/2039 [39:06<02:39,  1.41s/it]
+Evaluating SFT_LoRA - FullInfo:  95%|█████████▍| 1927/2039 [39:07<02:33,  1.37s/it]
+Evaluating SFT_LoRA - FullInfo:  95%|█████████▍| 1928/2039 [39:08<02:26,  1.32s/it]
+Evaluating SFT_LoRA - FullInfo:  95%|█████████▍| 1929/2039 [39:09<02:16,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  95%|█████████▍| 1930/2039 [39:11<02:16,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  95%|█████████▍| 1931/2039 [39:12<02:08,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  95%|█████████▍| 1932/2039 [39:13<02:00,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  95%|█████████▍| 1933/2039 [39:14<02:02,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  95%|█████████▍| 1934/2039 [39:15<02:03,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  95%|█████████▍| 1935/2039 [39:16<02:02,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  95%|█████████▍| 1936/2039 [39:18<02:09,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  95%|█████████▍| 1937/2039 [39:19<02:19,  1.36s/it]
+Evaluating SFT_LoRA - FullInfo:  95%|█████████▌| 1938/2039 [39:20<02:13,  1.32s/it]
+Evaluating SFT_LoRA - FullInfo:  95%|█████████▌| 1939/2039 [39:22<02:15,  1.35s/it]
+Evaluating SFT_LoRA - FullInfo:  95%|█████████▌| 1940/2039 [39:23<02:09,  1.30s/it]
+Evaluating SFT_LoRA - FullInfo:  95%|█████████▌| 1941/2039 [39:24<01:55,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  95%|█████████▌| 1942/2039 [39:25<01:49,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  95%|█████████▌| 1943/2039 [39:26<01:44,  1.08s/it]
+Evaluating SFT_LoRA - FullInfo:  95%|█████████▌| 1944/2039 [39:28<01:57,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  95%|█████████▌| 1945/2039 [39:29<01:57,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo:  95%|█████████▌| 1946/2039 [39:30<01:54,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  95%|█████████▌| 1947/2039 [39:31<01:56,  1.27s/it]
+Evaluating SFT_LoRA - FullInfo:  96%|█████████▌| 1948/2039 [39:32<01:48,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  96%|█████████▌| 1949/2039 [39:34<01:56,  1.29s/it]
+Evaluating SFT_LoRA - FullInfo:  96%|█████████▌| 1950/2039 [39:35<01:46,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  96%|█████████▌| 1951/2039 [39:36<01:51,  1.27s/it]
+Evaluating SFT_LoRA - FullInfo:  96%|█████████▌| 1952/2039 [39:37<01:42,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  96%|█████████▌| 1953/2039 [39:38<01:37,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  96%|█████████▌| 1954/2039 [39:40<01:38,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  96%|█████████▌| 1955/2039 [39:41<01:44,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  96%|█████████▌| 1956/2039 [39:42<01:41,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  96%|█████████▌| 1957/2039 [39:43<01:35,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  96%|█████████▌| 1958/2039 [39:44<01:31,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  96%|█████████▌| 1959/2039 [39:45<01:28,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  96%|█████████▌| 1960/2039 [39:46<01:25,  1.08s/it]
+Evaluating SFT_LoRA - FullInfo:  96%|█████████▌| 1961/2039 [39:48<01:29,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  96%|█████████▌| 1962/2039 [39:49<01:23,  1.09s/it]
+Evaluating SFT_LoRA - FullInfo:  96%|█████████▋| 1963/2039 [39:50<01:32,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  96%|█████████▋| 1964/2039 [39:51<01:25,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  96%|█████████▋| 1965/2039 [39:52<01:24,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  96%|█████████▋| 1966/2039 [39:53<01:20,  1.10s/it]
+Evaluating SFT_LoRA - FullInfo:  96%|█████████▋| 1967/2039 [39:55<01:26,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  97%|█████████▋| 1968/2039 [39:56<01:20,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  97%|█████████▋| 1969/2039 [39:57<01:34,  1.35s/it]
+Evaluating SFT_LoRA - FullInfo:  97%|█████████▋| 1970/2039 [39:59<01:31,  1.33s/it]
+Evaluating SFT_LoRA - FullInfo:  97%|█████████▋| 1971/2039 [40:00<01:22,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  97%|█████████▋| 1972/2039 [40:01<01:19,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  97%|█████████▋| 1973/2039 [40:02<01:15,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  97%|█████████▋| 1974/2039 [40:03<01:14,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  97%|█████████▋| 1975/2039 [40:05<01:21,  1.28s/it]
+Evaluating SFT_LoRA - FullInfo:  97%|█████████▋| 1976/2039 [40:06<01:18,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  97%|█████████▋| 1977/2039 [40:07<01:14,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  97%|█████████▋| 1978/2039 [40:08<01:14,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  97%|█████████▋| 1979/2039 [40:09<01:14,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  97%|█████████▋| 1980/2039 [40:11<01:12,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  97%|█████████▋| 1981/2039 [40:12<01:07,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  97%|█████████▋| 1982/2039 [40:13<01:01,  1.08s/it]
+Evaluating SFT_LoRA - FullInfo:  97%|█████████▋| 1983/2039 [40:14<01:01,  1.10s/it]
+Evaluating SFT_LoRA - FullInfo:  97%|█████████▋| 1984/2039 [40:15<01:02,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  97%|█████████▋| 1985/2039 [40:16<01:03,  1.18s/it]
+Evaluating SFT_LoRA - FullInfo:  97%|█████████▋| 1986/2039 [40:17<01:04,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo:  97%|█████████▋| 1987/2039 [40:19<01:00,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo:  97%|█████████▋| 1988/2039 [40:20<00:57,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  98%|█████████▊| 1989/2039 [40:21<01:01,  1.23s/it]
+Evaluating SFT_LoRA - FullInfo:  98%|█████████▊| 1990/2039 [40:22<00:58,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  98%|█████████▊| 1991/2039 [40:23<00:55,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  98%|█████████▊| 1992/2039 [40:25<00:58,  1.24s/it]
+Evaluating SFT_LoRA - FullInfo:  98%|█████████▊| 1993/2039 [40:26<00:58,  1.27s/it]
+Evaluating SFT_LoRA - FullInfo:  98%|█████████▊| 1994/2039 [40:27<00:53,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  98%|█████████▊| 1995/2039 [40:28<00:52,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  98%|█████████▊| 1996/2039 [40:29<00:49,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  98%|█████████▊| 1997/2039 [40:30<00:46,  1.11s/it]
+Evaluating SFT_LoRA - FullInfo:  98%|█████████▊| 1998/2039 [40:31<00:46,  1.12s/it]
+Evaluating SFT_LoRA - FullInfo:  98%|█████████▊| 1999/2039 [40:33<00:45,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  98%|█████████▊| 2000/2039 [40:34<00:50,  1.30s/it]
+Evaluating SFT_LoRA - FullInfo:  98%|█████████▊| 2001/2039 [40:35<00:48,  1.27s/it]
+Evaluating SFT_LoRA - FullInfo:  98%|█████████▊| 2002/2039 [40:37<00:48,  1.32s/it]
+Evaluating SFT_LoRA - FullInfo:  98%|█████████▊| 2003/2039 [40:38<00:49,  1.38s/it]
+Evaluating SFT_LoRA - FullInfo:  98%|█████████▊| 2004/2039 [40:40<00:51,  1.47s/it]
+Evaluating SFT_LoRA - FullInfo:  98%|█████████▊| 2005/2039 [40:42<00:50,  1.49s/it]
+Evaluating SFT_LoRA - FullInfo:  98%|█████████▊| 2006/2039 [40:43<00:43,  1.33s/it]
+Evaluating SFT_LoRA - FullInfo:  98%|█████████▊| 2007/2039 [40:44<00:42,  1.34s/it]
+Evaluating SFT_LoRA - FullInfo:  98%|█████████▊| 2008/2039 [40:45<00:40,  1.30s/it]
+Evaluating SFT_LoRA - FullInfo:  99%|█████████▊| 2009/2039 [40:46<00:36,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  99%|█████████▊| 2010/2039 [40:47<00:32,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  99%|█████████▊| 2011/2039 [40:48<00:33,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  99%|█████████▊| 2012/2039 [40:49<00:30,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  99%|█████████▊| 2013/2039 [40:51<00:29,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  99%|█████████▉| 2014/2039 [40:52<00:29,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  99%|█████████▉| 2015/2039 [40:53<00:27,  1.14s/it]
+Evaluating SFT_LoRA - FullInfo:  99%|█████████▉| 2016/2039 [40:54<00:27,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  99%|█████████▉| 2017/2039 [40:55<00:26,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  99%|█████████▉| 2018/2039 [40:57<00:25,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  99%|█████████▉| 2019/2039 [40:58<00:22,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo:  99%|█████████▉| 2020/2039 [40:59<00:22,  1.20s/it]
+Evaluating SFT_LoRA - FullInfo:  99%|█████████▉| 2021/2039 [41:00<00:21,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo:  99%|█████████▉| 2022/2039 [41:02<00:22,  1.31s/it]
+Evaluating SFT_LoRA - FullInfo:  99%|█████████▉| 2023/2039 [41:03<00:21,  1.32s/it]
+Evaluating SFT_LoRA - FullInfo:  99%|█████████▉| 2024/2039 [41:04<00:18,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo:  99%|█████████▉| 2025/2039 [41:06<00:18,  1.30s/it]
+Evaluating SFT_LoRA - FullInfo:  99%|█████████▉| 2026/2039 [41:06<00:14,  1.15s/it]
+Evaluating SFT_LoRA - FullInfo:  99%|█████████▉| 2027/2039 [41:08<00:14,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo:  99%|█████████▉| 2028/2039 [41:09<00:13,  1.22s/it]
+Evaluating SFT_LoRA - FullInfo: 100%|█████████▉| 2029/2039 [41:10<00:12,  1.29s/it]
+Evaluating SFT_LoRA - FullInfo: 100%|█████████▉| 2030/2039 [41:12<00:11,  1.28s/it]
+Evaluating SFT_LoRA - FullInfo: 100%|█████████▉| 2031/2039 [41:13<00:10,  1.34s/it]
+Evaluating SFT_LoRA - FullInfo: 100%|█████████▉| 2032/2039 [41:14<00:08,  1.25s/it]
+Evaluating SFT_LoRA - FullInfo: 100%|█████████▉| 2033/2039 [41:15<00:07,  1.19s/it]
+Evaluating SFT_LoRA - FullInfo: 100%|█████████▉| 2034/2039 [41:16<00:05,  1.10s/it]
+Evaluating SFT_LoRA - FullInfo: 100%|█████████▉| 2035/2039 [41:17<00:04,  1.13s/it]
+Evaluating SFT_LoRA - FullInfo: 100%|█████████▉| 2036/2039 [41:18<00:03,  1.10s/it]
+Evaluating SFT_LoRA - FullInfo: 100%|█████████▉| 2037/2039 [41:20<00:02,  1.16s/it]
+Evaluating SFT_LoRA - FullInfo: 100%|█████████▉| 2038/2039 [41:21<00:01,  1.17s/it]
+Evaluating SFT_LoRA - FullInfo: 100%|██████████| 2039/2039 [41:22<00:00,  1.21s/it]
+Evaluating SFT_LoRA - FullInfo: 100%|██████████| 2039/2039 [41:22<00:00,  1.22s/it]
+\n--- Evaluation Results ---
+Method: SFT_LoRA
+Config: FullInfo
+Model: Qwen/Qwen2.5-32B-Instruct
+Accuracy: 0.9735
+Format Error Rate: 0.0010
+Semantic Confusion: 0.5863
+Option Bias (A): 0.1422
+Latency: 2482.61 seconds
+
+
+
+Ending Cell 7------------------------------------------
+Executing Cell 8---------------------------------------
+Ending Cell 8------------------------------------------
+Executing Cell 9---------------------------------------
+Ending Cell 9------------------------------------------

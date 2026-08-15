@@ -1,0 +1,47 @@
+nohup: ignoring input
+Input Notebook:  notebooks/02_sft_training.ipynb
+Output Notebook: output/papermill_notebooks/02_sft_training_Qwen2.5-32B-Instruct_structOnly.ipynb
+Working directory: notebooks
+Executing notebook with kernel: python3
+Executing Cell 1---------------------------------------
+Ending Cell 1------------------------------------------
+Executing Cell 2---------------------------------------
+✅ Codebase mounted at: ../
+
+Ending Cell 2------------------------------------------
+Executing Cell 3---------------------------------------
+Successfully logged into Hugging Face Hub!
+
+Ending Cell 3------------------------------------------
+Executing Cell 4---------------------------------------
+Skipping import of cpp extensions due to incompatible torch version. Please upgrade to torch >= 2.11.0 (found 2.10.0+cu128).
+
+Ending Cell 4------------------------------------------
+Executing Cell 5---------------------------------------
+Ending Cell 5------------------------------------------
+Executing Cell 6---------------------------------------
+Ending Cell 6------------------------------------------
+Executing Cell 7---------------------------------------
+Targeting compute data type: torch.bfloat16
+
+Loading weights:   0%|          | 0/771 [00:00<?, ?it/s]
+Ending Cell 7------------------------------------------
+Executing Cell 8---------------------------------------
+Ending Cell 8------------------------------------------
+Executing Cell 9---------------------------------------
+trainable params: 134,217,728 || all params: 32,898,094,080 || trainable%: 0.4080
+
+Ending Cell 9------------------------------------------
+Executing Cell 10--------------------------------------
+Ending Cell 10-----------------------------------------
+Executing Cell 11--------------------------------------
+Ending Cell 11-----------------------------------------
+Executing Cell 12--------------------------------------
+Ending Cell 12-----------------------------------------
+Executing Cell 13--------------------------------------
+Truncating train dataset:   0%|          | 0/11548 [00:00<?, ? examples/s]
+Truncating eval dataset:   0%|          | 0/2039 [00:00<?, ? examples/s]
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'bos_token_id': None, 'pad_token_id': 151645}.
+
+<IPython.core.display.HTML object>
+Ending Cell 13-----------------------------------------

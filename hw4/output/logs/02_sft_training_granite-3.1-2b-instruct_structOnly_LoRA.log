@@ -1,0 +1,43 @@
+nohup: ignoring input
+Input Notebook:  notebooks/02_sft_training.ipynb
+Output Notebook: output/papermill_notebooks/02_sft_training_granite-3.1-2b-instruct_structOnly.ipynb
+Working directory: notebooks
+Executing notebook with kernel: python3
+Executing Cell 1---------------------------------------
+Ending Cell 1------------------------------------------
+Executing Cell 2---------------------------------------
+✅ Codebase mounted at: ../
+
+Ending Cell 2------------------------------------------
+Executing Cell 3---------------------------------------
+Successfully logged into Hugging Face Hub!
+
+Ending Cell 3------------------------------------------
+Executing Cell 4---------------------------------------
+Skipping import of cpp extensions due to incompatible torch version. Please upgrade to torch >= 2.11.0 (found 2.10.0+cu128).
+
+Ending Cell 4------------------------------------------
+Executing Cell 5---------------------------------------
+Ending Cell 5------------------------------------------
+Executing Cell 6---------------------------------------
+Ending Cell 6------------------------------------------
+Executing Cell 7---------------------------------------
+Targeting compute data type: torch.bfloat16
+
+Loading weights:   0%|          | 0/362 [00:00<?, ?it/s]
+Ending Cell 7------------------------------------------
+Executing Cell 8---------------------------------------
+Ending Cell 8------------------------------------------
+Executing Cell 9---------------------------------------
+trainable params: 28,180,480 || all params: 2,561,712,128 || trainable%: 1.1001
+
+Ending Cell 9------------------------------------------
+Executing Cell 10--------------------------------------
+Ending Cell 10-----------------------------------------
+Executing Cell 11--------------------------------------
+Ending Cell 11-----------------------------------------
+Executing Cell 12--------------------------------------
+Ending Cell 12-----------------------------------------
+Executing Cell 13--------------------------------------
+<IPython.core.display.HTML object>
+Ending Cell 13-----------------------------------------

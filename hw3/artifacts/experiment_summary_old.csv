@@ -1,0 +1,20 @@
+Experiment Name (old),vlm_retriever_reranker_fusion,Architecture,Internal Val Recall@5,Kaggle Leaderboard Recall@5,Notes
+submission_bm25-baseline,none_bm25_none_none,Pure Retriever (Stage 1),0.6604,0.64946,Pure BM25 keyword matching.
+submission_vlm-rich-caption_bm25,qwen2-vl-7b-instruct_bm25_none_none,Pure Retriever + VLM Upgrade (Stage 1),0.6717,-,VLM-based image recaptioning (Qwen-2-VL-7B-instruct) + BM25 keyword matching.
+submission_dense-qwen3-emb-8b-vanilla,none_qwen3-embedding-8b_none_none,Pure Retriever (Stage 1),0.7169,0.66332,Pure vector embeddings (Bi-Encoder)
+,none_bge-large-en-v1.5_none_none,Pure Retriever (Stage 1),0.7685
+,none_jina-clip-v2_none_none,Pure Retriever (Stage 1),0.3416
+submission_llm-qwen2.5-7b-vanilla,none_none_qwen2.5-7b-instruct_none,Pure Reranker (Stage 2),0.7101,0.64791,7B LLM Cross-Encoder (unsorted prompt)
+submission_llm-qwen2.5-32b-vanilla,none_none_qwen2.5-32b-instruct_none,Pure Reranker (Stage 2),0.8311,0.7889,32B LLM Cross-Encoder (unsorted prompt)
+,none_none_qwen3-reranker-8b_none,Pure Reranker (Stage 2),0.6952
+,none_none_bge-reranker-v2-m3_none,,,,
+submission_qwen3-8b_qwen2.5-32b-instruct_ordered,none_qwen3-embedding-8b_qwen2.5-32b-instruct_none,Two-Stage (Stages 1 + 2),0.8425,0.79506,"Sorts prompt by Dense score + uses pre-filtering to select top 12 dense scores + 32B LLM cross-encoder.
+
+Had no RRF. It filtered candidates down to the Top-12 using dense scores, fed them into Qwen2.5-32B, and trusted the LLM's text output 100% to write the final predictions."
+submission_qwen3-8b_qwen2.5-32b-instruct_ordered_rrf,none_qwen3-embedding-8b_qwen2.5-32b-instruct_rrf,Two-Stage (Stages 1 + 2) + RRF Ensemble,0.8425,0.79506,"Combined LLM (80%) and Dense (20%), using reciprocal rank fusion.
+
+Introduced the final RRF step. It took the sorted predictions from Experiment 5 and combined them with your original dense scores using an 80/20 rank weight fusion to generate the final submission file.
+"
+submission_llm-qwen2.5-32b-hybrid,qwen2-vl-7b-instruct_qwen3-embedding-8b_qwen2.5-32b-instruct_none,,0.7894,-
+submission_ensemble-hybrid,qwen2-vl-7b-instruct_qwen3-embedding-8b_qwen2.5-32b-instruct_rrf,,-,0.70338
+(may21 overnight run) - failed,none_hybrid(qwen3-embedding-8b + bge-m3)_qwen2.5-32b-instruct_none,,,,"max_candidates: 12, max_chars: 1500"

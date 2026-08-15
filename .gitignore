@@ -1,0 +1,82 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Environment
+.env
+.venv
+env/
+venv/
+.conda/
+
+# Model checkpoints and adapters (too large for GitHub)
+**/checkpoint-*/
+**/adapter_model.safetensors
+**/model.safetensors
+**/pytorch_model.bin
+*.pt
+*.pth
+*.ckpt
+optimizer.pt
+**/tokenizer.json
+
+# Compiled cache (regenerates automatically)
+**/unsloth_compiled_cache/
+
+# Scratch/temporary files
+scratch/
+**/scratch/
+*.tmp
+
+# Cache directories (embeddings, features - too large for GitHub)
+**/cache/
+*.joblib
+*.npy
+*.npz
+
+# GloVe embeddings (can be downloaded)
+**/glove/
+**/glove*.txt
+**/glove*.zip
+
+# Data files (too large for GitHub, available on NAS)
+**/data/train.json
+**/data/test.json
+**/data/train.jsonl
+**/data/test.jsonl
+**/data/train.csv
+**/data/test.csv
+**/data/addition.jsonl
+**/data/images/
+
+# Keep only small sample/example files
+!**/data/sample_submission.csv
+!**/data/val.json
+
+# Note: We're keeping *.log files for this project
+
+# Old/archived outputs
+**/old/
+**/old2/
+**/old3/
+
+# Large model files (>10GB)
+# Add specific large models you want to exclude
+# Example: granite-3.1-2b-* (if deleting)
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo

@@ -1,0 +1,275 @@
+nohup: ignoring input
+Input Notebook:  notebooks/01_prompt_baseline.ipynb
+Output Notebook: output/papermill_notebooks/01_prompt_baseline_granite-4.1-8b.ipynb
+Working directory: notebooks
+Executing notebook with kernel: python3
+Executing Cell 1---------------------------------------
+Ending Cell 1------------------------------------------
+Executing Cell 2---------------------------------------
+💻 Local Lab Server Environment Loaded.
+
+Ending Cell 2------------------------------------------
+Executing Cell 3---------------------------------------
+Ending Cell 3------------------------------------------
+Executing Cell 4---------------------------------------
+Loaded 2039 full-info validation samples and 2039 structural validation samples.
+
+Ending Cell 4------------------------------------------
+Executing Cell 5---------------------------------------
+Ending Cell 5------------------------------------------
+Executing Cell 6---------------------------------------
+Loading weights:   0%|          | 0/363 [00:00<?, ?it/s]
+/home/emmy/miniconda3/envs/mlbio_gpu/lib/python3.10/site-packages/bitsandbytes/backends/cuda/ops.py:213: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+
+Model loaded successfully!
+
+Ending Cell 6------------------------------------------
+Executing Cell 7---------------------------------------
+Ending Cell 7------------------------------------------
+Executing Cell 8---------------------------------------
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]
+Evaluating baseline - FullInfo:   0%|          | 0/2039 [00:00<?, ?it/s]
+/home/emmy/miniconda3/envs/mlbio_gpu/lib/python3.10/site-packages/bitsandbytes/backends/cuda/ops.py:468: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+
+Evaluating baseline - FullInfo:   1%|          | 20/2039 [00:11<19:54,  1.69it/s]
+Evaluating baseline - FullInfo:   2%|▏         | 40/2039 [00:23<19:14,  1.73it/s]
+Evaluating baseline - FullInfo:   3%|▎         | 60/2039 [00:34<19:00,  1.74it/s]
+Evaluating baseline - FullInfo:   4%|▍         | 80/2039 [00:45<18:16,  1.79it/s]
+Evaluating baseline - FullInfo:   5%|▍         | 100/2039 [00:57<18:27,  1.75it/s]
+Evaluating baseline - FullInfo:   6%|▌         | 120/2039 [01:08<18:01,  1.77it/s]
+Evaluating baseline - FullInfo:   7%|▋         | 140/2039 [01:20<18:12,  1.74it/s]
+Evaluating baseline - FullInfo:   8%|▊         | 160/2039 [01:31<17:52,  1.75it/s]
+Evaluating baseline - FullInfo:   9%|▉         | 180/2039 [01:43<17:53,  1.73it/s]
+Evaluating baseline - FullInfo:  10%|▉         | 200/2039 [01:53<17:19,  1.77it/s]
+Evaluating baseline - FullInfo:  11%|█         | 220/2039 [02:05<17:01,  1.78it/s]
+Evaluating baseline - FullInfo:  12%|█▏        | 240/2039 [02:17<17:13,  1.74it/s]
+Evaluating baseline - FullInfo:  13%|█▎        | 260/2039 [02:27<16:37,  1.78it/s]
+Evaluating baseline - FullInfo:  14%|█▎        | 280/2039 [02:40<17:17,  1.69it/s]
+Evaluating baseline - FullInfo:  15%|█▍        | 300/2039 [02:51<16:39,  1.74it/s]
+Evaluating baseline - FullInfo:  16%|█▌        | 320/2039 [03:03<16:34,  1.73it/s]
+Evaluating baseline - FullInfo:  17%|█▋        | 340/2039 [03:13<15:43,  1.80it/s]
+Evaluating baseline - FullInfo:  18%|█▊        | 360/2039 [03:20<13:43,  2.04it/s]
+Evaluating baseline - FullInfo:  19%|█▊        | 380/2039 [03:25<11:53,  2.33it/s]
+Evaluating baseline - FullInfo:  20%|█▉        | 400/2039 [03:32<10:54,  2.51it/s]
+Evaluating baseline - FullInfo:  21%|██        | 420/2039 [03:38<10:09,  2.66it/s]
+Evaluating baseline - FullInfo:  22%|██▏       | 440/2039 [03:45<09:27,  2.82it/s]
+Evaluating baseline - FullInfo:  23%|██▎       | 460/2039 [03:51<09:07,  2.88it/s]
+Evaluating baseline - FullInfo:  24%|██▎       | 480/2039 [03:57<08:45,  2.97it/s]
+Evaluating baseline - FullInfo:  25%|██▍       | 500/2039 [04:04<08:23,  3.05it/s]
+Evaluating baseline - FullInfo:  26%|██▌       | 520/2039 [04:10<08:26,  3.00it/s]
+Evaluating baseline - FullInfo:  26%|██▋       | 540/2039 [04:17<08:10,  3.06it/s]
+Evaluating baseline - FullInfo:  27%|██▋       | 560/2039 [04:23<07:56,  3.10it/s]
+Evaluating baseline - FullInfo:  28%|██▊       | 580/2039 [04:29<07:51,  3.10it/s]
+Evaluating baseline - FullInfo:  29%|██▉       | 600/2039 [04:36<07:41,  3.12it/s]
+Evaluating baseline - FullInfo:  30%|███       | 620/2039 [04:42<07:32,  3.13it/s]
+Evaluating baseline - FullInfo:  31%|███▏      | 640/2039 [04:49<07:30,  3.10it/s]
+Evaluating baseline - FullInfo:  32%|███▏      | 660/2039 [04:55<07:26,  3.09it/s]
+Evaluating baseline - FullInfo:  33%|███▎      | 680/2039 [05:01<07:10,  3.16it/s]
+Evaluating baseline - FullInfo:  34%|███▍      | 700/2039 [05:07<07:00,  3.18it/s]
+Evaluating baseline - FullInfo:  35%|███▌      | 720/2039 [05:15<07:17,  3.01it/s]
+Evaluating baseline - FullInfo:  36%|███▋      | 740/2039 [05:21<07:03,  3.07it/s]
+Evaluating baseline - FullInfo:  37%|███▋      | 760/2039 [05:27<06:49,  3.12it/s]
+Evaluating baseline - FullInfo:  38%|███▊      | 780/2039 [05:34<06:49,  3.08it/s]
+Evaluating baseline - FullInfo:  39%|███▉      | 800/2039 [05:41<06:47,  3.04it/s]
+Evaluating baseline - FullInfo:  40%|████      | 820/2039 [05:47<06:35,  3.08it/s]
+Evaluating baseline - FullInfo:  41%|████      | 840/2039 [05:54<06:35,  3.03it/s]
+Evaluating baseline - FullInfo:  42%|████▏     | 860/2039 [06:01<06:34,  2.99it/s]
+Evaluating baseline - FullInfo:  43%|████▎     | 880/2039 [06:07<06:14,  3.09it/s]
+Evaluating baseline - FullInfo:  44%|████▍     | 900/2039 [06:13<06:08,  3.09it/s]
+Evaluating baseline - FullInfo:  45%|████▌     | 920/2039 [06:20<05:59,  3.11it/s]
+Evaluating baseline - FullInfo:  46%|████▌     | 940/2039 [06:27<06:03,  3.03it/s]
+Evaluating baseline - FullInfo:  47%|████▋     | 960/2039 [06:33<05:47,  3.11it/s]
+Evaluating baseline - FullInfo:  48%|████▊     | 980/2039 [06:39<05:48,  3.04it/s]
+Evaluating baseline - FullInfo:  49%|████▉     | 1000/2039 [06:45<05:30,  3.15it/s]
+Evaluating baseline - FullInfo:  50%|█████     | 1020/2039 [06:52<05:29,  3.09it/s]
+Evaluating baseline - FullInfo:  51%|█████     | 1040/2039 [06:59<05:25,  3.07it/s]
+Evaluating baseline - FullInfo:  52%|█████▏    | 1060/2039 [07:05<05:14,  3.11it/s]
+Evaluating baseline - FullInfo:  53%|█████▎    | 1080/2039 [07:11<05:07,  3.12it/s]
+Evaluating baseline - FullInfo:  54%|█████▍    | 1100/2039 [07:19<05:14,  2.98it/s]
+Evaluating baseline - FullInfo:  55%|█████▍    | 1120/2039 [07:25<05:00,  3.06it/s]
+Evaluating baseline - FullInfo:  56%|█████▌    | 1140/2039 [07:31<04:44,  3.16it/s]
+Evaluating baseline - FullInfo:  57%|█████▋    | 1160/2039 [07:38<04:46,  3.06it/s]
+Evaluating baseline - FullInfo:  58%|█████▊    | 1180/2039 [07:44<04:42,  3.04it/s]
+Evaluating baseline - FullInfo:  59%|█████▉    | 1200/2039 [07:51<04:39,  3.00it/s]
+Evaluating baseline - FullInfo:  60%|█████▉    | 1220/2039 [07:57<04:27,  3.06it/s]
+Evaluating baseline - FullInfo:  61%|██████    | 1240/2039 [08:04<04:27,  2.99it/s]
+Evaluating baseline - FullInfo:  62%|██████▏   | 1260/2039 [08:11<04:15,  3.05it/s]
+Evaluating baseline - FullInfo:  63%|██████▎   | 1280/2039 [08:17<04:04,  3.11it/s]
+Evaluating baseline - FullInfo:  64%|██████▍   | 1300/2039 [08:23<03:54,  3.15it/s]
+Evaluating baseline - FullInfo:  65%|██████▍   | 1320/2039 [08:30<03:49,  3.13it/s]
+Evaluating baseline - FullInfo:  66%|██████▌   | 1340/2039 [08:37<03:49,  3.04it/s]
+Evaluating baseline - FullInfo:  67%|██████▋   | 1360/2039 [08:43<03:42,  3.05it/s]
+Evaluating baseline - FullInfo:  68%|██████▊   | 1380/2039 [08:49<03:34,  3.07it/s]
+Evaluating baseline - FullInfo:  69%|██████▊   | 1400/2039 [08:57<03:34,  2.98it/s]
+Evaluating baseline - FullInfo:  70%|██████▉   | 1420/2039 [09:04<03:29,  2.95it/s]
+Evaluating baseline - FullInfo:  71%|███████   | 1440/2039 [09:10<03:22,  2.96it/s]
+Evaluating baseline - FullInfo:  72%|███████▏  | 1460/2039 [09:16<03:09,  3.05it/s]
+Evaluating baseline - FullInfo:  73%|███████▎  | 1480/2039 [09:23<03:01,  3.09it/s]
+Evaluating baseline - FullInfo:  74%|███████▎  | 1500/2039 [09:29<02:54,  3.08it/s]
+Evaluating baseline - FullInfo:  75%|███████▍  | 1520/2039 [09:36<02:48,  3.08it/s]
+Evaluating baseline - FullInfo:  76%|███████▌  | 1540/2039 [09:43<02:45,  3.01it/s]
+Evaluating baseline - FullInfo:  77%|███████▋  | 1560/2039 [09:49<02:37,  3.04it/s]
+Evaluating baseline - FullInfo:  77%|███████▋  | 1580/2039 [09:56<02:32,  3.02it/s]
+Evaluating baseline - FullInfo:  78%|███████▊  | 1600/2039 [10:03<02:26,  2.99it/s]
+Evaluating baseline - FullInfo:  79%|███████▉  | 1620/2039 [10:09<02:20,  2.98it/s]
+Evaluating baseline - FullInfo:  80%|████████  | 1640/2039 [10:16<02:14,  2.96it/s]
+Evaluating baseline - FullInfo:  81%|████████▏ | 1660/2039 [10:23<02:06,  3.01it/s]
+Evaluating baseline - FullInfo:  82%|████████▏ | 1680/2039 [10:29<01:57,  3.06it/s]
+Evaluating baseline - FullInfo:  83%|████████▎ | 1700/2039 [10:35<01:48,  3.14it/s]
+Evaluating baseline - FullInfo:  84%|████████▍ | 1720/2039 [10:42<01:45,  3.02it/s]
+Evaluating baseline - FullInfo:  85%|████████▌ | 1740/2039 [10:49<01:38,  3.03it/s]
+Evaluating baseline - FullInfo:  86%|████████▋ | 1760/2039 [10:55<01:30,  3.08it/s]
+Evaluating baseline - FullInfo:  87%|████████▋ | 1780/2039 [11:02<01:27,  2.96it/s]
+Evaluating baseline - FullInfo:  88%|████████▊ | 1800/2039 [11:09<01:21,  2.94it/s]
+Evaluating baseline - FullInfo:  89%|████████▉ | 1820/2039 [11:16<01:14,  2.95it/s]
+Evaluating baseline - FullInfo:  90%|█████████ | 1840/2039 [11:23<01:07,  2.95it/s]
+Evaluating baseline - FullInfo:  91%|█████████ | 1860/2039 [11:30<01:00,  2.94it/s]
+Evaluating baseline - FullInfo:  92%|█████████▏| 1880/2039 [11:36<00:52,  3.05it/s]
+Evaluating baseline - FullInfo:  93%|█████████▎| 1900/2039 [11:42<00:45,  3.03it/s]
+Evaluating baseline - FullInfo:  94%|█████████▍| 1920/2039 [11:49<00:39,  3.04it/s]
+Evaluating baseline - FullInfo:  95%|█████████▌| 1940/2039 [11:59<00:37,  2.62it/s]
+Evaluating baseline - FullInfo:  96%|█████████▌| 1960/2039 [12:10<00:34,  2.29it/s]
+Evaluating baseline - FullInfo:  97%|█████████▋| 1980/2039 [12:21<00:27,  2.11it/s]
+Evaluating baseline - FullInfo:  98%|█████████▊| 2000/2039 [12:33<00:19,  1.97it/s]
+Evaluating baseline - FullInfo:  99%|█████████▉| 2020/2039 [12:44<00:09,  1.92it/s]
+Evaluating baseline - FullInfo: 100%|██████████| 2039/2039 [12:55<00:00,  2.63it/s]
+\n--- Evaluation Results ---
+Training Strategy: baseline
+Prompt Format: FullInfo
+Model: ibm-granite/granite-4.1-8b
+Accuracy: 0.8024
+Format Error Rate: 0.1462
+Semantic Confusion: 0.3366
+Option Bias (A): 0.2913
+Latency: 775.44 seconds
+Detailed predictions saved to: /data220_2/emmy/mlbio/hw4/output/validation/validation_granite-4.1-8b_FullInfo_baseline.csv
+
+
+
+Ending Cell 8------------------------------------------
+Executing Cell 9---------------------------------------
+Ending Cell 9------------------------------------------
+Executing Cell 10--------------------------------------
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]
+Evaluating baseline - structOnly:   0%|          | 0/2039 [00:00<?, ?it/s]
+/home/emmy/miniconda3/envs/mlbio_gpu/lib/python3.10/site-packages/bitsandbytes/backends/cuda/ops.py:468: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+
+Evaluating baseline - structOnly:   1%|          | 20/2039 [00:08<13:30,  2.49it/s]
+Evaluating baseline - structOnly:   2%|▏         | 40/2039 [00:16<13:51,  2.41it/s]
+Evaluating baseline - structOnly:   3%|▎         | 60/2039 [00:25<14:26,  2.28it/s]
+Evaluating baseline - structOnly:   4%|▍         | 80/2039 [00:34<14:11,  2.30it/s]
+Evaluating baseline - structOnly:   5%|▍         | 100/2039 [00:43<14:10,  2.28it/s]
+Evaluating baseline - structOnly:   6%|▌         | 120/2039 [00:51<13:41,  2.34it/s]
+Evaluating baseline - structOnly:   7%|▋         | 140/2039 [01:00<13:36,  2.33it/s]
+Evaluating baseline - structOnly:   8%|▊         | 160/2039 [01:08<13:25,  2.33it/s]
+Evaluating baseline - structOnly:   9%|▉         | 180/2039 [01:16<13:06,  2.37it/s]
+Evaluating baseline - structOnly:  10%|▉         | 200/2039 [01:25<12:48,  2.39it/s]
+Evaluating baseline - structOnly:  11%|█         | 220/2039 [01:33<12:40,  2.39it/s]
+Evaluating baseline - structOnly:  12%|█▏        | 240/2039 [01:42<12:45,  2.35it/s]
+Evaluating baseline - structOnly:  13%|█▎        | 260/2039 [01:50<12:17,  2.41it/s]
+Evaluating baseline - structOnly:  14%|█▎        | 280/2039 [01:59<12:51,  2.28it/s]
+Evaluating baseline - structOnly:  15%|█▍        | 300/2039 [02:08<12:30,  2.32it/s]
+Evaluating baseline - structOnly:  16%|█▌        | 320/2039 [02:17<12:29,  2.29it/s]
+Evaluating baseline - structOnly:  17%|█▋        | 340/2039 [02:26<12:26,  2.28it/s]
+Evaluating baseline - structOnly:  18%|█▊        | 360/2039 [02:35<12:26,  2.25it/s]
+Evaluating baseline - structOnly:  19%|█▊        | 380/2039 [02:43<11:56,  2.31it/s]
+Evaluating baseline - structOnly:  20%|█▉        | 400/2039 [02:52<11:53,  2.30it/s]
+Evaluating baseline - structOnly:  21%|██        | 420/2039 [03:00<11:36,  2.32it/s]
+Evaluating baseline - structOnly:  22%|██▏       | 440/2039 [03:08<11:19,  2.35it/s]
+Evaluating baseline - structOnly:  23%|██▎       | 460/2039 [03:17<11:12,  2.35it/s]
+Evaluating baseline - structOnly:  24%|██▎       | 480/2039 [03:25<10:56,  2.38it/s]
+Evaluating baseline - structOnly:  25%|██▍       | 500/2039 [03:33<10:39,  2.40it/s]
+Evaluating baseline - structOnly:  26%|██▌       | 520/2039 [03:42<10:50,  2.33it/s]
+Evaluating baseline - structOnly:  26%|██▋       | 540/2039 [03:51<10:50,  2.30it/s]
+Evaluating baseline - structOnly:  27%|██▋       | 560/2039 [04:00<10:46,  2.29it/s]
+Evaluating baseline - structOnly:  28%|██▊       | 580/2039 [04:08<10:26,  2.33it/s]
+Evaluating baseline - structOnly:  29%|██▉       | 600/2039 [04:17<10:19,  2.32it/s]
+Evaluating baseline - structOnly:  30%|███       | 620/2039 [04:25<10:09,  2.33it/s]
+Evaluating baseline - structOnly:  31%|███▏      | 640/2039 [04:35<10:13,  2.28it/s]
+Evaluating baseline - structOnly:  32%|███▏      | 660/2039 [04:43<10:00,  2.30it/s]
+Evaluating baseline - structOnly:  33%|███▎      | 680/2039 [04:52<09:45,  2.32it/s]
+Evaluating baseline - structOnly:  34%|███▍      | 700/2039 [05:00<09:21,  2.38it/s]
+Evaluating baseline - structOnly:  35%|███▌      | 720/2039 [05:08<09:21,  2.35it/s]
+Evaluating baseline - structOnly:  36%|███▋      | 740/2039 [05:17<09:11,  2.36it/s]
+Evaluating baseline - structOnly:  37%|███▋      | 760/2039 [05:25<09:00,  2.37it/s]
+Evaluating baseline - structOnly:  38%|███▊      | 780/2039 [05:34<08:58,  2.34it/s]
+Evaluating baseline - structOnly:  39%|███▉      | 800/2039 [05:43<08:57,  2.30it/s]
+Evaluating baseline - structOnly:  40%|████      | 820/2039 [05:51<08:45,  2.32it/s]
+Evaluating baseline - structOnly:  41%|████      | 840/2039 [06:00<08:34,  2.33it/s]
+Evaluating baseline - structOnly:  42%|████▏     | 860/2039 [06:09<08:30,  2.31it/s]
+Evaluating baseline - structOnly:  43%|████▎     | 880/2039 [06:17<08:12,  2.35it/s]
+Evaluating baseline - structOnly:  44%|████▍     | 900/2039 [06:25<08:06,  2.34it/s]
+Evaluating baseline - structOnly:  45%|████▌     | 920/2039 [06:34<07:54,  2.36it/s]
+Evaluating baseline - structOnly:  46%|████▌     | 940/2039 [06:43<07:59,  2.29it/s]
+Evaluating baseline - structOnly:  47%|████▋     | 960/2039 [06:51<07:43,  2.33it/s]
+Evaluating baseline - structOnly:  48%|████▊     | 980/2039 [07:00<07:38,  2.31it/s]
+Evaluating baseline - structOnly:  49%|████▉     | 1000/2039 [07:08<07:17,  2.37it/s]
+Evaluating baseline - structOnly:  50%|█████     | 1020/2039 [07:17<07:17,  2.33it/s]
+Evaluating baseline - structOnly:  51%|█████     | 1040/2039 [07:25<07:04,  2.35it/s]
+Evaluating baseline - structOnly:  52%|█████▏    | 1060/2039 [07:34<06:51,  2.38it/s]
+Evaluating baseline - structOnly:  53%|█████▎    | 1080/2039 [07:42<06:41,  2.39it/s]
+Evaluating baseline - structOnly:  54%|█████▍    | 1100/2039 [07:51<06:41,  2.34it/s]
+Evaluating baseline - structOnly:  55%|█████▍    | 1120/2039 [07:59<06:27,  2.37it/s]
+Evaluating baseline - structOnly:  56%|█████▌    | 1140/2039 [08:07<06:12,  2.41it/s]
+Evaluating baseline - structOnly:  57%|█████▋    | 1160/2039 [08:16<06:10,  2.37it/s]
+Evaluating baseline - structOnly:  58%|█████▊    | 1180/2039 [08:25<06:13,  2.30it/s]
+Evaluating baseline - structOnly:  59%|█████▉    | 1200/2039 [08:34<06:08,  2.28it/s]
+Evaluating baseline - structOnly:  60%|█████▉    | 1220/2039 [08:42<05:52,  2.32it/s]
+Evaluating baseline - structOnly:  61%|██████    | 1240/2039 [08:51<05:51,  2.27it/s]
+Evaluating baseline - structOnly:  62%|██████▏   | 1260/2039 [09:00<05:41,  2.28it/s]
+Evaluating baseline - structOnly:  63%|██████▎   | 1280/2039 [09:09<05:32,  2.28it/s]
+Evaluating baseline - structOnly:  64%|██████▍   | 1300/2039 [09:18<05:27,  2.26it/s]
+Evaluating baseline - structOnly:  65%|██████▍   | 1320/2039 [09:26<05:12,  2.30it/s]
+Evaluating baseline - structOnly:  66%|██████▌   | 1340/2039 [09:35<05:08,  2.26it/s]
+Evaluating baseline - structOnly:  67%|██████▋   | 1360/2039 [09:44<05:01,  2.25it/s]
+Evaluating baseline - structOnly:  68%|██████▊   | 1380/2039 [09:53<04:46,  2.30it/s]
+Evaluating baseline - structOnly:  69%|██████▊   | 1400/2039 [10:02<04:44,  2.25it/s]
+Evaluating baseline - structOnly:  70%|██████▉   | 1420/2039 [10:11<04:35,  2.25it/s]
+Evaluating baseline - structOnly:  71%|███████   | 1440/2039 [10:19<04:22,  2.28it/s]
+Evaluating baseline - structOnly:  72%|███████▏  | 1460/2039 [10:27<04:06,  2.35it/s]
+Evaluating baseline - structOnly:  73%|███████▎  | 1480/2039 [10:36<03:57,  2.35it/s]
+Evaluating baseline - structOnly:  74%|███████▎  | 1500/2039 [10:44<03:47,  2.37it/s]
+Evaluating baseline - structOnly:  75%|███████▍  | 1520/2039 [10:53<03:39,  2.36it/s]
+Evaluating baseline - structOnly:  76%|███████▌  | 1540/2039 [11:02<03:35,  2.32it/s]
+Evaluating baseline - structOnly:  77%|███████▋  | 1560/2039 [11:10<03:25,  2.33it/s]
+Evaluating baseline - structOnly:  77%|███████▋  | 1580/2039 [11:19<03:20,  2.29it/s]
+Evaluating baseline - structOnly:  78%|███████▊  | 1600/2039 [11:28<03:13,  2.27it/s]
+Evaluating baseline - structOnly:  79%|███████▉  | 1620/2039 [11:37<03:07,  2.24it/s]
+Evaluating baseline - structOnly:  80%|████████  | 1640/2039 [11:46<02:55,  2.28it/s]
+Evaluating baseline - structOnly:  81%|████████▏ | 1660/2039 [11:54<02:44,  2.30it/s]
+Evaluating baseline - structOnly:  82%|████████▏ | 1680/2039 [12:03<02:36,  2.30it/s]
+Evaluating baseline - structOnly:  83%|████████▎ | 1700/2039 [12:11<02:26,  2.32it/s]
+Evaluating baseline - structOnly:  84%|████████▍ | 1720/2039 [12:21<02:20,  2.26it/s]
+Evaluating baseline - structOnly:  85%|████████▌ | 1740/2039 [12:29<02:09,  2.30it/s]
+Evaluating baseline - structOnly:  86%|████████▋ | 1760/2039 [12:38<02:01,  2.30it/s]
+Evaluating baseline - structOnly:  87%|████████▋ | 1780/2039 [12:47<01:55,  2.24it/s]
+Evaluating baseline - structOnly:  88%|████████▊ | 1800/2039 [12:57<01:47,  2.22it/s]
+Evaluating baseline - structOnly:  89%|████████▉ | 1820/2039 [13:05<01:38,  2.23it/s]
+Evaluating baseline - structOnly:  90%|█████████ | 1840/2039 [13:14<01:28,  2.24it/s]
+Evaluating baseline - structOnly:  91%|█████████ | 1860/2039 [13:23<01:20,  2.23it/s]
+Evaluating baseline - structOnly:  92%|█████████▏| 1880/2039 [13:31<01:09,  2.30it/s]
+Evaluating baseline - structOnly:  93%|█████████▎| 1900/2039 [13:41<01:01,  2.27it/s]
+Evaluating baseline - structOnly:  94%|█████████▍| 1920/2039 [13:49<00:52,  2.28it/s]
+Evaluating baseline - structOnly:  95%|█████████▌| 1940/2039 [13:58<00:43,  2.25it/s]
+Evaluating baseline - structOnly:  96%|█████████▌| 1960/2039 [14:07<00:34,  2.28it/s]
+Evaluating baseline - structOnly:  97%|█████████▋| 1980/2039 [14:16<00:25,  2.28it/s]
+Evaluating baseline - structOnly:  98%|█████████▊| 2000/2039 [14:25<00:17,  2.23it/s]
+Evaluating baseline - structOnly:  99%|█████████▉| 2020/2039 [14:33<00:08,  2.28it/s]
+Evaluating baseline - structOnly: 100%|██████████| 2039/2039 [14:41<00:00,  2.31it/s]
+\n--- Evaluation Results ---
+Training Strategy: baseline
+Prompt Format: structOnly
+Model: ibm-granite/granite-4.1-8b
+Accuracy: 0.8470
+Format Error Rate: 0.0927
+Semantic Confusion: 0.3969
+Option Bias (A): 0.2339
+Latency: 881.66 seconds
+Detailed predictions saved to: /data220_2/emmy/mlbio/hw4/output/validation/validation_granite-4.1-8b_structOnly_baseline.csv
+
+
+
+Ending Cell 10-----------------------------------------

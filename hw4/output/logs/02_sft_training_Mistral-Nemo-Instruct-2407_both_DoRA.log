@@ -1,0 +1,45 @@
+nohup: ignoring input
+Input Notebook:  notebooks/02_sft_training.ipynb
+Output Notebook: output/papermill_notebooks/02_sft_training_Mistral-Nemo-Instruct-2407_both_DoRA.ipynb
+Working directory: notebooks
+Executing notebook with kernel: python3
+Executing Cell 1---------------------------------------
+Ending Cell 1------------------------------------------
+Executing Cell 2---------------------------------------
+✅ Codebase mounted at: ../
+
+Ending Cell 2------------------------------------------
+Executing Cell 3---------------------------------------
+Successfully logged into Hugging Face Hub!
+
+Ending Cell 3------------------------------------------
+Executing Cell 4---------------------------------------
+Ending Cell 4------------------------------------------
+Executing Cell 5---------------------------------------
+Ending Cell 5------------------------------------------
+Executing Cell 6---------------------------------------
+[transformers] The tokenizer you are loading from 'mistralai/Mistral-Nemo-Instruct-2407' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+
+Targeting compute data type: torch.bfloat16
+
+Ending Cell 6------------------------------------------
+Executing Cell 7---------------------------------------
+Ending Cell 7------------------------------------------
+Executing Cell 8---------------------------------------
+
+================ STARTING TRAINING FOR structOnly ==================
+Loading dataset from ..//output/cache/train_structural.jsonl...
+
+Loading base model mistralai/Mistral-Nemo-Instruct-2407...
+
+Loading weights:   0%|          | 0/363 [00:00<?, ?it/s]
+/home/emmy/miniconda3/envs/mlbio_gpu/lib/python3.10/site-packages/bitsandbytes/backends/cuda/ops.py:213: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+
+[transformers] `logging_dir` is deprecated and will be removed in v5.2. Please set `TENSORBOARD_LOGGING_DIR` instead.
+
+trainable params: 58,818,560 || all params: 12,306,600,960 || trainable%: 0.4779
+
+[transformers] The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'pad_token_id': 2}.
+
+<IPython.core.display.HTML object>

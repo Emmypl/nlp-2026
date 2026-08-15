@@ -1,0 +1,5 @@
+nohup: ignoring input
+Input Notebook:  notebooks/02_sft_training.ipynb
+Output Notebook: output/papermill_notebooks/02_sft_training_granite_4.1-8b_DoRA.ipynb
+Executing:   0%|          | 0/8 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:  12%|█▎        | 1/8 [00:00<00:04,  1.52cell/s]Executing:  38%|███▊      | 3/8 [00:01<00:01,  3.18cell/s]Executing:  62%|██████▎   | 5/8 [00:03<00:02,  1.39cell/s]Executing:  75%|███████▌  | 6/8 [00:04<00:01,  1.02cell/s]Executing: 100%|██████████| 8/8 [24:22:45<00:00, 19053.63s/cell]Executing: 100%|██████████| 8/8 [24:22:46<00:00, 10970.78s/cell]

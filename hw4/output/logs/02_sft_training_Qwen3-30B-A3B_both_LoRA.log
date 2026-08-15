@@ -1,0 +1,131 @@
+nohup: ignoring input
+Input Notebook:  notebooks/02_sft_training.ipynb
+Output Notebook: output/papermill_notebooks/02_sft_training_Qwen3-30B-A3B_both_LoRA.ipynb
+Working directory: notebooks
+Executing notebook with kernel: mlbio_unsloth
+Executing Cell 1---------------------------------------
+Ending Cell 1------------------------------------------
+Executing Cell 2---------------------------------------
+✅ Codebase mounted at: ../
+
+Ending Cell 2------------------------------------------
+Executing Cell 3---------------------------------------
+Successfully logged into Hugging Face Hub!
+
+Ending Cell 3------------------------------------------
+Executing Cell 4---------------------------------------
+Ending Cell 4------------------------------------------
+Executing Cell 5---------------------------------------
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+
+W0619 00:31:54.890000 1352542 site-packages/torch/utils/_pytree.py:630] <enum 'KernelPreference'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+
+W0619 00:31:54.901000 1352542 site-packages/torch/utils/_pytree.py:630] <enum 'ScaleCalculationMode'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+
+🦥 Unsloth Zoo will now patch everything to make training faster!
+
+<string>:1: FutureWarning: torch._dynamo.config.inline_inbuilt_nn_modules is deprecated and does not do anything, inline_inbuilt_nn_modules is always True. It will be removed in a future version of PyTorch.
+
+Ending Cell 5------------------------------------------
+Executing Cell 6---------------------------------------
+Compute dtype: torch.bfloat16
+
+Ending Cell 6------------------------------------------
+Executing Cell 7---------------------------------------
+Ending Cell 7------------------------------------------
+Executing Cell 8---------------------------------------
+
+================ STARTING TRAINING FOR structOnly ==================
+Loading dataset from ..//output/cache/train_structural.jsonl...
+
+Loading unsloth/Qwen3-30B-A3B with Unsloth 4-bit...
+
+==((====))==  Unsloth 2026.6.1: Fast Qwen3Moe patching. Transformers: 4.57.3.
+   \\   /|    NVIDIA GeForce RTX 4090. Num GPUs = 1. Max memory: 23.508 GB. Platform: Linux.
+O^O/ \_/ \    Torch: 2.12.0+cu130. CUDA: 8.9. CUDA Toolkit: 13.0. Triton: 3.7.0
+\        /    Bfloat16 = TRUE. FA [Xformers = 0.0.35. FA2 = False]
+ "-____-"     Free license: http://github.com/unslothai/unsloth
+Unsloth: Fast downloading is enabled - ignore downloading bars which are red colored!
+
+Loading checkpoint shards:   0%|          | 0/13 [00:00<?, ?it/s]
+/home/emmy/miniconda3/envs/mlbio_unsloth/lib/python3.11/site-packages/bitsandbytes/backends/cuda/ops.py:213: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+
+unsloth/qwen3-30b-a3b does not have a padding token! Will use pad_token = <|PAD_TOKEN|>.
+
+Unsloth: Detected MoE model with num_experts = 128 and target_modules = ['q_proj', 'k_proj', 'v_proj', 'o_proj', 'gate_proj', 'up_proj', 'down_proj']. Enabling LoRA on MoE parameters: ['mlp.experts.gate_up_proj', 'mlp.experts.down_proj']
+
+Unsloth: PEFT set target_parameters but found no matching parameters.
+This is expected for MoE models - Unsloth handles MoE expert LoRA targeting separately.
+
+Unsloth 2026.6.1 patched 48 layers with 48 QKV layers, 48 O layers and 0 MLP layers.
+
+trainable params: 421,920,768 || all params: 30,954,043,392 || trainable%: 1.3631
+
+🦥 Unsloth: Padding-free auto-enabled, enabling faster training.
+Resuming from checkpoint: ..//output/models/Qwen3-30B-A3B_structOnly_LoRA/checkpoint-200
+
+==((====))==  Unsloth - 2x faster free finetuning | Num GPUs used = 1
+   \\   /|    Num examples = 11,548 | Num Epochs = 1 | Total steps = 2,887
+O^O/ \_/ \    Batch size per device = 1 | Gradient accumulation steps = 4
+\        /    Data Parallel GPUs = 1 | Total batch size (1 x 4 x 1) = 4
+ "-____-"     Trainable parameters = 421,920,768 of 30,954,043,392 (1.36% trained)
+
+Unsloth: Will smartly offload gradients to save VRAM!
+
+/home/emmy/miniconda3/envs/mlbio_unsloth/lib/python3.11/site-packages/bitsandbytes/backends/cuda/ops.py:468: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+
+Unsloth: Double buffering enabled (parallel H2D + compute) for backward pass.
+
+/home/emmy/miniconda3/envs/mlbio_unsloth/lib/python3.11/site-packages/bitsandbytes/backends/cuda/ops.py:468: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+
+<IPython.core.display.HTML object>
+/home/emmy/miniconda3/envs/mlbio_unsloth/lib/python3.11/site-packages/bitsandbytes/backends/cuda/ops.py:468: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+
+/home/emmy/miniconda3/envs/mlbio_unsloth/lib/python3.11/site-packages/bitsandbytes/backends/cuda/ops.py:468: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+
+/home/emmy/miniconda3/envs/mlbio_unsloth/lib/python3.11/site-packages/bitsandbytes/backends/cuda/ops.py:468: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+
+/home/emmy/miniconda3/envs/mlbio_unsloth/lib/python3.11/site-packages/bitsandbytes/backends/cuda/ops.py:468: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+
+/home/emmy/miniconda3/envs/mlbio_unsloth/lib/python3.11/site-packages/bitsandbytes/backends/cuda/ops.py:468: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+
+/home/emmy/miniconda3/envs/mlbio_unsloth/lib/python3.11/site-packages/bitsandbytes/backends/cuda/ops.py:468: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+
+Kernel died while waiting for execute reply.
+Ending Cell 8------------------------------------------
+Traceback (most recent call last):
+  File "/home/emmy/miniconda3/envs/mlbio_unsloth/lib/python3.11/site-packages/papermill/cli.py", line 235, in papermill
+    execute_notebook(
+  File "/home/emmy/miniconda3/envs/mlbio_unsloth/lib/python3.11/site-packages/papermill/execute.py", line 116, in execute_notebook
+    nb = papermill_engines.execute_notebook_with_engine(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emmy/miniconda3/envs/mlbio_unsloth/lib/python3.11/site-packages/papermill/engines.py", line 49, in execute_notebook_with_engine
+    return self.get_engine(engine_name).execute_notebook(nb, kernel_name, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emmy/miniconda3/envs/mlbio_unsloth/lib/python3.11/site-packages/papermill/engines.py", line 371, in execute_notebook
+    cls.execute_managed_notebook(nb_man, kernel_name, log_output=log_output, **kwargs)
+  File "/home/emmy/miniconda3/envs/mlbio_unsloth/lib/python3.11/site-packages/papermill/engines.py", line 443, in execute_managed_notebook
+    return PapermillNotebookClient(nb_man, **final_kwargs).execute()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emmy/miniconda3/envs/mlbio_unsloth/lib/python3.11/site-packages/papermill/clientwrap.py", line 45, in execute
+    self.papermill_execute_cells()
+  File "/home/emmy/miniconda3/envs/mlbio_unsloth/lib/python3.11/site-packages/papermill/clientwrap.py", line 72, in papermill_execute_cells
+    self.execute_cell(cell, index)
+  File "/home/emmy/miniconda3/envs/mlbio_unsloth/lib/python3.11/site-packages/jupyter_core/utils/__init__.py", line 165, in wrapped
+    return loop.run_until_complete(inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emmy/miniconda3/envs/mlbio_unsloth/lib/python3.11/asyncio/base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/emmy/miniconda3/envs/mlbio_unsloth/lib/python3.11/site-packages/nbclient/client.py", line 1009, in async_execute_cell
+    raise DeadKernelError("Kernel died") from None
+nbclient.exceptions.DeadKernelError: Kernel died

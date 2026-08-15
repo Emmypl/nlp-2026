@@ -1,0 +1,25 @@
+,Experiment Name (vlm_retriever_reranker_fusion),Architecture,Internal Val Recall@5,Kaggle Leaderboard Recall@5,Notes
+,none_bm25_none_none,Pure Retriever (Stage 1),0.6604,0.64946,Pure BM25 keyword matching.
+,qwen2-vl-7b-instruct_bm25_none_none,Pure Retriever + VLM Upgrade (Stage 1),0.6717,-,VLM-based image recaptioning (Qwen-2-VL-7B-instruct) + BM25 keyword matching.
+,none_qwen3-embedding-8b_none_none,Pure Retriever (Stage 1),0.7169,0.66332,Pure vector embeddings (Bi-Encoder)
+,none_bge-large-en-v1.5_none_none,Pure Retriever (Stage 1),0.7685,-
+,none_jina-clip-v2_none_none,Pure Retriever (Stage 1),0.3416,-
+,none_hybrid(qwen3-embedding-8b + bge-m3)_none_none,Pure Retriever - Hybrid (0.6 + 0.4) (Stage 1),0.7316,,
+,none_none_qwen2.5-32b-instruct_none,Pure Reranker (Stage 2),0.8311,0.7889,32B LLM Cross-Encoder (unsorted prompt)
+,none_none_bge-reranker-v2-m3_none,Pure Reranker (Stage 2),0.7974,-,
+,none_none_qwen2.5-7b-instruct_none,Pure Reranker (Stage 2),0.7101,0.64791,7B LLM Cross-Encoder (unsorted prompt)
+,none_none_qwen3-reranker-8b_none,Pure Reranker (Stage 2),0.6952,-
+,none_qwen3-embedding-8b_qwen2.5-32b-instruct_none,Sequential Two-Stage,0.8425,0.79506,"Sorts prompt by Dense score + uses pre-filtering to select top 12 dense scores + 32B LLM cross-encoder.
+
+Had no RRF. It filtered candidates down to the Top-12 using dense scores, fed them into Qwen2.5-32B, and trusted the LLM's text output 100% to write the final predictions."
+,none_qwen3-embedding-8b_qwen2.5-32b-instruct_rrf,RRF Ensemble of LLM (0.8) and Dense (0.2),0.8425,0.79506,"Combined LLM (80%) and Dense (20%), using reciprocal rank fusion.
+
+Introduced the final RRF step. It took the sorted predictions from Experiment 5 and combined them with your original dense scores using an 80/20 rank weight fusion to generate the final submission file.
+"
+,qwen2-vl-7b-instruct_qwen3-embedding-8b_qwen2.5-32b-instruct_none,Sequential Two-Stage + VLM Upgrade,0.7894,-
+,none_hybrid(qwen3-embedding-8b + bge-m3)_qwen3-reranker-8b_none,Hybrid Retriever (0.6 + 0.4) >> Single Dedicated Reranker,0.8116
+,none_hybrid(qwen3-embedding-8b + bge-m3)_bge-reranker-v2-m3_none,Hybrid Retriever (0.6 + 0.4) >> Single Dedicated Reranker,0.7959,,
+*,none_hybrid(qwen3-embedding-8b + bge-m3)_qwen2.5-32b-instruct_none_12,Hybrid Retriever (0.6 + 0.4) >> Single LLM-based Reranker,0.8596,0.82896
+*,none_hybrid(qwen3-embedding-8b + bge-m3)_qwen2.5-32b-instruct_none_16,Hybrid Retriever (0.6 + 0.4) >> Single LLM-based Reranker,-,0.83281,"max_candidates: 16, max_chars: 1000",
+*,none_hybrid(qwen3-embedding-8b + bge-m3)_qwen2.5-32b-instruct_rrf_12,RRF Ensemble of LLM (0.9) and Dense (0.1),0.8596,0.82896,"max_candidates: 12, max_chars: 1000"
+*,none_hybrid(qwen3-embedding-8b + bge-m3)_qwen2.5-32b-instruct_rrf-3way,RRF Ensemble of LLM (0.9) and Dense (0.1) in the same layer and 3-way,-,0.83281
