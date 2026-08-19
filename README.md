@@ -2,14 +2,6 @@
 
 This repository contains coursework from a graduate-level Natural Language Processing course, showcasing various NLP techniques, deep learning architectures, and state-of-the-art language models applied to real-world tasks.
 
-## Repository Overview
-
-- **Total Size**: ~11 GB (cleaned and optimized for portfolio)
-- **Projects**: 5 comprehensive assignments (hw1-hw4, finalProj)
-- **Notebooks**: 104 Jupyter notebooks
-- **Source Code**: 158 Python files
-- **Models**: Fine-tuned large language models (≥8B parameters)
-
 ## Projects
 
 ### [HW1: Text Classification with Deep Learning](./hw1/)
